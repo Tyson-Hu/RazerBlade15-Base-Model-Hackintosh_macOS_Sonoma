@@ -17,6 +17,7 @@
 - 解锁BIOS
 - 安装前的准备
 - 系统安装
+- 系统安装
 - 一些优化
 - 参考
   
@@ -42,3 +43,43 @@
 ![info](./image/info.png)
 
 ## [3]解锁BIOS
+ 解锁BIOS可以参考EmeryWan的[教程](https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh#3-%E8%A7%A3%E9%94%81bios), 这里就不多描述了。macOS BigSur 对BIOS的大致设定与Catalina一致，有条件的可以尝试解锁CFG和V-TD。（后面有时间的时候我会尝试一步步教你怎么解锁。
+
+ ## [4]安装前的准备
+ ### [4-1]BIOS设置
+
+- `Advanced`
+  - `Thunderbolt(TM) Configuration`
+    - `Security Level` 设置成 `No Security`
+
+- `Chipset`
+  - `System Agent (SA) Configuration`
+    - `Graphics Configuration`
+      - `DVMT Pre-Allocated`  设置成 `64`
+      - `DVMT Total Gfx Mem`  设置成 `MAX`
+
+- `Security`
+  -  `Secure Boot` 设置成 `Disabled`
+
+- `Boot`
+  - `Fast Boot` 设置成 `Disabled`
+
+  - `CSM Configuration`
+    - `CSM Support` 设置成 `Disabled`
+
+### [4-2]软件下载
+- macOS下
+  - 下载好的macOS Big Sur 安装app
+  - 一个可以正常工作的 macOS
+  - [VMWare Fusion](https://www.vmware.com/products/fusion.html) （虚拟机软件,普通版或pro版都可以）
+  - [Paragon VMDK Mounter](http://dl.paragon-software.com/free/VMDK_MOUNTER_2014.dmg) （挂载虚拟机的软件）
+  - OpenCore 0.6.0 自编译 （可以直接去下载 Williambj1 每天更新编译好的OC[（点击前往Opencore-Factory）](https://github.com/williambj1/OpenCore-Factory/releases), 也可以自行编译官方的源码[（点击前往OpenCorePkg）](https://github.com/acidanthera/OpenCorePkg)。
+- Windows下
+  - 一个可以正常工作的 Windows （我相信在坐的各位都有吧🤔）
+  - 一个可以编辑代码的软件
+    - Sublime Text，Visual Studio Code 等等
+  - VMWare WorkStation Pro （注意这里必须是pro版本⚠️）
+  - Unlocker 302
+
+## [5]系统安装
+首先在 macOS 中先分一个新的 APFS 容器。**⚠️注意，这里指的一个独立的新容器，建议分60G 以上，越大越好**。这个新的容器就是你要安装系统的磁盘，分完请记住该容量的大小，后面会用到。
