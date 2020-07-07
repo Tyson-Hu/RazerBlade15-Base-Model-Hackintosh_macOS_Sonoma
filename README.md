@@ -8,6 +8,7 @@
 
 ## 7/7 更新
 苹果刚发布了macOS BigSur的beta2版本，安装方法同下。 
+![info](./image/beta2.png)
 
 ## 目录
 - 硬件介绍
