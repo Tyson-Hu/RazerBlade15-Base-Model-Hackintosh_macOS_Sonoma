@@ -34,3 +34,5 @@
 
 ## [2]最终效果
 ![info](./image/info.png)
+
+## [3]解锁BIOS
