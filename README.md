@@ -77,9 +77,50 @@
 - Windows下
   - 一个可以正常工作的 Windows （我相信在坐的各位都有吧🤔）
   - 一个可以编辑代码的软件
-    - Sublime Text，Visual Studio Code 等等
+    - Sublime Text，Visual Studio Code 等等
   - VMWare WorkStation Pro （注意这里必须是pro版本⚠️）
   - Unlocker 302
 
 ## [5]系统安装
+### 以下步骤均在macOS上执行
 首先在 macOS 中先分一个新的 APFS 容器。**⚠️注意，这里指的一个独立的新容器，建议分60G 以上，越大越好**。这个新的容器就是你要安装系统的磁盘，分完请记住该容量的大小，后面会用到。
+
+![disk](./image/diskCostoms.jpg)
+
+用 VMWare Fusion 新建一个自定义虚拟机
+
+![vm1](./image/creatCostom.png)
+
+系统随便选一个苹果系统就行，我这里选的`10.15`。
+
+![vm2](./image/creatCostom2.png)
+
+点击`继续`
+
+![vm3](./image/creatCostom3.png)
+
+点击`自定设置`
+
+![vm4](./image/creatCostom4.png)
+
+点击`继续`，**这里请记住虚拟机存放的位置，后面会用到。**
+
+![vm5](./image/creatCostom5.png)
+
+点击`处理器与内存`
+
+![vm6](./image/creatCostom6.png)
+
+拖动小标到8G大小，这里调整内存的主要原因是怕安装的时候卡住。。。
+
+![vm7](./image/creatCostom7.png)
+
+设置完左上角点击关闭即可。
+
+接着用 Paragon VMDK Mounter 打开新建的虚拟机，挂载刚创建的分区。**（我相信你们安装VMDk的时候都会卡在激活页面，这里给你们提供了一些有用的帮助：VMDK-MOUNTER-2014-434979472，51537-43450-1B2D9-8213A，怎么填就不用我说了吧，傻子都会😊）**
+
+![vmdk1](./image/vmdk1.png)
+
+点击`Attach Selected`。这里由于我是在macOS 11 上截的图，因此出现了“⚠️”，10.15不会出现这个问题
+
+![vmdk2](./image/vmdk2.png)
