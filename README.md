@@ -87,6 +87,7 @@
 
 ![disk](./image/diskCostoms.jpg)
 
+打开VMWare Fusion  
 用 VMWare Fusion 新建一个自定义虚拟机
 
 ![vm1](./image/creatCostom.png)
@@ -124,3 +125,5 @@
 点击`Attach Selected`。这里由于我是在macOS 11 上截的图，因此出现了“⚠️”，10.15不会出现这个问题
 
 ![vmdk2](./image/vmdk2.png)
+
+打开`磁盘工具`，将挂载上的 VMDK （显示为外置磁盘）格式化成 HFS（macOS扩展（日志式）），名字就叫 `Big Sur Installer`。
