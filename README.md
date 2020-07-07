@@ -8,6 +8,7 @@
 
 ## 7/7 更新
 苹果刚发布了macOS BigSur的beta2版本，同样为全量包，大小大概9GB多，安装方法同下。 
+
 ![beta2](./image/beta2.jpg)
 
 ## 目录
