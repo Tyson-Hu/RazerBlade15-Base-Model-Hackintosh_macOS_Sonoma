@@ -35,7 +35,8 @@
 ## [1]硬件介绍
 |        部件      |        型号         |                   最终情况                   |
 | :----------: | :-----------------: | :------------------------------------------: |
-|     CPU      |      i7-8750H       |                     无问题（系统将采用UHD630作为显卡）                   |
+|     CPU      |      Intel Core i7-8750H processor, 6 Cores / 12 Threads, 2.2GHz / 4.1GHz, 9MB Cache       |                     无问题（系统将采用UHD630作为显卡）                   |
+|     IGPU     |        Intel UHD 630       |   无问题   |
 |     GPU      |  Nvdia 1060 Max-Q   | 除 10.13 High Sierra 安装 WebDriver 外，10.13以上版本皆不可用（建议直接屏蔽掉） |
 |      内存    |   16GB dual-channel DDR4-2667MHz, up to 64GB    |       无问题      |
 |     硬盘     | 更换为三星EVO 970          |                     无问题（不支持4K）                     |
