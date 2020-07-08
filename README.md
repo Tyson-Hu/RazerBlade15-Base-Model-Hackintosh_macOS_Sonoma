@@ -154,9 +154,11 @@ sudo /Applications/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedi
 
 导入刚才转移过来的虚拟机（双击vmx文件就行。。。）
 
-用 Sublime Text，Visual Studio Code 或其他杂七杂八能用的工具打开虚拟机的 vmx 文件，该改的该，该加的加，**下面的是我自己随便生成的，不要拿来登陆⚠️**
+用 Sublime Text，Visual Studio Code 或其他杂七杂八能用的工具打开虚拟机的 vmx 文件，该改的该，该加的加
 
 ![vmp1](./image/vmp1.png)
+
+**下面的是我自己随便生成的，不要拿来登陆⚠️**
 
 ```
 board-id.reflectHost = "TRUE" 
