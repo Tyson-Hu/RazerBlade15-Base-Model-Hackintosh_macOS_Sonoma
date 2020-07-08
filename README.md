@@ -89,7 +89,7 @@
 ### 以下步骤均在macOS上执行
 首先在 macOS 中先分一个新的 APFS 容器。**⚠️注意，这里指的一个独立的新容器，建议分60G 以上，越大越好**。这个新的容器就是你要安装系统的磁盘，分完请记住该容量的大小，后面会用到。
 
-![disk](./image/diskCostoms.jpg)
+[假装这里有图片....]
 
 打开VMWare Fusion  
 用 VMWare Fusion 新建一个自定义虚拟机
@@ -144,7 +144,7 @@ sudo /Applications/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedi
 
 ![config](./image/config.png)
 
-将你制作好的安装盘虚拟机e拷贝到nas或者exfat格式的磁盘中作为中介，至此在macOS上的操作就结束了🔚。
+将你制作好的安装盘虚拟机拷贝到nas或者exfat格式的磁盘中作为中介，至此在macOS上的操作就结束了🔚。
 
 ### 以下步骤均在Window下执行
 首先把刚才创建的虚拟机转进 Windows，在上面👆操作的最后一步里你用什么存的就从那里转移出来（我咋这么多废话😯）
