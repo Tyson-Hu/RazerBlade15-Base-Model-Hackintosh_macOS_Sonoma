@@ -272,5 +272,15 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 
 换好装上背板即可
 
+## [7]参考
+- https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh
+- https://github.com/blade15basehackintosh/razerbladehackintosh
+- https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh
+- https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh
+- https://blog.daliansky.net/
+- http://bbs.pcbeta.com/viewthread-1862049-1-1.html
+- http://bbs.pcbeta.com/viewthread-1862835-1-1.html
+  
+
 后续内容还在施工中👷，请耐心等待⌛️   
 作者不会鸽的放心吧，咕咕咕咕～～～
