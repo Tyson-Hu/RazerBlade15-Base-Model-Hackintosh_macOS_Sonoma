@@ -139,3 +139,24 @@ sudo /Applications/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedi
 这里我以`OCC`为例，其他工具同理。
 
 ![config](./image/config.png)
+
+将你制作好的安装盘虚拟机e拷贝到nas或者exfat格式的磁盘中作为中介，至此在macOS上的操作就结束了🔚。
+
+### 以下步骤均在Window下执行
+首先把刚才创建的虚拟机转进 Windows，在上面👆操作的最后一步里你用什么存的就从那里转移出来（我咋这么多废话😯）
+
+解锁下载好的 VMWare Workstation Pro （作为一个🇨🇳人，你还不会这种最基础的东西？百度一堆好吧👌）
+
+导入刚才转移过来的虚拟机（双击vmx文件就行。。。）
+
+用 Sublime Text，Visual Studio Code 或其他杂七杂八能用的工具打开虚拟机的 vmx 文件，该改的该，该加的加，下面的是我自己随便生成的，不要拿来登陆
+```
+board-id.reflectHost = "TRUE" 
+board-id = "Mac-937A206F2EE63C01"
+hw.model.reflectHost = "FALSE"
+hw.model = "MacBookPro15,1"
+serialNumber.reflectHost = "FALSE"
+serialNumber = "D25XVQYDKGYG"
+smbios.reflectHost = "FALSE"
+```
+备注：第一行的参数应该文件里已经包含了，可以不用再添加一遍。参数顺序无所谓，放哪里都行。
