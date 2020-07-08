@@ -11,7 +11,7 @@
 
 ![beta2](./image/beta2.jpg)
 
-猜过的坑：   
+踩过的坑：   
 - 安装卡引导的请将你的OC更新到7/6以后的OC版本，并把kext里的`VisualSMC`更换为`FakeSMC`
 - 安装后无电池图标🔋或者电量一直为0%（触摸板可用但是设置里识别不出来的，**别问我为啥这跟触摸板也有关系，我也不知道，反正我是这样做就好了😯**），请将kext里的`SMCBatteryManager`更换为`ACPIBatteryManager`
 - 无需在OC里注入显卡信息，如果显示出现问题可尝试删除`Device`里的显卡注入信息
