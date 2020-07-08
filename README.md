@@ -253,6 +253,10 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 ```
 运行完毕重启即可
 
+提示：USB网卡现在还无法在macOS Big Sur 上使用！当然说不定以后可以（说的都是什么废话...），这里附上链接🔗供大🔥🚪查看 [点击跳转至Wireless-USB-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
+
+![usb](./image/usb.jpg)
+
 #### [6-4-2]直接更换博通网卡
 删除WiFiAgent只是缓兵之计，除了插网线否则你还是连不上网，因此给电脑更换博通网卡才是最好的解决方法。（而且雷蛇拆机并不会影响保修，不像某些厂商....）
 
