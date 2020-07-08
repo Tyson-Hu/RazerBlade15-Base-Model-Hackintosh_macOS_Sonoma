@@ -220,6 +220,53 @@ smbios.reflectHost = "FALSE"
 **恭喜你，现在已经完成了macOS Big Sur 的系统安装🎉**
 
 ## [6]一些优化
+### [6-1] 打开TRIM
+如果你将系统装在了固态硬盘上，应开启TRIM。这样可以防止系统对硬盘进行多次擦写从而确保硬盘寿命。（什么？你问我机械硬盘要开吗？反正我是开了）
+
+进入终端，填入以下指令：
+
+```
+sudo trimforce enable
+```
+完成后系统会要求你重启
+
+### [6-2]洗白序列号 / 三码
+自行进入OCC打开 `config.plist` ,在 `PlatformInfo` 里的 `Generic` 生成三码即可
+
+![occ](./image/occ.jpg)
+
+**注意，如果你打算用 OpenCore 引导 Windows，请将 `System UUID` 一栏修改成你BIOS对应的UUID，否则导致Windows的所有软件激活失效！⚠️**
+
+### [6-3]电池不显示
+将kext里的 `SMCBatteryManager` 换成 `ACPIBatteryManager` 即可解决问题（前提是你的dsdt是补好的！）
+
+### [6-4]状态栏的卡顿
+#### [6-4-1]删除 WiFiAgent 解锁卡顿问题
+big sur的卡顿是因为找不到wifi设备造成的！那么使用usb网卡、无网卡的用户就需要删掉 `WiFiAgent` 这个启动项，这里只是移动了下位置。
+
+```
+$mount -o rw /
+
+$cd /System/Library/LaunchAgents
+
+$sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
+```
+运行完毕重启即可
+
+#### [6-4-2]直接更换博通网卡
+删除WiFiAgent只是缓兵之计，除了插网线否则你还是连不上网，因此给电脑更换博通网卡才是最好的解决方法。（而且雷蛇拆机并不会影响保修，不像某些厂商....）
+
+整个机身共有 10 颗螺丝分一种规格，你需要一把 T5 的螺丝刀来打开它，卸下所有螺丝即可拆下背板。
+
+![laptop](./image/laptop1.jpg)
+
+网卡位于机器的右下角，插槽处被一张防静电胶布覆盖，需要揭开它。
+
+![laptop](./image/laptop2.jpg)
+
+记得断开天线，不会吧，不会吧，不会有人不知道吧。
+
+换好装上背板即可
 
 后续内容还在施工中👷，请耐心等待⌛️   
 作者不会鸽的放心吧，咕咕咕咕～～～
