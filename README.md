@@ -100,9 +100,9 @@
 ## [5]系统安装
 *安装过程基于远景论坛的大佬Bat.bat的帖子[「教程」简单扯扯用 VMWare 在实体机上装 Big Sur](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1862049&highlight=big%2Bsur)，侵权立删*
 ### 以下步骤均在macOS上执行
-首先在 macOS 中先分一个新的 APFS 容器。**⚠️注意，这里指的一个独立的新容器，建议分60G 以上，越大越好**。这个新的容器就是你要安装系统的磁盘，分完请记住该容量的大小，后面会用到。
+首先在 macOS 中先分一个新的 APFS 容器。**⚠️注意，这里指的一个独立的新容器，建议分60G 以上，越大越好**。这个新的容器就是你要安装系统的磁盘，分完请记住该容量的大小，后面会用到
 
-[假装这里有图片....]
+![disk1](./image/disk1.jpg)
 
 打开VMWare Fusion  
 用 VMWare Fusion 新建一个自定义虚拟机
@@ -143,11 +143,27 @@
 
 ![vmdk2](./image/vmdk2.png)
 
-打开`磁盘工具`，将挂载上的 VMDK （显示为外置磁盘）格式化成 HFS（macOS扩展（日志式）），名字就叫 `Big Sur Installer`。   
+如果你出现了此问题，并显示以下窗口：
+
+![vdm1](./image/vdm1.jpg)
+
+请前往`系统偏好设置` ➡️ `安全性与隐私` ➡️ `通用`，解除左下角的锁定然后允许操作即可
+
+![vdm2](./image/vdm2.jpg)
+
+打开`磁盘工具`，将挂载上的 VMDK （显示为外置磁盘）格式化成 HFS（macOS扩展（日志式）），名字就叫 `Big Sur Installer`。
+
+![disk2](./image/disk2.jpg)
+
+**备注：抹盘应选择红框下方的子磁盘，这里标错了很抱歉**
+
 完成格式化后关闭磁盘工具，用如下命令将 Big Sur 安装程序写入 VMDK磁盘。   
 ```
 sudo /Applications/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/Big\ Sur\ Installer 
 ```
+备注：这段口令只适用与跟我文件存放相同位置的人，你可以自己拖动安装包和磁盘进入终端（拖进）以对齐文件位置。输入正确后终端询问你是否继续，打 `y` 即可。
+
+![code](./image/code.jpg)
 
 进入磁盘工具卸载VMDK分区，然后打开虚拟机，如果能进安装界面，直接点关机。   
 
