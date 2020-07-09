@@ -11,6 +11,13 @@
 
 ![beta2](./image/beta2.jpg)
 
+![info2](./image/info2.png)
+
+从macOS Catalina升级后直接为beta2版本，因此并不影响后面的操作。
+不确定的可以自己查看自己的版本号：
+- `20A4299v`  ---beta1
+- `20A4300b`  ---beta2
+
 踩过的坑：   
 - 安装卡引导的请将你的OC更新到7/6以后的OC版本，并把kext里的`VisualSMC`更换为`FakeSMC`
 - 安装后无电池图标🔋或者电量一直为0%（触摸板可用但是设置里识别不出来的，**别问我为啥这跟触摸板也有关系，我也不知道，反正我是这样做就好了😯**），请将kext里的`SMCBatteryManager`更换为`ACPIBatteryManager`
