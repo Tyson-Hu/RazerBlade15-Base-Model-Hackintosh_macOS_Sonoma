@@ -46,6 +46,7 @@
 - 安装前的准备
 - 系统安装
 - 一些优化
+- 附加：U盘直装
 - 参考
   
 ## [1]硬件介绍
@@ -337,7 +338,49 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 
 备注：因为我并没有开启HiDPI因此这些图片都取自hxd的[博客](https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/#more)里, 灵感来自远景大佬郑世祺，[来源](http://bbs.pcbeta.com/viewthread-1862148-1-1.html)。 *版权归郑世祺所有，侵权立删©️*
 
-## [7]参考
+## [7]附加：U盘直装
+*搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/)*
+
+### 准备：
+
+- U盘 16GB以上
+- 安装文件
+- 7/6或更新的 `OC`，`Lilu`，`Whatevergreen`
+
+`Lilu` 和 `Whatevergreen` 我已放入`Tools`里,可以自行下载（同样由Bochi提供，在这里再次感谢🙏）。   
+什么？你说U盘也需要提供？你怕是再想peach！！！💢
+
+### Config 修改 （OpenCore 0.6.0）：
+
+- `NVRAM`
+  - `7C436110-AB2A-4BBB-A880-FE41995C9F82`
+    - 删除 `csr-active-config` 
+- `Kernel`
+   - `添加 / Add`
+     - 添加 `FakeSMC`
+     - 禁用 `VirtualSMC`
+
+保存退出
+
+### 将安装文件写入U盘
+
+终端输入指令：
+```
+sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/UNTITLED /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app --nointeraction
+```
+其中，`createinstallmedia`、`Install macOS Beta.app` 这两个文件、还有中间`/Volumes/UNTITLED`的**U盘名字**可以直接**拖拽**到终端。
+
+### 安装
+
+重启以U盘启动即可进入系统安装界面，接着一直点，重启几次便可完成系统安装
+
+### 启动项问题
+
+如果安装成功后在OC中找不到新系统的启动项，就进入已经装好的Mac系统 ➡️ 启动磁盘 ➡️ 选择 10.16 的启动盘然后重新启动即可。
+
+
+
+## [8]参考
 - https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh
 - https://github.com/blade15basehackintosh/razerbladehackintosh
 - https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh
