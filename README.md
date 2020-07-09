@@ -17,20 +17,21 @@
 
 ![info2](./image/info2.png)
 
-从macOS Catalina升级后直接为**beta2**版本，因此并不影响后面的操作。  
+从macOS Catalina升级后直接为**beta2**版本，因此并不影响后面的操作。
+
 **7/7 之前：**  
 **macOS Catalina ➡️ macOS Big Sur beta1 ➡️ macOS Big Sur beta2**   
 **7/7 之后：**   
 **macOS Catalina ➡️ macOS Big Sur beta2**   
 
-不确定的可以自己查看自己的版本号：
+不确定的可以自己查看自己的**版本号**：
 - `20A4299v`  ---beta1
 - `20A4300b`  ---beta2
 
 踩过的坑：   
-- 安装卡引导的请将你的OC更新到7/6以后的OC版本，并把kext里的`VisualSMC`更换为`FakeSMC`
+- **安装卡引导的请将你的OC更新到7/6以后的OC版本，并把kext里的`VisualSMC`更换为`FakeSMC`**
 - 安装后无电池图标🔋或者电量一直为0%（触摸板可用但是设置里识别不出来的，**别问我为啥这跟触摸板也有关系，我也不知道，反正我是这样做就好了😯**），请将kext里的`SMCBatteryManager`更换为`ACPIBatteryManager`
-- 无需在OC里注入显卡信息，如果显示出现问题可尝试删除`Device`里的显卡注入信息
+- 无需在OC里注入显卡信息，如果显示出现问题可尝试删除`Device`里的显卡注入信息 **（仅限 UHD630，其他型号无视本信息）**
 
 ## 一些问题
 我也是刚接触黑苹果不久，到我写这篇文章才一个多月？ 还有很多问题是我无法解决的，当然我后面也会努力爬贴查找解决方案，毕竟macOS11我不就是这么过来的嘛。如果有哪位大佬知道如何解决可以联系我，感激不尽！
@@ -46,6 +47,7 @@
 - 蓝牙不可用 （已通过更换网卡解决）
 - USB网卡不可用
 - ~~状态栏卡顿~~   (具体解决方案请移步 [6-4]状态栏卡顿 ）
+  
 ## 目录
 - 硬件介绍
 - 最终效果
@@ -85,8 +87,8 @@
 ## [3]解锁BIOS
  解锁BIOS可以参考EmeryWan的[教程](https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh#3-%E8%A7%A3%E9%94%81bios), 这里就不多描述了。macOS BigSur 对BIOS的大致设定与Catalina一致，有条件的可以尝试解锁CFG。（后面有时间的时候我会尝试一步步教你怎么解锁。
 
- ## [4]安装前的准备
- ### [4-1]BIOS设置
+## [4]安装前的准备
+### [4-1]BIOS设置
 
 - `Advanced`
   - `Thunderbolt(TM) Configuration`
@@ -123,6 +125,7 @@
 
 ## [5]系统安装
 *安装过程基于远景论坛的大佬Bat.bat的帖子[「教程」简单扯扯用 VMWare 在实体机上装 Big Sur](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1862049&highlight=big%2Bsur)，侵权立删*
+
 ### 以下步骤均在macOS上执行
 首先在 macOS 中先分一个新的 APFS 容器。**⚠️注意，这里指的一个独立的新容器，建议分60G 以上，越大越好**。这个新的容器就是你要安装系统的磁盘，分完请记住该容量的大小，后面会用到
 
@@ -343,7 +346,7 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 
 ![hidpi](./image/hidpi3.png)
 
-备注：因为我并没有开启HiDPI因此这些图片都取自hxd的[博客](https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/#more)里, 灵感来自远景大佬郑世祺，[来源](http://bbs.pcbeta.com/viewthread-1862148-1-1.html)。 *版权归郑世祺所有，侵权立删©️*
+*备注：因为我并没有开启HiDPI因此这些图片都取自hxd的[博客](https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/#more)里, 灵感来自远景大佬郑世祺，[来源](http://bbs.pcbeta.com/viewthread-1862148-1-1.html)。* *版权归郑世祺所有，侵权立删©️*
 
 ## [7]附加：U盘直装
 *搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/)*
