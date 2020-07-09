@@ -389,6 +389,8 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - http://bbs.pcbeta.com/viewthread-1862049-1-1.html
 - http://bbs.pcbeta.com/viewthread-1862835-1-1.html
 - http://bbs.pcbeta.com/viewthread-1862148-1-1.html
+- https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/
+- https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
   
 
 后续内容还在施工中👷，请耐心等待⌛️   
