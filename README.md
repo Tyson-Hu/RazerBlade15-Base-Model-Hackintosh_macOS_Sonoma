@@ -13,6 +13,8 @@
 
 ![beta2](./image/beta2.jpg)
 
+下面为更新完成的样子（感觉就变了个版本号.....）
+
 ![info2](./image/info2.png)
 
 从macOS Catalina升级后直接为beta2版本，因此并不影响后面的操作。
