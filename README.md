@@ -17,7 +17,12 @@
 
 ![info2](./image/info2.png)
 
-从macOS Catalina升级后直接为beta2版本，因此并不影响后面的操作。
+从macOS Catalina升级后直接为beta2版本，因此并不影响后面的操作。  
+7/7 之前：  
+macOS Catalina ➡️ macOS Big Sur beta1 ➡️ macOS Big Sur beta2   
+7/7 之后：   
+macOS Catalina ➡️ macOS Big Sur beta2   
+
 不确定的可以自己查看自己的版本号：
 - `20A4299v`  ---beta1
 - `20A4300b`  ---beta2
