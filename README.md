@@ -405,6 +405,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   
 ## [9]变更目录
 - 7/10
+  - 更新release分支，一般会在8 ~ 24小时左右更新驱动
   - **更新7/10号自编译 `Lilu`  （Lilu 1.4.6）**
     - Silence stupid clang analyzer
   - ~~**更新7/10号自编译 WhateverGreen  （whateverGreen 1.4.1）**~~
