@@ -57,6 +57,7 @@
 - [一些优化](#6一些优化)
 - [附加：U盘直装](#7附加u盘直装)
 - [参考](#8参考)
+- [变更目录](#9变更目录)
   
 ## [1]硬件介绍
 |        部件      |        型号         |                   最终情况                   |
@@ -402,6 +403,34 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/
 - https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
   
-
+## [9]变更目录
+- 7/9
+  - **更新7/9号自编译 `OpenCore` （OC 0.6.0）**
+    - DxeIpl: Fix ACPI reset register detection
+  - **更新7/8号自编译 `Lilu`  （Lilu 1.4.6）**
+    - Added device publishing API to monitor device startup
+  - **更新7/9号自编译 `WhateverGreen`  （WhateverGreen 1.4.1）**
+    - Add first generation Intel HD Graphics support
+  - **更新7/8号自编译 `AppleALC`  （AppleALC 1.5.1）**
+    - Use new device publishing API for 11.0 syncing 
+  - **更新7/5号自编译 `AirportBrcmFixup`  （AirportBrcmFixup 2.0.8）**
+    - Fix warning 'Value stored to 'subSystemDeviceID' during its initializ…
+- 7/7
+  - **更新 macOS Big Sur beta2**
+  - **更换 `VisualSMC` 为 `FakeSMC`**
+- 7/5
+  - 更换 `Broadcom BCM94352Z` / `DW1560` 网卡 
+    - 蓝牙得到解决
+    - Wi-Fi得到解决
+    - 状态栏卡顿得到解决
+  - **修复状态栏卡顿**
+- 7/4
+  - **修复开机画屏**
+  - **修复电池显示**
+  - **修复触摸板**
+- 6/30
+  - **更新 macOS Big Sur beta1**  
+  - **更新 OC 0.6.0**  
+  
 后续内容还在施工中👷，请耐心等待⌛️   
 作者不会鸽的放心吧，咕咕咕咕～～～
