@@ -409,7 +409,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
     - **⚠️ 注意：本人发布的自编译驱动未经原作者同意发布，因此有问题请不要再原作者的issue里发表！⚠️**
   - **更新7/10号自编译 `Lilu`  （Lilu 1.4.6）**
     - Silence stupid clang analyzer
-  - ~~**更新7/10号自编译 WhateverGreen  （whateverGreen 1.4.1）**~~
+  - ~~**更新7/10号自编译 WhateverGreen  （WhateverGreen 1.4.1）**~~
     - Revert workaround for ATIController::start on 11.0
 - 7/9
   - **更新7/9号自编译 `OpenCore` （OC 0.6.0）**
