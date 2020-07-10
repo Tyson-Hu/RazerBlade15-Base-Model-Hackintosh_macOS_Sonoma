@@ -410,7 +410,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - 7/10
   - Release打包📦改为分包模式：
     - `x/x-DEBUG.zip`
-    - `x/x-RELEASE.zip`
+    - `x/x-RELEASE.zip`  (一般使用`RELEASE`版即可)
   - 修复Wi-Fi不定时自动断开的毛病
   - 更新release分支，一般会在8 ~ 24小时左右更新驱动
     - **⚠️ 注意：我发布的自编译驱动未经原作者同意，因此有问题请不要在原作者的issue里发表！⚠️**
