@@ -138,13 +138,13 @@
     - `CSM Support` 设置成 `Disabled`
 
 ### [4-2]软件下载
-- macOS下
+- **macOS下**
   - 下载好的macOS Big Sur 安装app
   - 一个可以正常工作的 macOS
   - [VMWare Fusion](https://www.vmware.com/products/fusion.html) （虚拟机软件,普通版或pro版都可以）
   - [Paragon VMDK Mounter](http://dl.paragon-software.com/free/VMDK_MOUNTER_2014.dmg) （挂载虚拟机的软件）
   - OpenCore 0.6.0 自编译 （可以直接去下载 Williambj1 每天更新编译好的OC[（点击前往Opencore-Factory）](https://github.com/williambj1/OpenCore-Factory/releases), 也可以自行编译官方的源码[（点击前往OpenCorePkg）](https://github.com/acidanthera/OpenCorePkg)。
-- Windows下
+- **Windows下**
   - 一个可以正常工作的 Windows （我相信在坐的各位都有吧🤔）
   - 一个可以编辑代码的软件
     - Sublime Text，Visual Studio Code 等等
