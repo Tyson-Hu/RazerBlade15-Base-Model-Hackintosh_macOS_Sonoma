@@ -14,8 +14,8 @@
   - [Razer Blade 15 Advanced Model (early-2019) [Clover] [10.14 / 10.15]](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
   - [Razer Blade 15 Avdanced Model (2018) [Clover] [10.13 / High Sierra]](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
 - OpenCore
-  - [Razer Blade 15 Advanced Model (2018) [OpenCore]](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh)
-  - [Razer Blade 15 Base Model (2018) [OpenCore]](https://github.com/blade15basehackintosh/razerbladehackintosh)
+  - [Razer Blade 15 Advanced Model (2018) [OpenCore] [10.15.4 / Catalina]](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh)
+  - [Razer Blade 15 Base Model (2018) [OpenCore] [10.15.4 / Catalina]](https://github.com/blade15basehackintosh/razerbladehackintosh)
 
 ## 7/7 更新
 苹果刚发布了macOS BigSur的beta2版本，同样为全量包，大小将近10GB，使用普通的OTA更新即可。（下载可能略慢，如果进度条不动请耐心等待，这并不是卡了）
