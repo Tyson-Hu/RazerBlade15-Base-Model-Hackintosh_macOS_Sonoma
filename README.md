@@ -24,6 +24,8 @@
   - [精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
   - [从Clover到OpenCore](https://blog.daliansky.net/From-Clover-To-OpenCore.html)
   - [【持续更新】OpenCore引导-v各种卡及OC引导常见问题解决方案速查表合集](http://imacos.top/2020/03/28/0154/) 
+- **其他机型的EFI（不会配的或者想要现成的看这里！）**
+  - [Hackintosh黑苹果长期维护机型EFI及安装教程整理](https://github.com/daliansky/Hackintosh)
   
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
