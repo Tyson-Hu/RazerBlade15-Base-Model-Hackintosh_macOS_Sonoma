@@ -30,7 +30,8 @@
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
 ## 7/11 更新
-黑苹果大佬更新了他自己制作的恢复镜像，对于新手来说应该是福音！！！    
+黑苹果大佬更新了他自己制作的恢复镜像，对于新手来说应该是福音！！！
+    
 [【黑果小兵】【微信首发】macOS Big Sur Beta 2 Installer for OpenCore and PE双EFI分区原版镜像](https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-OpenCore-and-PE-dual-EFI-partition-original-image.html)   
 
 这里简略的搬运一些描述    
