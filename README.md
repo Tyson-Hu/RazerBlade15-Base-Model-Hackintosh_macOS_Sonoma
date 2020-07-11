@@ -16,7 +16,11 @@
 - OpenCore
   - [Razer Blade 15 Advanced Model (2018) [OpenCore] [10.15.4 / Catalina]](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh)
   - [Razer Blade 15 Base Model (2018) [OpenCore] [10.15.4 / Catalina]](https://github.com/blade15basehackintosh/razerbladehackintosh)
-
+- OpenCore向导
+  - [vanilla-laptop-guide](https://dortania.github.io/vanilla-laptop-guide/)
+  - [使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
+  - [精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
+  - [从Clover到OpenCore](https://blog.daliansky.net/From-Clover-To-OpenCore.html)
 ## 7/7 更新
 苹果刚发布了macOS BigSur的beta2版本，同样为全量包，大小将近10GB，使用普通的OTA更新即可。（下载可能略慢，如果进度条不动请耐心等待，这并不是卡了）
 
