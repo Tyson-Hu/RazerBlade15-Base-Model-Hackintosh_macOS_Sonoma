@@ -311,6 +311,7 @@ smbios.reflectHost = "FALSE"
 ```
 sudo trimforce enable
 ```
+
 完成后系统会要求你重启
 
 ### [6-2]洗白序列号 / 三码
@@ -341,9 +342,9 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 ![usb](./image/usb.jpg)
 
 #### [6-4-2]直接更换博通网卡
-删除WiFiAgent只是缓兵之计，除了插网线否则你还是连不上网，因此给电脑更换博通网卡才是最好的解决方法。（而且雷蛇拆机并不会影响保修，不像某些厂商....）
+删除`WiFiAgent`只是缓兵之计，除了插网线否则你还是连不上网，因此给电脑更换博通网卡才是最好的解决方法。（而且雷蛇拆机并不会影响保修，不像某些厂商....）
 
-整个机身共有 10 颗螺丝分一种规格，你需要一把 T5 的螺丝刀来打开它，卸下所有螺丝即可拆下背板。
+整个机身共有 10 颗螺丝分一种规格，你需要一把 `T5` 的螺丝刀来打开它，卸下所有螺丝即可拆下背板。
 
 ![laptop](./image/laptop1.jpg)
 
@@ -356,13 +357,13 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 换好装上背板即可
 
 ### [6-5]开启HiDPI
-由于macOS11对于安全性更强的要求，macOS Catalina中解锁sle的命令已经失效了。尽管如此，HiDPI的开启不受影响，传统开启的方法是把显示器文件写入进系统目录 /System/Library/Displays/Contents/Resources/Overrides，这样做有风险而且升级后失效。  
+由于macOS11对于安全性更强的要求，macOS Catalina中解锁sle的命令已经失效了。尽管如此，HiDPI的开启不受影响，传统开启的方法是把显示器文件写入进系统目录 `/System/Library/Displays/Contents/Resources/Overrides`，这样做有风险而且升级后失效。  
 
-把显示器文件写入目录 /Library/Displays/Contents/Resources/Overrides 能取得相同效果，而且这样做的好处有：
+把显示器文件写入目录 `/Library/Displays/Contents/Resources/Overrides` 能取得相同效果，而且这样做的好处有：
 - 支持 Big Sur
 - 升级系统后不需要重新开启
 - 保持系统目录纯净
-- 容易恢复，删除/Library/Displays/ 文件夹即可
+- 容易恢复，删除`/Library/Displays/` 文件夹即可
 
 开启方法：
 
@@ -414,7 +415,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 
 ### 启动项问题
 
-如果安装成功后在OC中找不到新系统的启动项，就进入已经装好的Mac系统 ➡️ 启动磁盘 ➡️ 选择 10.16 的启动盘然后重新启动即可。
+如果安装成功后在OC中找不到新系统的启动项，就进入已经装好的Mac系统 ➡️ `启动磁盘` ➡️ 选择 10.16 的启动盘然后重新启动即可。
 
 
 
