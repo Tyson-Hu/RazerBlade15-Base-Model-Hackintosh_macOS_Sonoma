@@ -228,16 +228,16 @@ sudo /Applications/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedi
 
 ![config](./image/config.png)
 
-将你制作好的安装盘虚拟机拷贝到nas或者exfat格式的磁盘中作为中介，至此在macOS上的操作就结束了🔚。
+将你制作好的安装盘虚拟机拷贝到`nas`或者`exfat`格式的磁盘中作为中介，至此在macOS上的操作就结束了🔚。
 
 ### 以下步骤均在Window下执行
 首先把刚才创建的虚拟机转进 Windows，在上面👆操作的最后一步里你用什么存的就从那里转移出来（我咋这么多废话😯）
 
-解锁下载好的 VMWare Workstation Pro （作为一个🇨🇳人，你还不会这种最基础的东西？百度一堆好吧👌）
+解锁下载好的 `VMWare Workstation Pro` （作为一个🇨🇳人，你还不会这种最基础的东西？百度一堆好吧👌）
 
 导入刚才转移过来的虚拟机（双击vmx文件就行。。。）
 
-用 Sublime Text，Visual Studio Code 或其他杂七杂八能用的工具打开虚拟机的 vmx 文件，该改的该，该加的加
+用 `Sublime Text`，`Visual Studio Code` 或其他杂七杂八能用的工具打开虚拟机的 `vmx` 文件，该改的该，该加的加
 
 ![vmp1](./image/vmp1.png)
 
@@ -256,11 +256,11 @@ smbios.reflectHost = "FALSE"
 
 ![vmp2](./image/vmp2.png)
 
-接着运行你下载好的 Unblocker 302，(右键管理员运行 `win-install`，注意必须是以管理员运行⚠️）**如果不运行的话你会发现后面打开虚拟机的时候一直重启（没错，无限重启，贼恶心🤮）**
+接着运行你下载好的 `Unblocker 302`，(右键管理员运行 `win-install`，注意必须是以管理员运行⚠️）**如果不运行的话你会发现后面打开虚拟机的时候一直重启（没错，无限重启，贼恶心🤮）**
 
 ![unlocker302](./image/unlocker.png)
 
-接着进入VMWare Workstation Pro ➡️ 点击 `编辑虚拟机设置`
+接着进入`VMWare Workstation Pro` ➡️ 点击 `编辑虚拟机设置`
 
 ![vmp3](./image/vmp3.png)
 
@@ -284,7 +284,7 @@ smbios.reflectHost = "FALSE"
 
 ![vmp8](./image/vmp8.png)
 
-点击在文章开头创建的 APFS 容器 (**请根据分区大小判断⚠️**)  ➡️ 点击 `下一步`
+点击在文章开头创建的 `APFS` 容器 (**请根据分区大小判断⚠️**)  ➡️ 点击 `下一步`
 
 ![vmp9](./image/vmp9.png)
 
