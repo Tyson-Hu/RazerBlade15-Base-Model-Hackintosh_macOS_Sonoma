@@ -440,7 +440,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
     - Commit required files for previous commit
     - Remove injectors for AirPortBrcm4360 and AirPortBrcmNIC from main Info.plist and move them into separate plugins AirPortBrcm4360_Injector and AirPortBrcmNIC_Injector (kexts with plist only)
 - 7/10
-  - Release打包📦改为分包模式：
+  - Release打包 📦  改为分包模式：
     - `x/x-DEBUG.zip`
     - `x/x-RELEASE.zip`  (一般使用`RELEASE`版即可)
   - 修复Wi-Fi不定时自动断开的毛病
