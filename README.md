@@ -8,6 +8,10 @@
 - 看到这里如果你真的打算继续安装macOS 11 / 10.16 那么建议你最好更换为博通的网卡进行使用，USB网卡和英特尔网卡驱动在11里仍然存在众多问题，现无法在11里运行。
 - **同机型或者相似机型的同学们可以参考我的efi，当然在你使用我的efi的时候记得更改里面的三码（我忘改了😭），以免造成设备冲突！**
 
+## 基础配置 & 知识
+- [Razer Blade 15 Base Mode (2018) [Clover]](https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh)
+- [Razer Blade 15 Advanced Model (2018) [Clover]](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh)
+
 ## 7/7 更新
 苹果刚发布了macOS BigSur的beta2版本，同样为全量包，大小将近10GB，使用普通的OTA更新即可。（下载可能略慢，如果进度条不动请耐心等待，这并不是卡了）
 
