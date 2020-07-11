@@ -433,6 +433,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   
 ## [9]变更目录
 - 7/11
+  - 更新一些我自己用的壁纸....（算是给自己的壁纸做备份？？？)
   - **更新7/11号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
     - Merge remote-tracking branch `refs/remotes/origin/master`
     - Fix wrong base class IOService for FakeBrcm, now it works in older osx
