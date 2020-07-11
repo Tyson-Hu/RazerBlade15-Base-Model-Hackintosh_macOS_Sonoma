@@ -29,6 +29,19 @@
   
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
+## 7/11 更新
+黑苹果大佬更新了他自己制作的恢复镜像，对于新手来说应该是福音！！！    
+[【黑果小兵】【微信首发】macOS Big Sur Beta 2 Installer for OpenCore and PE双EFI分区原版镜像](https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-OpenCore-and-PE-dual-EFI-partition-original-image.html)   
+
+这里简略的搬运一些描述    
+
+特点：
+- 两个独立的EFI引导分区，同时支持OpenCore / PE引导
+- 支持z300 / b300等部分台式机直接安装
+- PE 可连接网络，可远程协助，集成向日葵 和 AnyDesk
+
+*©️ 搬运自黑果小兵的部落阁，版权为Daliansky所有，侵权立删！©️*
+
 ## 7/7 更新
 苹果刚发布了macOS BigSur的beta2版本，同样为全量包，大小将近10GB，使用普通的OTA更新即可。（下载可能略慢，如果进度条不动请耐心等待，这并不是卡了）
 
