@@ -9,6 +9,8 @@
 - **同机型或者相似机型的同学们可以参考我的efi，当然在你使用我的efi的时候记得更改里面的三码（我忘改了😭），以免造成设备冲突！**
 
 ## 基础配置 & 知识
+由于许多核心Kext都对CLOVER引导停止了维护，OpenCore作为新力军建议提前 研究 / 制作 引导，以适应未来的场景。
+
 - CLOVER
   - [Razer Blade 15 Base Model (2018) [Clover] [10.15.3 / Catalina]](https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh)
   - [Razer Blade 15 Advanced Model (early-2019) [Clover] [10.14 / 10.15]](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
