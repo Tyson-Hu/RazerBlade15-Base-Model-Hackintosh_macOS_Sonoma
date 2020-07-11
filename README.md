@@ -34,7 +34,7 @@
 
 [【黑果小兵】【微信首发】macOS Big Sur Beta 2 Installer for OpenCore and PE双EFI分区原版镜像](https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-OpenCore-and-PE-dual-EFI-partition-original-image.html)   
 
-这里简略的搬运一些描述    
+这里简略的搬运一些描述 ⬇️    
 
 特点：
 - 两个独立的EFI引导分区，同时支持OpenCore / PE引导
