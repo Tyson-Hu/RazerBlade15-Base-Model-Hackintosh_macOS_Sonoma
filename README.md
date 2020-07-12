@@ -449,7 +449,10 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   
 ## [9]变更目录
 - 7/12 (上传中ing...)
-  - **更新7/12号自编译 VirtualSMC (VirtualSMC ?.?.?)** 
+  - **更新7/112号编译版本 `OpenCore` (OpenCore 0.6.0)**
+    - Docs: Drop Generic key as it is unused from Legacy
+    - Docs: Rename SampleFull to SampleLegacy and fix typos
+  - **更新7/12号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
     - Fix sign issues in legacy smc tool
 - 7/11
   - 更新一些我自己用的壁纸....（算是给自己的壁纸做备份？？？)
