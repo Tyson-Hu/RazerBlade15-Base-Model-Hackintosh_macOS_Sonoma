@@ -270,7 +270,8 @@ smbios.reflectHost = "FALSE"
 
 ![vmp2](./image/vmp2.png)
 
-进入 `任务管理器` ，关掉所有关于 `VM` 的进程！  
+**进入 `任务管理器` ，关掉所有关于 `VM` 的进程！**
+  
 接着运行你下载好的 `Unblocker 302`，(右键管理员运行 `win-install`，注意必须是以管理员运行⚠️）**如果不运行的话你会发现后面打开虚拟机的时候一直重启（没错，无限重启，贼恶心🤮）**
 
 ![unlocker302](./image/unlocker.png)
