@@ -19,7 +19,7 @@
   - [Razer Blade 15 Base Model (2018) [OpenCore] [10.15.4 / Catalina]](https://github.com/blade15basehackintosh/razerbladehackintosh)
   - [Razer Blade 15 Advanced Model (2018) [OpenCore] [10.15.5 / Catalina]](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh)
 - OpenCore向导
-  - [vanilla-laptop-guide](https://dortania.github.io/vanilla-laptop-guide/)
+  - [vanilla-laptop-guide [英文 / English]](https://dortania.github.io/vanilla-laptop-guide/)
   - [使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
   - [精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
   - [从Clover到OpenCore](https://blog.daliansky.net/From-Clover-To-OpenCore.html)
