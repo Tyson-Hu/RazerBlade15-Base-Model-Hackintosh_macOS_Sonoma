@@ -516,5 +516,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   - **更新 macOS Big Sur beta1**  
   - **更新 OC 0.6.0**  
   
-后续内容还在施工中👷，请耐心等待⌛️   
-作者不会鸽的放心吧，咕咕咕咕～～～
+~~后续内容还在施工中👷，请耐心等待⌛️~~   
+~~作者不会鸽的放心吧，咕咕咕咕～～～~~
+
+> 文章大致已经完成  ✅，后续将为各种小修小补...
