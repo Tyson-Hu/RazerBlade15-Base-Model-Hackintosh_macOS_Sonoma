@@ -520,3 +520,8 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 ~~作者不会鸽的放心吧，咕咕咕咕～～～~~
 
 > 文章大致已经完成  ✅ ，后续将为各种小修小补...
+
+未来计划 / Plans ：
+- 增加BIOS修改的图文教程
+- 独立变更目录 / Separate `changelog` to a individual file
+- 增加英语版本教程 / Add `English` version 
