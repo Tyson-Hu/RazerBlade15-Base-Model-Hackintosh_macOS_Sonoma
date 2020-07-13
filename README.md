@@ -449,6 +449,8 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   
 ## [9]变更目录
 - 7/13 (上传中...)
+  - **更新7/13号自编译版本 `Lilu` (Lilu 1.4.6)**
+    - Update README.md  **(只是更新说明文档，无驱动变化)**
   - **更新7/13号编译版本 `OpenCore` (OpenCore 0.6.0)**
     - Delete OpenCore_with_text_Right.png
     - Docs: Fixed previous
