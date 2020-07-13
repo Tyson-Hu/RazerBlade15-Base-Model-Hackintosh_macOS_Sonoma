@@ -524,4 +524,5 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 ## 未来计划 / Plans ：
 - 增加BIOS修改的图文教程 / Add detail for BIOS's tutorial  [七月底 / Late July]
 - 独立变更目录 / Separate `changelog` to a individual file [七月底 / Late July]
-- 增加英语版本教程 / Add `English` version [八月底 / Late August]
+- ~~增加英语版本教程 / Add `English` version [八月底 / Late August]~~
+  - **Reason for cancellation** : `OC` now support `OTA`, no more need for this tutorial.
