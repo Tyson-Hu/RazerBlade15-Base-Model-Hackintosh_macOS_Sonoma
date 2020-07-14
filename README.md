@@ -448,9 +448,13 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
   
 ## [9]变更目录
-- 7/14
+- 7/14 (上传中...)
   - **更新7/14号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
     - Fixed running smcread on 11.0 without IOKit framework
+  - **更新7/14号编译版本 `OpenCore` (OpenCore 0.6.0)**
+    - Docs: Fixed typo
+    - DataBase: Updeted MBP164
+
 - 7/13
   - **更新7/13号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
     - Update README.md  **(只是更新说明文档，无驱动变化)**
