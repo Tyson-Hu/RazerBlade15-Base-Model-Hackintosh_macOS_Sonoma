@@ -449,7 +449,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   
 ## [9]变更目录
 - 7/15
-  - **今日无任何驱动更新，因此无变化.....**
+  - **今日无任何驱动更新，因此无变化.....** [仅用作通知，因无变化此通知不算做变更目录内，后续更新将覆盖此信息]
 - 7/14 
   - **更新7/14号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
     - Fixed running smcread on 11.0 without IOKit framework
