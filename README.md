@@ -448,10 +448,36 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
   
 ## [9]变更目录
-- 7/15
-  - **更新7/15号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
+- 7/16
+  - **更新7/16号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
     - Fix critical issue introduced in previous 2 commits (getting of brcmfx-driver index)
     - Check and fix incorrect value brcmfx-driver (if specified value is unsupported in current osx system)
+  - **更新7/16号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
+    - Include SMCDellSensors in package ([#33](https://github.com/acidanthera/VirtualSMC/pull/33))
+    - Sync changelog
+    - Compatibility fixes in SMCBatteryManager for 10.16 ([#32](https://github.com/acidanthera/VirtualSMC/pull/32))
+    - Update Changelog.md
+    - **Added a new plugin SMCDellSensors (adapted SMI Monitor from HWSensors):**
+      - monitor and control temperature and fans in Dell computers by using SMM technology ([#31](https://github.com/acidanthera/VirtualSMC/pull/31))
+        - Port SMIMonitor for VirtualSMC
+        - Use mp_rendezvous instead of mp_rendezvous_no_intrs and disable/enable interrupts in assembler code
+        - Add keys for fan control, configurable multiplier and names
+        - Fix issue with non-sorted keys, add target speed support.
+        - Update Changelog.md
+        - Fix project & file name in sources, add copyrights and links to the original sources
+        - Fix issues in fan control, remove unsupported on real Macs key F0As.
+        - Use _Atomic instead of stateLock
+        - Do not disable interrupts while reading SMM, rename variables according to review remarks.
+        - Increase SMM reading interval
+        - Increase maximum amount of temp sensors 8
+        - Revert max amount of temp sensors to 6 (we do not have so many smc keys to keep them all), rename variable for FS! again (with comments)
+        - Fix attributes for F0Mn & F0Mx, add logging if someone wants to update these keys
+        - Disable update timer during sleep/shutdown phase, otherwise reading of SMM prevents sleeping with closed lid.
+        - Use DBGLOG for logging
+        - Fix module version and remove unused variable.
+        - **Co-authored-by: lvs1974 <lvs1974@users.noreply.github.com>**
+
+
 - 7/14 
   - **更新7/14号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
     - Fixed running smcread on 11.0 without IOKit framework
