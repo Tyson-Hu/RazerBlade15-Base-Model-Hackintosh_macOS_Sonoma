@@ -477,7 +477,6 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
         - Fix module version and remove unused variable.
         - **Co-authored-by: lvs1974 <lvs1974@users.noreply.github.com>**
 
-
 - 7/14 
   - **更新7/14号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
     - Fixed running smcread on 11.0 without IOKit framework
