@@ -451,6 +451,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - 7/15
   - **更新7/15号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
     - Fix critical issue introduced in previous 2 commits (getting of brcmfx-driver index)
+    - Check and fix incorrect value brcmfx-driver (if specified value is unsupported in current osx system)
 - 7/14 
   - **更新7/14号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
     - Fixed running smcread on 11.0 without IOKit framework
