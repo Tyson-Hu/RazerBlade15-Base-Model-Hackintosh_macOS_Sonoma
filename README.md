@@ -485,6 +485,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
     - OcFileLib: Provide workaround for buggy drivers
     - DataBase: Fixed typos
     - Includes: AppleKeyMapAggregator revision is UINT64
+    - OcMemoryLib: Fix typo
 
 - 7/14 
   - **更新7/14号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
