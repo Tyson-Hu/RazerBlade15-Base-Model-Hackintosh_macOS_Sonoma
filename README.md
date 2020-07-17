@@ -500,7 +500,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
     - OcMemoryLib: Fix typo
 
 - 7/15
-  - 更新 `macOS 10.15.6` 正式版 & `Safari 14.0` 测试版 （非 `Big Sur` 更新）
+  - 更新 `macOS 10.15.6` 正式版 & `Safari 14.0` 测试版 **（非 `Big Sur` 更新）**
   
 - 7/14 
   - **更新7/14号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
