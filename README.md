@@ -508,7 +508,8 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
         - Disable update timer during sleep/shutdown phase, otherwise reading of SMM prevents sleeping with closed lid.
         - Use DBGLOG for logging
         - Fix module version and remove unused variable.
-        - **Co-authored-by: lvs1974 <lvs1974@users.noreply.github.com>**
+        - **Co-authored-by: lvs1974 
+          <lvs1974@users.noreply.github.com>**
   - **更新7/16号编译版本 `OpenCore` (OpenCore 0.6.0)**
     - OcBootManagementLib: Load icons for custom boot entries ([#91](https://github.com/acidanthera/OpenCorePkg/pull/91))
     - Update Changelog.md
