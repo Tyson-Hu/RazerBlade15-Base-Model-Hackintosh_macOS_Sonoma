@@ -412,11 +412,11 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 
 - U盘 16GB以上
 - 安装文件
-- 7/6或更新的 `OC`，`Lilu`，`Whatevergreen`
+- 7/6或更新的 `OC`，`Lilu`，`WhateverGreen`
 
-`Lilu` 和 `Whatevergreen` 我已放入`Tools`里,可以自行下载（同样由Bochi提供，在这里再次感谢🙏）。   
-什么？你说U盘也需要提供？你怕是再想peach！！！💢
-
+~~`Lilu` 和 `WhateverGreen` 我已放入`Tools`里,可以自行下载（同样由Bochi提供，在这里再次感谢🙏）。~~  
+**请从`release`里下载最新版本驱动，里面包含你们需要的 `Lilu` ， `WhateverGreen` 和 `OC`。**  
+什么？你说U盘也需要提供？你怕是再想peach！！！ 💢
 ### Config 修改 （OpenCore 0.6.0）：
 
 - `NVRAM`
