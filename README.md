@@ -474,7 +474,13 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   
 ## [9]变更目录
 - 7/17
-  - 今日驱动更新延缓，不是作者没更新，而是我没时间进行编译。驱动将与明日更新一同释放。
+  - 今日驱动更新延缓，不是作者没更新，而是我没时间进行编译。驱动将与明日更新一同释放。以下是更新大纲：
+  - **新增自编译驱动 `VoodooInput`**
+  - **更新7/17号编译版本 `OpenCore` (OpenCore 0.6.0)**
+    - Docs: Fix debugging patches
+    - Docs: generated pdf
+    - OcMemoryLib: Fix typo
+    - Utilities/KextInject: Determine Info/EXE reserve sizes
 - 7/16 
   - **更新7/16号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
     - Fix critical issue introduced in previous 2 commits (getting of brcmfx-driver index)
