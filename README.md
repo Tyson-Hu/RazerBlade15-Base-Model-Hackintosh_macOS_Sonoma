@@ -29,6 +29,19 @@
   
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
+## 7/16 更新
+`CloverBootloader` 发布了最新版`CLOVER`引导 `v5.0 r5120` ，此次更新从 `OpenCore` 那边搬来了 `OcQuirks.efi` 和 `OpenRuntime.efi` 以实现引导 `Big Sur`。原文如下
+
+>    “This release includes OcQuirks.efi and OpenRuntime.efi copied from OpenCore project.”
+>                                                
+>  “OcQuirks.plist embedded into config.plist and present in Clover GUI as separate menu to tune settings on the fly.”
+> 
+> “Kernel patching includes pattern for Big Sur.”
+
+这里附上原文章地址供大家下载 [点击跳跃至 `CloverBootloader`](https://github.com/CloverHackyColor/CloverBootloader/releases/tag/5120)
+
+考虑到还是有不少人不会配置 `OC`，我把自己当时使用的CLOVER放入本文，希望可以对你有所帮助。（`CLOVER` 版本为 `v5103`，对应系统版本为 `10.15.4`）
+
 ## 7/15 更新 （"**非 `Big Sur`**" / `Catalina`）
 1. 苹果官方推送 `macOS 10.15.6` 正式版（版本号 `19G73` ，日常OTA升级即可，无其他问题。
 2. 苹果官方推送 `Safari 14.0` 测试版 [适用于 `macOS 10.15 及更低版本`]，内容与 Big Sur 版本里的 `Safari` 同步。     
