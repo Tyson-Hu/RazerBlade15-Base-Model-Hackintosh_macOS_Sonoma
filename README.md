@@ -29,7 +29,7 @@
   
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
-## 7/16 更新
+## 7/16 更新 (`CLOVER v5120`)
 `CloverBootloader` 发布了最新版`CLOVER`引导 `v5.0 r5120` ，此次更新从 `OpenCore` 那边搬来了 `OcQuirks.efi` 和 `OpenRuntime.efi` 以实现引导 `Big Sur`。原文如下
 
 >    “This release includes OcQuirks.efi and OpenRuntime.efi copied from OpenCore project.”
