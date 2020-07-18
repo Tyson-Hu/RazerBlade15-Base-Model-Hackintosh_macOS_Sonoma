@@ -474,7 +474,6 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   
 ## [9]变更目录
 - 7/18 (编译中 / Compiling)
-  - 今日驱动更新延缓，不是作者没更新，而是我没时间进行编译。驱动将与明日更新一同释放。以下是更新大纲：
   - **新增自编译驱动 `VoodooInput` (VoodooInput 1.0.6)**
   - **更新7/17号编译版本 `OpenCore` (OpenCore 0.6.0)**
     - Docs: Fix debugging patches
