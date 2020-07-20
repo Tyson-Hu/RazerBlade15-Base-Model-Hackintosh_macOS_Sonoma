@@ -476,6 +476,9 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - 7/20
   - **更新7/20号自编译 `WhateverGreen`  （WhateverGreen 1.4.1）**
     - Update FAQ.IntelHD.en.md
+  - **更新7/20号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
+    - Support brcmfx-aspm for all chipsets
+    - Support boot-arg & property `brcmfx-aspm` to override value used for pci-aspm-default, support ioreg property brcmfx-wowl
 - 7/18 
   - **新增自编译驱动 `VoodooInput` (VoodooInput 1.0.6)**
   - **更新7/18号编译版本 `OpenCore` (OpenCore 0.6.0)**
