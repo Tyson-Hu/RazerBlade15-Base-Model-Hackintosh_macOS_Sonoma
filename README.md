@@ -479,6 +479,16 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   - **更新7/20号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
     - Support brcmfx-aspm for all chipsets
     - Support boot-arg & property `brcmfx-aspm` to override value used for pci-aspm-default, support ioreg property brcmfx-wowl
+  - **更新7/20号编译版本 `OpenCore` (OpenCore 0.6.0)**
+    - Includes: Fix MKext header comments
+    - OcCompressionLib: Expose Adler32 function
+    - OcDevicePathLib: Fix potential deadloop
+    - Patches: Add AtaAtapiPassThru patches for G33
+    - Includes: Add missing Mach prefixes
+    - Includes: Fix additional typos
+    - OcFileLib: Fix typo
+    - Patches: Add SataControllerDxe patch for G33 in RAID mode
+    - OcAppleKernelLib: Fix memory corruption with many kexts in 11.0
 - 7/18 
   - **新增自编译驱动 `VoodooInput` (VoodooInput 1.0.6)**
   - **更新7/18号编译版本 `OpenCore` (OpenCore 0.6.0)**
