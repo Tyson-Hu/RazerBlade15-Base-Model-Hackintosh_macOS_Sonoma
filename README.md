@@ -260,7 +260,7 @@
 
 完成格式化后关闭磁盘工具，用如下命令将 Big Sur 安装程序写入 VMDK磁盘。   
 ```
-sudo /Applications/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/Big\ Sur\ Installer 
+/Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resourse/createinstallmedia --volume /Volumes/Big\ Sur\ Installer 
 ```
 备注：这段口令只适用与跟我文件存放相同位置的人，你可以自己拖动安装包和磁盘进入终端（拖进）以对齐文件位置。输入正确后终端询问你是否继续，打 `y` 即可。
 
