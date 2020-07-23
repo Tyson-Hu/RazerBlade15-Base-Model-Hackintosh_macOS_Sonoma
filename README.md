@@ -30,11 +30,36 @@
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
 ## 7/22 更新 
-苹果官方推出了 macOS Big Sur Beta3，图如下，大小为4.96GB，全量包为12GB多，正常OTA更新即可（应该是，我正在下载，准备冲了！！！）
+苹果官方推出了 macOS Big Sur Beta3，图如下，大小为4.96GB，全量包为12GB多，正常OTA更新即可。
 
-![10.16 beta3](image/beta3.jpg)
+![11 beta3](image/beta3.jpg)
 
-![10.16 beta3](image/beta3-2.png)
+![11 beta3](image/beta3-2.png)
+
+更新完成，附上截图：
+
+![11 beta3](image/beta3-3.png)
+
+这次更新也修复了一些bug，例如菜单栏的时钟得到汉化+修复：
+
+![11 beta3](image/beta3-4.png)
+
+被人疯狂吐槽的电池图标得到更换：
+
+![11 beta3](image/beta3-5.png)
+
+已知问题：   
+由于苹果在beta3中更新了SDK，现被识别成macOS 11 而非 macOS 10.16，因此一些bash无法识别并安装，这里需要注意⚠️ 。
+
+![11 beta3](image/beta3-6.png)
+
+可以看到提示需升级CLT，但我检查过没有新的更新了，因此问题出在SDK中，这需要官方进行适配。
+
+![11 beta3](image/beta3-7.png)
+
+图中可以看到并无检查到更新：
+
+![11 beta3](image/beta3-8.png)
 
 ## 7/16 更新 (`CLOVER v5120`)
 `CloverBootloader` 发布了最新版`CLOVER`引导 `v5.0 r5120` ，此次更新从 `OpenCore` 那边搬来了 `OcQuirks.efi` 和 `OpenRuntime.efi` 以实现引导 `Big Sur`。原文如下
