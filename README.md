@@ -153,7 +153,7 @@
 - ~~开机画屏~~  （显卡注入问题，UHD630 无需再注入显卡id）
 - ~~电池无显示 & 电量始终为 0%~~  （具体解决方案请移步 [[6-3]电池修复](#[6-3]电池不显示) ）
 - ~~触摸板可用但是设置偏好里找不到触摸板~~  （具体解决方案请移步 [[6-3]电池修复](#[6-3]电池不显示) ）
-- `sip` 无法关闭  （需要进入Recovery方可更改，据说直升无此问题）
+- ~~`sip` 无法关闭  （需要进入Recovery方可更改，据说直升无此问题）~~ (具体解决方案请移步 )
 - ~~时间无法更改自定义设置~~ (beta3 已修复该错误)
 - ~~蓝牙不可用~~ （已通过更换网卡解决）
 - USB网卡不可用
@@ -458,6 +458,31 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 ![hidpi](./image/hidpi3.png)
 
 *备注：因为我并没有开启HiDPI因此这些图片都取自hxd的[博客](https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/#more)里, 灵感来自远景大佬郑世祺，[来源](http://bbs.pcbeta.com/viewthread-1862148-1-1.html)。* *版权归郑世祺所有，侵权立删©️*
+
+### [6-6]关闭 `SIP`
+由于在 macOS Big Sur 中，苹果更新里安全机制，新增了 `authenticated root` 这也使得开机从只读快照启动而非直接系统文件启动，因此老方法 `E7030000` 已失效，但是根据 dortania 向导的提示，现在需使用 `FF0F0000` 关闭 `SIP`。
+
+![sip](./image/sip-1.png)
+
+具体操作：   
+打开 `config.plist`  
+- NVRAM
+  - add / 添加
+    - 7C436110-AB2A-4BBB-A880-FE41995C9F82
+      - `csr-active-config`
+        - `FF0F0000` ｜ 数据类型：`DATA`
+  - block / 删除
+    - 7C436110-AB2A-4BBB-A880-FE41995C9F82
+      - `csr-active-config`
+
+图例：
+
+![sip](./image/sip-2.png)
+
+![sip](./image/sip-3.png)
+
+修改完成后保存关闭即可，重启查看效果。   
+
 
 ## [7]附加：U盘直装
 *搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/)*
