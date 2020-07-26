@@ -458,7 +458,7 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 
 *备注：因为我并没有开启HiDPI因此这些图片都取自hxd的[博客](https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/#more)里, 灵感来自远景大佬郑世祺，[来源](http://bbs.pcbeta.com/viewthread-1862148-1-1.html)。* *版权归郑世祺所有，侵权立删©️*
 
-### [6-6]关闭 `SIP`
+### [6-6]关闭 `SIP` & Authenticated-root
 由于在 macOS Big Sur 中，苹果更新里安全机制，新增了 `authenticated root` 这也使得开机从只读快照启动而非直接系统文件启动，因此老方法 `E7030000` 已失效，但是根据 dortania 向导的提示，现在需使用 `FF0F0000` 关闭 `SIP`。
 
 ![sip](./image/sip-1.png)
@@ -482,6 +482,20 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 
 修改完成后保存关闭即可，重启查看效果。   
 
+### [6-7]修改系统快照
+*感谢macrumors论坛的ASentientBot会员，是他提供的方法*   
+1. 关闭SIP和authenticated-root（这是Big Sur新增的安全功能），关闭方法请查阅上面的章节[[6-6]关闭 `SIP` & Authenticated-root](#6-6关闭-sip--authenticated-root)。   
+    
+2. 重启后打开终端执行 `sudo -s` 切换到root。
+3. 输入 `diskutil list` 找到 Big Sur 的只读快照。快照名会叫`disk#s#s#`，如下图所示，我这里的快照叫 `disk3s5s1`。
+![snapshot](./image/snapshot-1.png)
+4. 输入 `diskutil mount disk#s#` 挂载真正的系统分区（对于我而言就是`diskutil mount disk3s5`）系统分区一般来说为快照分区上面的磁盘区（看上面那个图），例如你的快照为 `disk1s2s1`，那么你的系统分区为 `disk1s2`。
+5. 运行命令 `/S*/L*/F*/apfs.fs/C*/R*/apfs_systemsnapshot -v "/Volumes/你挂载的分区名" -r ""`，这个命令会允许你从真的系统盘启动。**注意！你挂载的分区名为你的系统盘名称 + 1，比如快照盘叫 `Macintosh HD`，那么挂载后的系统盘就叫 `Macintosh HD 1`。当然你也可以在磁盘工具中的装载点看到**
+![snapshot](./image/snapshot-3.png)
+6. 如果你想删除掉以前的只读快照，终端运行 `sudo diskutil apfs deletesnapshot`即可。   
+
+### [6-8]启用修改系统文件
+在操作完上述的[[6-6]关闭`SIP` & Authenticated-root](#6-6关闭-sip--authenticated-root) 和 [[6-7]修改系统快照](#6-7修改系统快照)后，重启在终端输入 `mount -uw /`即可启用修改系统文件。
 
 ## [7]附加：U盘直装
 *搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/)*
