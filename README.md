@@ -79,6 +79,11 @@
 
 ![11 beta3](image/beta3-8.png)
 
+### 关于`CLT`的修复
+前往 https://developer.apple.com/download/more/ 登陆苹果账号并下载 `Xcode 12 beta` 和 `Command Line Tools for Xcode 12 beta3`,下载完成后双击安装 `CLT` 即可，`Xcode 12` 需要解压xip文件后拖入应用程序完成安装，**同时删除老版本 `Xcode`**   
+
+![CLT](image/CLT.png)
+
 ## 7/16 更新 (`CLOVER v5120`)
 `CloverBootloader` 发布了最新版`CLOVER`引导 `v5.0 r5120` ，此次更新从 `OpenCore` 那边搬来了 `OcQuirks.efi` 和 `OpenRuntime.efi` 以实现引导 `Big Sur`。原文如下
 
