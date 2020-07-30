@@ -629,6 +629,12 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 ## [9]变更目录
 - 7/30
   - 更新BIOS教程 (Base版 Only)
+- 7/26
+  - 修复CLT问题
+- 7/25
+  - 修复SIP问题
+  - 修复Authenticated-root问题
+  - 修复系统写入权限&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/[Beta3]貌似已失效，后续会进行测试/
 - 7/22
   - 更新 macOS Big Sur beta3
 - 7/20 
