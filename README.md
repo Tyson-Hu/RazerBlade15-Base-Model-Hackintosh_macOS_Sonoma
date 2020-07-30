@@ -192,10 +192,74 @@
 ![info](./image/info.png)
 
 ## [3]解锁BIOS
+### [3-1]Base版 `BIOS` 解锁
  解锁BIOS可以参考EmeryWan的[教程](https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh#3-%E8%A7%A3%E9%94%81bios), 这里就不多描述了。macOS BigSur 对BIOS的大致设定与Catalina一致，有条件的可以尝试解锁CFG。（后面有时间的时候我会尝试一步步教你怎么解锁。）    
  ~~**更新：我已上传改好的bios（1.0.2），只可供同机型同版本bios使用！！！**~~
- **此操作具有不可逆的危险，有可能刷坏bios导致无法点亮，请谨慎操作！！！**
-### [3-1]Advanced版 BIOS解锁
+ **此操作具有不可逆的危险，有可能刷坏bios导致无法点亮，请谨慎操作！！！**   
+ 
+### [3-1-1]提取机器现使用的 `BIOS`   
+将 `Tools` 里的 `AFUWINGUI` 打开，在信息页面点击底部的 `储存` / `Save` 进行BIOS提取。↓    
+
+![bios](./image/bios-1.png)   
+
+文件名和存放位置按自己喜好，记得住就行。↓
+  
+![bios](./image/bios-2.png)   
+
+接着打开 `Tools` 里的 `AMIBCP`，左上角菜单栏点击 `File` → `Open` 打开刚刚提取的BIOS文件。↓   
+
+![bios](./image/bios-3.png)   
+
+打开后在左侧导航栏里找到 `  ` → `Setup` → `Chipset`，并将右侧的 `System Agent Configuration` 的 `Acces/Use` 由 `Default` 改为 `USER`。
+
+![bios](./image/bios-4.png)   
+
+![bios](./image/bios-5.png)   
+
+改完显示如下：↓   
+
+![bios](./image/bios-6.png)   
+
+接着进入：
+- `Setup`
+  - `Advanced`
+    - `Power & Performance`
+
+将以下项目权限从 `Default` 修改为 `USER`：
+- `Power & Performance`
+- `CPU - Power Management Control`
+- `Intel(R) Speed Shift Technology`
+
+![bios](./image/bios-7.png)  
+
+最后进入：
+- `Setup`
+  - `Advanced`
+    - `Power & Performance`
+      - `View/Configure CPU Lock Configuration`
+
+将以下项目权限从 `Default` 修改为 `USER`：
+- `CFG Lock`
+- `Overclocking Lock`
+
+![bios](./image/bios-8.png)   
+
+打开左上角菜单栏 `File` → `Save As...`，将修改好的BIOS文件保存到你记得住的地方，名字也是一样。保存完毕后即可关闭 `AMIBCP`。
+
+![bios](./image/bios-9.png) 
+
+回到 `AFUWINGUI`，点击底部的按钮 `开启` / `Open` 来读取刚才修改保存好的BIOS文件。  
+
+![bios](./image/bios-10.png) 
+
+**刷入前请尽可能关闭所有程序(包括杀毒软件)，以防止刷入BIOS过程被中断！！！**  
+读取完毕后点击底部按钮 `刷新` / `Flash` 即可开始刷入修改好的BIOS。
+
+![bios](./image/bios-11.png) 
+
+刷入中途可能出现卡顿，假死等状况(反正我是没遇到)请不要关闭软件或关闭电脑以免造成不可逆的损失！
+
+### [3-2]Advanced版 BIOS解锁
 具体查看stonevil大佬的帖子[Razer_Blade_Advanced_early_2019_Hackintosh](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)    
 **此操作具有不可逆的危险，有可能刷坏bios导致无法点亮，请谨慎操作！！！**
 
