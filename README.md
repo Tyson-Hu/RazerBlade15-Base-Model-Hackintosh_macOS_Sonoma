@@ -268,6 +268,11 @@
 ### [4-1]BIOS设置
 
 - `Advanced`
+  - `Power & Performance`
+    - `CPU - Power Management Control`
+      - `CPU Lock Configuration`
+        - `CFG Lock` 设置成 `Disabled`
+        - `Overclocking Lock` 设置成 `Disabled`
   - `Thunderbolt(TM) Configuration`
     - `Security Level` 设置成 `No Security`
 
