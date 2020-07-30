@@ -260,7 +260,8 @@
 刷入中途可能出现卡顿，假死等状况(反正我是没遇到)请不要关闭软件或关闭电脑以免造成不可逆的损失！
 
 ### [3-2]Advanced版 BIOS解锁
-具体查看stonevil大佬的帖子[Razer_Blade_Advanced_early_2019_Hackintosh](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)    
+由于我使用的并不是Advanced版本，所以我无法提供具体的图文教程，你们可以参考stonevil大佬的帖子[Razer_Blade_Advanced_early_2019_Hackintosh](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) 我Base版修改也是基于他的文章，这里再次感谢stonevil！！！
+   
 **此操作具有不可逆的危险，有可能刷坏bios导致无法点亮，请谨慎操作！！！**
 
 ## [4]安装前的准备
