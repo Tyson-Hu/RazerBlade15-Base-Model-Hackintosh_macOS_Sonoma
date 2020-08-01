@@ -498,7 +498,7 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 ```
 运行完毕重启即可
 
-提示：USB网卡现在还无法在macOS Big Sur 上使用！当然说不定以后可以（说的都是什么废话...），这里附上链接🔗供大🔥🚪查看 [点击跳转至Wireless-USB-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
+~~提示：USB网卡现在还无法在macOS Big Sur 上使用！当然说不定以后可以（说的都是什么废话...）~~ `chris1111`已经更新支持黑苹果的USB网卡驱动，这里附上链接🔗供大🔥🚪查看 [点击跳转至Wireless-USB-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
 
 ![usb](./image/usb.jpg)
 
