@@ -910,6 +910,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
+			<key>SerialInit</key>
+			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -975,7 +977,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>alcid=23 igfxcflbklt=1 -igfxmlr -wegnoegpu</string>
+				<string>alcid=23 -hbfx-disable-patch-pci -hbfxbeta igfxcflbklt=1 -igfxmlr -wegnoegpu</string>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>booter-fileset-basesystem</key>
