@@ -632,6 +632,40 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
   
 ## [9]变更目录
+- 8/2
+  - **更新7/18号编译版本 `OpenCore` (OpenCore 0.6.0)**（**I disable nvmefix, if you are using nvme drive you should enable it!!! / 我在efi中未启用nvmefix的kext，如果你使用nvme硬盘使用系统，请手动启用！！！**)
+    - Patches: Add AtaAtapiPassThru IDE timeout patch
+    - OcAppleSecureBootLib: Fix invalid assertion
+    - OcAppleIm4Lib: Fix memcpy undefined reference
+    - Include: Add BlockIoVendor header
+    - EfiLdr: Revert removal of memmap shifts
+    - Include: Update AppleCsrConfig with 11.0 definitions
+    - BootSector: Drop unused and non-functional GENPAGE mode
+    - EfiLdr: Fixed 32-bit booting on machines with over 4 GBs of RAM
+    - Docs: Document the DeviceProperty limitations for some drivers
+    - Update SSDT-EC-USBX.dsl (#92)
+    - OcXmlLib: Free original buffer on failure
+    - OcXmlLib: Correct/clarify XmlDocumentExport
+    - OcXmlLib: Fix previous commit
+    - OcXmlLib: Add plist doctype export option
+    - DataBase: Fixed BIOSReleaseDates
+    - PlatformInfo Automatic for all models
+    - Build: Fix warnings
+    - OcFileLib: Implement AllocateCopyFileData
+    - OcXmlLib: Implement XmlNodeChangeContent
+    - Utilities: Drop OpenDuetPkg binary and rebuild it with OC
+    - OcDevicePathLib: Added a workaround for PCI0 with 0x1 _UID
+    - OpenCoreMisc: Perform serial init separately via SerialInit option
+    - Docs: Fix the hint regarding RebuildAppleMemoryMap
+    - OcAfterBootCompatLib: Fix 32-bit dead loop
+    - Docs: Provide errata entry on OSXSAVE issue
+    - OcAppleKernelLib: Fixed OSXSAVE reporting when emulating CPUID on newer CPUs
+    - Docs: Improve the documentation
+    - OcConsoleLib: Update UGA comments
+    - OcFileLib: Consolidate to use GetFileInfo
+    - DataBase: Update builtin firmware versions for 11.0
+    - Update SampleLegacy.plist
+
 - 8/1
   - 更新 `USB-Adapter` 驱动 by `chris1111`
 - 7/30
