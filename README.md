@@ -166,7 +166,7 @@
 - ~~`sip` 无法关闭  （需要进入Recovery方可更改，据说直升无此问题）~~ (具体解决方案请移步 [[6-6]关闭 `SIP`](#6-6关闭-sip)
 - ~~时间无法更改自定义设置~~ (beta3 已修复该错误)
 - ~~蓝牙不可用~~ （已通过更换网卡解决）
-- ~~USB网卡不可用~~ (`chris1111`现已更新USB网卡对macOS11的支持)
+- ~~USB网卡不可用~~ (`chris1111`现已更新USB网卡对macOS11的支持，使用时需关闭 `SIP`!!!)
 - ~~状态栏卡顿~~   (具体解决方案请移步 [[6-4]状态栏卡顿](#[6-4]状态栏的卡顿) ）
 
     
@@ -537,9 +537,10 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 ```
 运行完毕重启即可
 
-~~提示：USB网卡现在还无法在macOS Big Sur 上使用！当然说不定以后可以（说的都是什么废话...）~~ `chris1111`已经更新支持黑苹果的USB网卡驱动，这里附上链接🔗供大🔥🚪查看 [点击跳转至Wireless-USB-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
+~~提示：USB网卡现在还无法在macOS Big Sur 上使用！当然说不定以后可以（说的都是什么废话...）~~ `chris1111`已经更新支持黑苹果的USB网卡驱动，这里附上链接🔗供大🔥🚪查看 [点击跳转至`Wireless-USB-Big-Sur-Adapter`](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)   
+**使用时需要关闭 `SIP` !!! [点击跳转至[6-6]关闭 `SIP` & `Authenticated-root`](#6-6关闭-sip--authenticated-root) 
 
-![usb](./image/usb.jpg)
+![usb](./image/usb.png)
 
 #### [6-4-2]直接更换博通网卡
 删除`WiFiAgent`只是缓兵之计，除了插网线否则你还是连不上网，因此给电脑更换博通网卡才是最好的解决方法。（而且雷蛇拆机并不会影响保修，不像某些厂商....）
@@ -864,7 +865,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 > 文章大致已经完成  ✅ ，后续将为各种小修小补...
 
 ## 未来计划 / Plans ：
-- ~~增加BIOS修改的图文教程 / Add detail for BIOS's tutorial  [七月底 / Late July]~~ [已完成 / Finished]
+- ~~增加BIOS修改的图文教程 / Add detail for BIOS's tutorial  [七月底 / Late July]~~ [已完成 / Finished] ✅
 - 独立变更目录 / Separate `changelog` to a individual file [七月底 / Late July]
-- ~~增加英语版本教程 / Add `English` version [八月底 / Late August]~~
-  - **Reason for cancellation** : `OC` now support `OTA`, no more need for this tutorial.
+- ~~增加英语版本教程 / Add `English` version [八月底 / Late August]~~ ❌
+  - **Reason for cancellation** : `OC` now support `OTA`, no more need for this tutorial. 
