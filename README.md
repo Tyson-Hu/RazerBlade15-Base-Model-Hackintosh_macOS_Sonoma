@@ -177,7 +177,7 @@
 |     IGPU     |        Intel UHD 630       |   无问题   |
 |     GPU      |  Nvdia 1060 Max-Q   | 除 10.13 High Sierra 安装 WebDriver 外，10.13以上版本皆不可用（建议直接屏蔽掉） |
 |      内存    |   16GB dual-channel DDR4-2667MHz, up to 64GB    |       无问题      |
-|     硬盘     | 更换为三星EVO 970          |                     无问题（不支持4K）                     |
+|     硬盘     | 更换为 Sabrent Rocket NVMe 1TB          |                     无问题（不支持4K）                     |
 |     网卡     |       9560NGW （现已更换为DW1560 / BCM94352Z）             |           WIFI 目前还不稳定，蓝牙无问题（建议更换博通网卡，1560的win驱动还没找到，后续会补）            |
 |    显示器    |        15.6" Full HD 60Hz, 1920 x 1080 IPS      |                无问题（可以在60Hz和48Hz之间切换）                     |
 |    摄像头    |       HD webcam (1MP / 720P)              |                     无问题                     |
