@@ -672,6 +672,9 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 ![usb_customize](./image/usb_customize-8.png)  
 
 导出的驱动位于桌面，你会看到生成的这三个文件，在 `OpenCore` 中，我们只需要这个 `USBPorts.kext`。将 `USBPorts.kext`拖入 `/EFI/OC/Kexts` 并将其添加到 `config.plist` 中。  
+
+![usb_customize](./image/usb_customize-9.png)
+
 将 `USBInjectAll.kext` 从 `config.plist` 中删除，并取消勾选下方 `Quirks` 窗口中的 `XhciPortLimit`
 
 ![usb_customize](./image/usb_customize-10.png)
