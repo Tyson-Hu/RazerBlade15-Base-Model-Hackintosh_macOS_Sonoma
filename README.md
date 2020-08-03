@@ -156,7 +156,7 @@
 ## 一些问题
 我也是刚接触黑苹果不久，到我写这篇文章才一个多月？ 还有很多问题是我无法解决的，当然我后面也会努力爬贴查找解决方案，毕竟 `macOS 11` 我不就是这么过来的嘛。如果有哪位大佬知道如何解决可以联系我，感激不尽！
 
-- 与10.15的问题一样，睡眠后无法唤醒，开盖就只有黑屏，其他都正常运作
+- ~~与10.15的问题一样，睡眠后无法唤醒，开盖就只有黑屏，其他都正常运作~~  (已解决，现在可以直接关盖睡眠💤 )
 - 无法进入Recovery  （直升无此问题，但这里并不会讲解直升，也许以后会？）
 - ~~Wi-Fi老断~~  (更新AirportBrcmFixup)
 - ~~直升系统导致Safari无法正常运行（过一会就闪退）~~
@@ -617,6 +617,8 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 ### [6-8]启用修改系统文件
 在操作完上述的[[6-6]关闭`SIP` & Authenticated-root](#6-6关闭-sip--authenticated-root) 和 [[6-7]修改系统快照](#6-7修改系统快照)后，重启在终端输入 `mount -uw /`即可启用修改系统文件。
 
+### [6-9]USB定制驱动
+
 ## [7]附加：U盘直装
 *搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/)*
 
@@ -673,6 +675,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   
 ## [9]变更目录
 - 8/2
+  - **睡眠修复，现在可以直接合盖睡眠或手动点击睡眠💤 ！！！**
   - **更新7/18号编译版本 `OpenCore` (OpenCore 0.6.0)**（**I disable nvmefix, if you are using nvme drive you should enable it!!! / 我在efi中未启用nvmefix的kext，如果你使用nvme硬盘使用系统，请手动启用！！！**)
     - Patches: Add AtaAtapiPassThru IDE timeout patch
     - OcAppleSecureBootLib: Fix invalid assertion
