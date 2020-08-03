@@ -738,6 +738,56 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 ## [9]变更目录
 - 8/3 
   - 更新macOS系统优化：USB驱动定制教程
+  - **更新8/3号自编译 `VirtualSMC` (VirtualSMC 1.1.4)** 
+    - Improve SMC generation debugging
+    - Force x86_64
+    - Resolve booting issue on macOS 11 due to provider race condition
+    - Get things compile in Xcode 12 (is not guaranteed to work)
+    - Fixed crashes when trying to read CLKT key
+    - Update README.md
+  - **更新8/3号自编译 `Lilu`  （Lilu 1.4.6）**
+    - Fixed another race condition in kext patcher loading code in 11.0
+    - Resolve init issues on 11.0 with multiple PCI root devices
+    - Force x86_64
+    - Process already loaded kexts early in 11.0
+    - Make function routing atomic in several places
+    - Get things compile in Xcode 12 (is not guaranteed to work)
+    - Initialise kernel patches in parallel to PCI
+    - Add RTC register indices
+    - Abort on PCI register read failure
+    - Implement Lilu loading at console init in 11.0
+    - Fix typo in debug logging
+    - Update README.md
+  - **更新8/3号自编译 `WhateverGreen`  （WhateverGreen 1.4.1）**
+    - Force x86_64
+    - fix typo and spaces ([#59](https://github.com/acidanthera/WhateverGreen/pull/59))
+    - Get things compile in Xcode 12 (is not guaranteed to work)
+    - Update FAQ.IntelHD.cn.md ([#58](https://github.com/acidanthera/WhateverGreen/pull/58))
+    - Update README.md
+    - Update FAQ.IntelHD.en.md
+  - **新增8/3号自编译 `NVMeFix`   (NVMeFix 1.0.3)**
+    - Added constants for 11.0 support.
+    - Get things compile in Xcode 12 (is not guaranteed to work)
+    - Leave a note regarding 11.0
+    - Force x86_64
+  - **新增8/3号自编译 `CPUFriend`   (CPUFriend 1.2.1)**
+    - Added constants for 11.0 support
+    - Get things compile in Xcode 12 (is not guaranteed to work)
+    - Force x86_64
+  - **更新8/3号自编译 `AppleALC`  （AppleALC 1.5.1）**
+    - Force x86_64
+    - Get things compile in Xcode 12 (is not guaranteed to work)
+    - Update README.md
+  - **更新8/3号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
+    - Force x86_64
+    - Get things compile in Xcode 12 (is not guaranteed to work)
+    - Fix ordering of build stages ([#8](https://github.com/acidanthera/AirportBrcmFixup/pull/8))
+    - Update README.md
+  - **新增8/3号自编译 `HibernationFixup`   (HibernationFixup 1.3.4)**
+    - Force x86_64
+    - Get things compile in Xcode 12 (is not guaranteed to work)
+    - Added constants for 11.0 support
+
 - 8/2
   - **睡眠修复，现在可以直接合盖睡眠或手动点击睡眠💤 ！！！**
   - **更新7/18号编译版本 `OpenCore` (OpenCore 0.6.0)**（**I disable nvmefix, if you are using nvme drive you should enable it!!! / 我在efi中未启用nvmefix的kext，如果你使用nvme硬盘使用系统，请手动启用！！！**)
