@@ -618,6 +618,64 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 在操作完上述的[[6-6]关闭`SIP` & Authenticated-root](#6-6关闭-sip--authenticated-root) 和 [[6-7]修改系统快照](#6-7修改系统快照)后，重启在终端输入 `mount -uw /`即可启用修改系统文件。
 
 ### [6-9]USB定制驱动
+通过定制USB接口驱动可以让你电脑的USB接口正常工作，同时也能间接解决睡眠问题（当然我这个睡眠不是通过这个解决的。。。）定制的方法也很简单，全程花费十分钟左右。   
+
+准备工具：
+- macOS Big Sur
+- Hackintool
+- 一个有线鼠标或者其他 `USB2.0` 接口的硬件用作后续的测试
+- 一个 `USB 3.0` 的U盘或其他同接口的硬件用作后续的测试（ `USB3.1`，`3.2` 都可，这里只是用于测试接口）
+  
+如何分辨 `USB2.0` 和 `USB3.0` ？   
+
+![usb_customize](./image/usb_customize.png)
+*图片转载自网页 [使用 Hackintool 定制黑苹果 USB 端口，适用于 Clover & OpenCore](https://heipg.cn/tutorial/custom-usbports-for-hackintosh.html),侵权立删©️*
+
+挂载 `EFI` 分区，用 `终端` 或者 `OCC` 都行   
+将 `USBInjectAll.kext` 放入 `/EFI/OC/Kexts`。
+
+![usb_customize](./image/usb_customize-1.png)
+
+将 `USBInjectAll.kext` 添加到 `config.plist` 中，并将底部 `Quirks` 窗口中的 `XhciPortLimit` 勾上以解除USB接口限制。   
+
+![usb_customize](./image/usb_customize-2.png)
+
+设置完成后保存并重启macOS  
+
+解压 `Tools`里的 `Hackintool` 并安装它，然后打开该软件。  
+
+进入 `Hackintool` 后跳转到 `USB` 窗口（顶部），你会看到一堆USB接口。（**由于我已经定制过USB，因此图里的接口比较少**）   
+
+![usb_customize](./image/usb_customize-3.png)
+
+接着将你准备好的 `USB2.0` 设备把电脑上所有的接口都插一遍并记录下来。(直接修改 `连接器种类`就行） 
+如图所示，当我插入我的 `USB2.0` （我的鼠标）设备时，我的 `HS01` 接口检测到了设备插入，那么对应的就是 `HS01` ➡️ `USB2.0`。
+![usb_customize](./image/usb_customize-4.png)
+
+记录下来后将你的 `USB2.0` 设备插入另外一个接口，这时可以看到 `HS02` 检测到了设备的插入，那么对应的就是 `HS02` ➡️ `USB2.0`
+![usb_customize](./image/usb_customize-5.png)
+
+接着将你的USB3.0，Type-C都轮流测试一遍并记录下来（直接修改 `连接器种类`就行）  
+![usb_customize](./image/usb_customize-6.png)
+
+**测试Type-C时，记得两面都要测试。如果只有一面有检测到，那么就是 `TypeC+Sw`。如果两面都有检测到，那么就是 `TypeC`**  
+
+**同时需要注意系统最多支持占用 `15` 条 `USB线路`，`USB2.0` 或着叫 `HSxx` 的端口占用 `1` 条 `线路`， `USB3.0`， `TypeC`， `TypeC+Sw` 或者叫 `SSxx` 的端口占用 `2` 条 `线路`！因此如果它们加起来超过 `15` 条 `线路`，那么你就需要做出取舍！如果你的 `USB线路` 加起来没有 `15` 条或者 刚好 `15` 条(比如我），那没事了当我没说**    
+
+最后，定制完成后，你需要删除多余无用的接口。（确保你所有的接口都测试过了！，测试完成后剩下这些灰色的接口就是无用的接口，选中点击下方的 `➖` 即可删除）  
+
+![usb_customize](./image/usb_customize-7.png)  
+
+删除完成后，点击右侧的到处按钮，到处定制好的USB驱动。  
+
+![usb_customize](./image/usb_customize-8.png)  
+
+导出的驱动位于桌面，你会看到生成的这三个文件，在 `OpenCore` 中，我们只需要这个 `USBPorts.kext`。将 `USBPorts.kext`拖入 `/EFI/OC/Kexts` 并将其添加到 `config.plist` 中。  
+将 `USBInjectAll.kext` 从 `config.plist` 中删除，并取消勾选下方 `Quirks` 窗口中的 `XhciPortLimit`
+
+![usb_customize](./image/usb_customize-10.png)
+
+设置完成后保存重启即可完成USB定制。
 
 ## [7]附加：U盘直装
 *搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/)*
