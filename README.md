@@ -625,10 +625,11 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 - Hackintool
 - 一个有线鼠标或者其他 `USB2.0` 接口的硬件用作后续的测试
 - 一个 `USB 3.0` 的U盘或其他同接口的硬件用作后续的测试（ `USB3.1`，`3.2` 都可，这里只是用于测试接口）
+- USBInjectAll.kext (这里我就不提供了，网上搜索一堆)
   
 如何分辨 `USB2.0` 和 `USB3.0` ？   
 
-![usb_customize](./image/usb_customize.png)
+![usb_customize](./image/usb_customize.png)   
 *图片转载自网页 [使用 Hackintool 定制黑苹果 USB 端口，适用于 Clover & OpenCore](https://heipg.cn/tutorial/custom-usbports-for-hackintosh.html),侵权立删©️*
 
 挂载 `EFI` 分区，用 `终端` 或者 `OCC` 都行   
