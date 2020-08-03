@@ -783,14 +783,17 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
     - Get things compile in Xcode 12 (is not guaranteed to work)
     - Fix ordering of build stages ([#8](https://github.com/acidanthera/AirportBrcmFixup/pull/8))
     - Update README.md
-  - **新增8/3号自编译 `HibernationFixup`   (HibernationFixup 1.3.4)**
+  - **更新8/3号自编译 `HibernationFixup`   (HibernationFixup 1.3.4)**
     - Force x86_64
     - Get things compile in Xcode 12 (is not guaranteed to work)
     - Added constants for 11.0 support
+  - **更新8/2号编译版本 `OpenCore` (OpenCore 0.6.0)**
+    - Update SSDT-EC-USBX.dsl
+    - OcCpuLib: Fix display name for i9 CPUs like 7920X
 
 - 8/2
   - **睡眠修复，现在可以直接合盖睡眠或手动点击睡眠💤 ！！！**
-  - **更新7/18号编译版本 `OpenCore` (OpenCore 0.6.0)**（**I disable nvmefix, if you are using nvme drive you should enable it!!! / 我在efi中未启用nvmefix的kext，如果你使用nvme硬盘使用系统，请手动启用！！！**)
+  - **更新8/1号编译版本 `OpenCore` (OpenCore 0.6.0)**（**I disable nvmefix, if you are using nvme drive you should enable it!!! / 我在efi中未启用nvmefix的kext，如果你使用nvme硬盘使用系统，请手动启用！！！**)
     - Patches: Add AtaAtapiPassThru IDE timeout patch
     - OcAppleSecureBootLib: Fix invalid assertion
     - OcAppleIm4Lib: Fix memcpy undefined reference
