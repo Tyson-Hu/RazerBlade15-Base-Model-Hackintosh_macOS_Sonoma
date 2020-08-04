@@ -181,11 +181,11 @@
 - 安装后无电池图标🔋或者电量一直为0%（触摸板可用但是设置里识别不出来的，**别问我为啥这跟触摸板也有关系，我也不知道，反正我是这样做就好了😯**），请将kext里的`SMCBatteryManager`更换为`ACPIBatteryManager`
 - 无需在OC里注入显卡信息，如果显示出现问题可尝试删除`Device`里的显卡注入信息 **（仅限 UHD630，其他型号无视本信息）**
 
-## 一些问题
+## 一些问题 *（都已解决）*
 我也是刚接触黑苹果不久，到我写这篇文章才一个多月？ 还有很多问题是我无法解决的，当然我后面也会努力爬贴查找解决方案，毕竟 `macOS 11` 我不就是这么过来的嘛。如果有哪位大佬知道如何解决可以联系我，感激不尽！
 
 - ~~与10.15的问题一样，睡眠后无法唤醒，开盖就只有黑屏，其他都正常运作~~  (已解决，现在可以直接关盖睡眠💤 )
-- 无法进入Recovery  （直升无此问题，但这里并不会讲解直升，也许以后会？）
+- ~~无法进入Recovery  （直升无此问题，但这里并不会讲解直升，也许以后会？）~~  (具体解决方案请移步[[6-10修复Recovery无法进入](#6-10修复recovery无法进入)])
 - ~~Wi-Fi老断~~  (更新AirportBrcmFixup)
 - ~~直升系统导致Safari无法正常运行（过一会就闪退）~~
 - ~~开机画屏~~  （显卡注入问题，UHD630 无需再注入显卡id）
@@ -708,6 +708,20 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 ![usb_customize](./image/usb_customize-10.png)
 
 设置完成后保存重启即可完成USB定制。
+
+### [6-10]修复Recovery无法进入
+用 `OCC` 打开 `config.plist`,   
+找到 `UEFI` -> `APFS` -> `JumpstartHotPlug` 勾选即可
+
+### [6-11]解决App Store无法登录的问题
+重置 `NVRAM` 即可解决该问题   
+打开终端，输入命令：
+
+```bash
+sudo nvram -c
+```
+
+接着输入用户密码后回车，不必理会提示信息，重启即可
 
 ## [7]附加：U盘直装
 *搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/)*
