@@ -6,29 +6,29 @@
 *I gonna stop updating this article for few days. Reason: Upgrading my useless SSD which means I have to reinstall macOS Big Sur. So you know, I ain't do the same changes twice, that's why I decided stop updating. I will be back to updating on 8/6.* 
 
 ## 文件说明 / File Description  
-- CLOVER
+- **CLOVER**
   - `CLOVER`引导`EFI`，版本`5103`，对应系统 `macOS 10.15.4`。由于我已经转入 `OC` 引导，因此不会再进行更新，放在这里只是为了给那些需要使用 `5120` 的人作为参考
   - EFI with `CLOVER`，`v5103`, for `macOS 10.15.4`. I won't update it anymore,because of I move to `OC`. Just a reference for guys who want to use `CLOVER v5120`.
   - 问题：无问题  / Issue: None
-- EFI 10.15.6
+- **EFI 10.15.6**
   - `OpenCore` 版本的EFI，版本 `0.6.0`，对应系统 `macOS 10.15.6`。我会更新该EFI，但是频率不高，因为我现在很少使用该版本系统。
   - EFI with `OpenCore` , `v0.6.0`, for `macOS 10.15.6`. Still updating, but low freq.
   - 问题：睡眠唤醒黑屏  / Issue: Wakeup with BlackScreen(after sleep)
-- EFI 11
+- **EFI 11**
   - `OpenCore` 版本的EFI，版本 `0.6.0`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
   - EFI with `OpenCore` , `v0.6.0`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
   - 问题：更新最新版 `VoodooInput` 后无法实现触摸板多点触控 / Issue : Lost MultiTouch after updated `VoodooInput`
-- EFI
+- **EFI**
   - `OpenCore` 版本的EFI，版本 `0.6.0`，对应系统 `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
   - EFI with `OpenCore` , `v0.6.0`, for `macOS 11` & `macOS 10.15.6`. `Stable Version` for EFI, Only updated while it's stable to use. Thus not too high freq.
   - 问题：无问题 / Issue: `None`
-- Tools
+- **Tools**
   - 里面包含该教程需要的基本工具（软件）。
   - Include some necessary / basic `tools` for this tutorial
-- Wallpaper
+- **Wallpaper**
   - 我备份的壁纸。。。
   - Just `Wallpaper`,nothing else. (if u want something else, go porxhxb prm)
-- image
+- **image**
   - 本教程所包含的图片的缓存，对于你们来说并没有什么用
   - Just some `image caches` for this tutorial, `useless` to your guys.
 
