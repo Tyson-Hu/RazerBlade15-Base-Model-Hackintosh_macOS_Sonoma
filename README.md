@@ -5,6 +5,34 @@
 
 *I gonna stop updating this article for few days. Reason: Upgrading my useless SSD which means I have to reinstall macOS Big Sur. So you know, I ain't do the same changes twice, that's why I decided stop updating. I will be back to updating on 8/6.* 
 
+## 文件说明 / File Description  
+- CLOVER
+  - `CLOVER`引导`EFI`，版本`5103`，对应系统 `macOS 10.15.4`。由于我已经转入 `OC` 引导，因此不会再进行更新，放在这里只是为了给那些需要使用 `5120` 的人作为参考
+  - EFI with `CLOVER`，`v5103`, for `macOS 10.15.4`. I won't update it anymore,because of I move to `OC`. Just a reference for guys who want to use `CLOVER v5120`.
+  - 问题：无问题  / Issue: None
+- EFI 10.15.6
+  - `OpenCore` 版本的EFI，版本 `0.6.0`，对应系统 `macOS 10.15.6`。我会更新该EFI，但是频率不高，因为我现在很少使用该版本系统。
+  - EFI with `OpenCore` , `v0.6.0`, for `macOS 10.15.6`. Still updating, but low freq.
+  - 问题：睡眠唤醒黑屏  / Issue: Wakeup with BlackScreen(after sleep)
+- EFI 11
+  - `OpenCore` 版本的EFI，版本 `0.6.0`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
+  - EFI with `OpenCore` , `v0.6.0`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
+  - 问题：更新最新版 `VoodooInput` 后无法实现触摸板多点触控 / Issue : Lost MultiTouch after updated `VoodooInput`
+- EFI
+  - `OpenCore` 版本的EFI，版本 `0.6.0`，对应系统 `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
+  - EFI with `OpenCore` , `v0.6.0`, for `macOS 11` & `macOS 10.15.6`. `Stable Version` for EFI, Only updated while it's stable to use. Thus not too high freq.
+  - 问题：无问题 / Issue: `None`
+- Tools
+  - 里面包含该教程需要的基本工具（软件）。
+  - Include some necessary / basic `tools` for this tutorial
+- Wallpaper
+  - 我备份的壁纸。。。
+  - Just `Wallpaper`,nothing else. (if u want something else, go porxhxb prm)
+- image
+  - 本教程所包含的图片的缓存，对于你们来说并没有什么用
+  - Just some `image caches` for this tutorial, `useless` to your guys.
+
+
 ## 写在最前
 - 本文的内容主要参考了[EmeryWan](https://github.com/EmeryWan)的文章[“雷蛇灵刃15黑苹果”](https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh)作为入门黑苹果的教程（该文章采用了Clover的引导），[Razer Blade 15 Base Model Hackintosh](https://github.com/blade15basehackintosh)的文章["razerbladehackintosh"](https://github.com/blade15basehackintosh/razerbladehackintosh)作为OC（OpenCore）引导转换的参考文档，以及[doanhmaple](https://github.com/doanhmaple)的文章[“Razer-Blade-15-Advanced-2018-Hackintosh”](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh)对ACPI的电池修补工作的patch帮助。这里再次感谢他们对安装黑苹果的分享和付出（Big thanks for [EmeryWan](https://github.com/EmeryWan), [Razer Blade 15 Base Model Hackintosh](https://github.com/blade15basehackintosh) and [doanhmaple](https://github.com/doanhmaple)!!!)。如果你还需要更多关于黑苹果安装以及优化的教程，可以前往[黑果小兵的部落阁](https://blog.daliansky.net/)和[Hackintosh黑苹果长期维护机型EFI及安装教程整理](https://github.com/daliansky/Hackintosh)查看，里面有很多杂七杂八的机型配置和安装教程以及一些实用的黑苹果优化。
 - 跟很多人一样，我开始接触黑苹果这个领域是因为macOS的流畅与稳定性，对码农更友好的unix内核和好看的系统UI。再者由于新冠疫情的影响，我被迫长时间拘留在家中实在无聊🥱，并且找到了很多相同机型的教程，这大大减少了入门黑苹果的难度。
