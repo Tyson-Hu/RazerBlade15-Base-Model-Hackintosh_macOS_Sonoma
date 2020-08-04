@@ -1,7 +1,7 @@
 # RazerBlade15-Base-Model-Hackintosh
 警告⚠️：本目录仅为个人记录所准备，如果你也想尝试升级macOS11可以以此教程作为参考，本人不会为你操作过程中所出现的任何错误负责！请自己酌量而行。     
 
-*本文章将于近日暂停部分关于系统优化的更新，因为我在近日准备升级我的固态硬盘，因此会重装macOS Big Sur。预计8/5号恢复更新，感谢各位谅解。*    
+*本文章将于近日暂停部分关于系统优化的更新，因为我在近日准备升级我的固态硬盘，因此会重装macOS Big Sur。预计8/6号恢复更新，感谢各位谅解。*    
 
 *I gonna stop updating this article for few days. Reason: Upgrading my useless SSD which means I have to reinstall macOS Big Sur. So you know, I ain't do the same changes twice, that's why I decided stop updating. I will be back to updating on 8/6.* 
 
