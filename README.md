@@ -586,6 +586,8 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 换好装上背板即可
 
 ### [6-5]开启HiDPI
+**开启教程选择下面 `[6-5-1]将旧系统的 HiDPI 转移到 macOS 11` 或 `[6-5-2]通过 one-key-hidpi 开启` 其中一个即可。**  
+
 由于macOS11对于安全性更强的要求，macOS Catalina中解锁sle的命令已经失效了。尽管如此，HiDPI的开启不受影响，传统开启的方法是把显示器文件写入进系统目录 `/System/Library/Displays/Contents/Resources/Overrides`，这样做有风险而且升级后失效。  
 
 把显示器文件写入目录 `/Library/Displays/Contents/Resources/Overrides` 能取得相同效果，而且这样做的好处有：
