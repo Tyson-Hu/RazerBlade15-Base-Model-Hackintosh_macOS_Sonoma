@@ -594,6 +594,7 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 - 保持系统目录纯净
 - 容易恢复，删除`/Library/Displays/` 文件夹即可
 
+### [6-5-1]将旧系统的 HiDPI 转移到 macOS 11 **(需要你旧系统已开启HiDPI)**
 开启方法：
 
 ![hidpi](./image/hidpi1.png)
@@ -605,6 +606,16 @@ $sudo mv com.apple.wifi.WiFiAgent.plist ../LaunchAgentsIgnored
 ![hidpi](./image/hidpi3.png)
 
 *备注：因为我并没有开启HiDPI因此这些图片都取自hxd的[博客](https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/#more)里, 灵感来自远景大佬郑世祺，[来源](http://bbs.pcbeta.com/viewthread-1862148-1-1.html)。* *版权归郑世祺所有，侵权立删©️*
+
+### [6-5-2]通过 `one-key-hidpi` 开启
+操作原理与开头说的一致，这里只是讲目标位置进行更改，你需要做的就是打开终端，  
+并输入以下代码：  
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/mlch911/one-key-hidpi/master/hidpi.sh)"
+```
+*`one-key-hidpi`由 `xzhih` 大佬开发，并由 `mlch911` 进行fork并对目标位置进行更改。在这里再次感谢！[点击进入issue查看详情🔎](https://github.com/xzhih/one-key-hidpi/issues/136)*   
+
+接着按照你自己的机型设置对应的设备和分辨率，设置完成后重启即可生效。  
 
 ### [6-6]关闭 `SIP` & Authenticated-root
 由于在 macOS Big Sur 中，苹果更新里安全机制，新增了 `authenticated root` 这也使得开机从只读快照启动而非直接系统文件启动，因此老方法 `E7030000` 已失效，但是根据 dortania 向导的提示，现在需使用 `FF0F0000` 关闭 `SIP`。
@@ -778,6 +789,11 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
   
 ## [9]变更目录
+- 8/7
+  - 更新HIDPi教程
+- 8/4
+  - 更新USB定制教程
+  - 更新 macOS Big Sur Beta 4
 - 8/3
   - 更新EFI驱动到最新稳定版本
   - 更新官方Kext全家桶（搬运自@acidanthera）
