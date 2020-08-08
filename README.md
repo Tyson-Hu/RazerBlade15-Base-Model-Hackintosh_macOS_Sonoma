@@ -60,7 +60,7 @@
 
 ## 目录
 - 更新
-  - [ macOS Big Sur Beta4 （8/4 更新,Pending）](#84-更新-pending-will-update-on-86)
+  - [ macOS Big Sur Beta4 （8/4 更新,~~Pending~~, Skip, until next stable version release.）](#84-更新-pending-will-update-on-86)
   - [ macOS Big Sur Beta3 （7/22 更新）](#722-更新)
   - [ Clover v5120 （7/16 更新）](#716-更新-clover-v5120)
   - [ macOS 10.15.6 （7/15 更新）](#715-更新-非-big-sur--catalina)
@@ -77,7 +77,7 @@
 - [参考](#8参考)
 - [变更目录](#9变更目录)
 
-## 8/4 更新 (Pending, Will update on 8/6)
+## 8/4 更新 (~~Pending~~, Skip, until next stable version release.)
 苹果官方推出了 macOS Big Sur Beta4，更新过程与之前一致。由于我在 `beta4` 中有许多软件都出现了问题，因此我决定回到 `beta3` 版本继续使用，所以这里并没有放出截图。公测版(Public Beta)与 `beta4` 内容一致，只是更改了版本号。
 
 ## 7/22 更新 
