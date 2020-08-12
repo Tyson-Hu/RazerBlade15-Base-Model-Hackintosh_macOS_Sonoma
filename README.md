@@ -794,6 +794,8 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - 8/12
   - 更新正式版 `EFI` 
   - 更新 `OpenCore Configurator 2.9.1.0` 
+  - 更改机型为 `MacBook Pro 15,2`
+  - 添加图像化引导
 - 8/7
   - 更新HIDPi教程
 - 8/4
