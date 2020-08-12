@@ -14,7 +14,7 @@
   - `OpenCore` 版本的EFI，版本 `0.6.0`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
   - EFI with `OpenCore` , `v0.6.0`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
   - 问题：更新最新版 `VoodooInput` 后无法实现触摸板多点触控 / Issue : Lost MultiTouch after updated `VoodooInput`
-- **EFI** [目前在 `beta4` 中仍有启动问题]
+- **EFI** 
   - `OpenCore` 版本的EFI，版本 `0.6.0`，对应系统 `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
   - EFI with `OpenCore` , `v0.6.0`, for `macOS 11` & `macOS 10.15.6`. `Stable Version` for EFI, Only updated while it's stable to use. Thus not too high freq.
   - 问题：无问题 / Issue: `None`
