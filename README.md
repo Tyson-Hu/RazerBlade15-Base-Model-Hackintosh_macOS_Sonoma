@@ -793,6 +793,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 ## [9]变更目录
 - 8/12
   - 更新正式版 `EFI` 
+  - 更新 `OpenCore Configurator 2.9.1.0` 
 - 8/7
   - 更新HIDPi教程
 - 8/4
