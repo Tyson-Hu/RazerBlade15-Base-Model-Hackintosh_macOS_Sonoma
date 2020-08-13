@@ -67,7 +67,7 @@
   - [ macOS 10.15.6 （7/15 更新）](#715-更新-非-big-sur--catalina)
   - [ 【黑果小兵】macOS Big Sur Beta 2 Installer for OpenCore and PE双EFI分区原版镜像 （7/11 更新）](#711-更新)
   - [macOS Big Sur Beta2 （7/7 更新）](#77-更新)
-- [一些问题](#一些问题)
+- [一些问题](#一些问题-都已解决)
 - [硬件介绍](#1硬件介绍)
 - [最终效果](#2最终效果)
 - [解锁BIOS](#3解锁bios)
