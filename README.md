@@ -812,6 +812,22 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 ## [9]变更目录
 - 8/13
   - 修复 `DW1560` 在 `Beta4` 和 `Public Beta` 的问题
+  - **更新8/13号自编译 `VirtualSMC` (VirtualSMC 1.1.6)**
+    - Fix audio lags in Safari caused by reading SMM in SMCDellSensors plugin([#36](https://github.com/acidanthera/VirtualSMC/pull/36))  
+    - Sync changelog
+    - Add experimental support for supplement information ([#34](https://github.com/acidanthera/VirtualSMC/pull/34))
+    - Drop extra semicolon
+  - **更新8/13号自编译 `Lilu`  （Lilu 1.4.7）**
+    - Sync changelog
+    - Do not remove osfmk folder from SDK's libraries (will be used by SMCDellSensors and probably SMCProcessor)
+  - **更新8/13号自编译 `AppleALC`  （AppleALC 1.5.2）**
+    - Added missing layout7.xml ([#586](https://github.com/acidanthera/AppleALC/pull/586))
+    - Update Changelog.md
+    - Update README_CN.md
+  - **更新8/13号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.9）**
+    - boot-arg and property `brcmfx-aspm` supports special value `255` in order to skip logic disabling APSM for 0x14e4:0x43a3 (DW1820A).
+    - Update Changelog.md
+    
 - 8/12
   - 更新正式版 `EFI` 
   - 更新 `OpenCore Configurator 2.9.1.0` 
