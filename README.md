@@ -656,7 +656,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/mlch911/one-key-hidpi/ma
 
 修改完成后保存关闭即可，重启查看效果。   
 
-### [6-7]修改系统快照
+### [6-7]修改系统快照 [**这里并不推荐修改，因为会失去OTA的机会！**]
 *感谢macrumors论坛的ASentientBot会员，是他提供的方法*   
 1. 关闭SIP和authenticated-root（这是Big Sur新增的安全功能），关闭方法请查阅上面的章节[[6-6]关闭 `SIP` & Authenticated-root](#6-6关闭-sip--authenticated-root)。   
     
