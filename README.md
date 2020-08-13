@@ -77,6 +77,18 @@
 - [参考](#8参考)
 - [变更目录](#9变更目录)
 
+## 8/13 更新
+对 `AirportBrcmFixup` 进行了修补， 现在 `DW1560 / Brcm94352z` 在 `Beta4` 和 `Public Beta` 均可正常运行，不会再卡开机boot。    
+
+`Beta4` 与 `Public Beta` 内容一致，只是变更了版本号而已，这里我选择使用 `Public Beta`。   
+
+版本说明：  
+`20A5343j` ➡️ `Public Beta`   
+`20A5343i` ➡️ `Beta4`
+
+附上截图：   
+![11 beta3](image/publicbeta1.png)
+
 ## 8/4 更新 (~~Pending~~, Skip, until next stable version release.)
 苹果官方推出了 macOS Big Sur Beta4，更新过程与之前一致。由于我在 `beta4` 中有许多软件都出现了问题，因此我决定回到 `beta3` 版本继续使用，所以这里并没有放出截图。公测版(Public Beta)与 `beta4` 内容一致，只是更改了版本号。
 
@@ -791,6 +803,8 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
   
 ## [9]变更目录
+- 8/13
+  - 修复 `DW1560` 在 `Beta4` 和 `Public Beta` 的问题
 - 8/12
   - 更新正式版 `EFI` 
   - 更新 `OpenCore Configurator 2.9.1.0` 
