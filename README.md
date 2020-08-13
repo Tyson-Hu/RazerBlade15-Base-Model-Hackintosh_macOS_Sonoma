@@ -219,7 +219,7 @@
 |     GPU      |  Nvdia 1060 Max-Q   | 除 10.13 High Sierra 安装 WebDriver 外，10.13以上版本皆不可用（建议直接屏蔽掉） |
 |      内存    |   16GB dual-channel DDR4-2667MHz, up to 64GB    |       无问题      |
 |     硬盘     | 更换为 Sabrent Rocket NVMe 1TB          |                     无问题                     |
-|     网卡     |       9560NGW （现已更换为DW1560 / BCM94352Z）             |           WIFI 目前还不稳定，蓝牙无问题（建议更换博通网卡，1560的win驱动还没找到，后续会补）            |
+|     网卡     |       9560NGW （现已更换为DW1560 / BCM94352Z）             |           无问题（Windows驱动需要自己下载）            |
 |    显示器    |        15.6" Full HD 60Hz, 1920 x 1080 IPS      |                无问题（可以在60Hz和48Hz之间切换）                     |
 |    摄像头    |       HD webcam (1MP / 720P)              |                     无问题                     |
 |    扬声器    |       Realtek ALC256              |                     无问题                     |
@@ -228,7 +228,7 @@
 |    触控板    |            全玻璃                |             无问题                             |
 |  HDMI 接口   |                     |    直通显卡，除安装 High Sierra 外不可用     |
 | Mini DP 接口 |                     |    直通显卡，除安装 High Sierra 外不可用     |
-|    雷电3     |                     |   被识别成 USB3.1 ？？？  |
+|    雷电3     |                     |   被识别成 USB3.1 ？？？（eGPU目前不确定，应该无法使用）  |
 |    大小      |       17.8mm x 235mm x 355mm  |    这tm还能变？？？ | 
 |    重量       |         2.21 Kg        |    还想变的更轻？别做梦了老铁     | 
 |    电池      |    80Wh （好像是，我忘了，反正不耐用...)   |无问题（还能有问题 ？？？）    |
@@ -239,7 +239,7 @@
 
 | 网卡型号 | 描述 |
 | ---: | :--- | 
-| ``BCM94352Z (DW-1560)`` | 推荐，完美适配macOS 11，免驱比较省心。双天线，即装即用。**Windows 10需要安装驱动才可使用！** | 
+| ``BCM94352Z (DW-1560)`` | 适配macOS 11，双天线，即装即用（用我EFI的话）。**Windows 10需要安装驱动才可使用！** | 
 | ``BCM94360cs2`` | 双天线 + 免驱，但是需要自己另购买转接卡，据说2.4GHz WiFi 与 蓝牙有干扰 | 
 | ``BCM94350ZAE(DW-1820a)`` | 黑果小兵推荐的网卡，在macOS 11中已不是免驱卡，需要自己打驱动补丁，并且需要屏蔽针脚，爱折腾的可以上 |
    
@@ -250,8 +250,8 @@
 | ---: | :--- |  :--- | 
 |  ``Samsung EVO 970 NVMe``  |   否  |  一个性能非常优秀的SSD，当然价格也非常的扎心，我知道买不起是我的问题，但是不支持4k使我劝退 |
 |  ``Sabrent Rocket NVMe``  |   是  |   由`stonevil`大佬确认，外网许多评测都对该SSD的性价比表示认可，我也入手了该SSD，顺序读取3500MB/s  |
-|  ``WD Black SN750 NVMe``  |   不确定  |   没人测试过该SSD对4k的支持，不过性价比不错，性能略逊970  |
-|  ``WD Black SN550 NVMe`` |  不确定  |  750的低配，蓝盘温度相比黑盘温柔很多，当然性能也略低，性价比不错|
+|  ``WD Black SN750 NVMe``  |   未知  |   没人测试过该SSD对4k的支持，不过性价比不错，性能略逊970  |
+|  ``WD Black SN550 NVMe`` |  未知  |  750的低配，蓝盘温度相比黑盘温柔很多，当然性能也略低，性价比不错|
 | ``Samsung PM981`` / ``Samsung PM981a``  |  否  |  皆为970系列的OEM版，无保不建议，据说安装系统也有一些问题，唯一的优点也就是便宜了  |
 
 **内存条**[搬运自`stonevil`的帖子]
@@ -260,7 +260,7 @@
 | ---: | :--- | :--- | :--- | :--- | :--- |
 | ``Ballistix Sport LT 32GB`` | 2x16Gb | 2666 | CL16 | [Amazon](https://www.amazon.com/gp/product/B06XRBS4Y5/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) | [stonevil](https://www.tonymacx86.com/members/stonevil.254235/) |
 | ``Kingston Technology HyperX Impact 32GB`` | 2x16Gb | 2666 | CL15 | [Amazon](https://www.amazon.com/dp/B01NAL3TYY/?coliid=I3Q9P4ZU9V435H&colid=1ZGSQH2G88154&psc=1&ref_=lv_ov_lig_dp_it) | [Razer Blade 15 Advanced RAM upgrade](https://www.reddit.com/r/razer/comments/c1c9wl/razer_blade_15_advanced_ram_upgrade/) |
-| ``Samsung 16GB DDR4 PC4-21300``  |  16Gb (需自己买两片) | 2666  |  CL19  | [Amazon](https://www.amazon.com/Samsung-PC4-21300-2666MHZ-SODIMM-laptop/dp/B07F6N8L3S/ref=sr_1_8?crid=1ZAJ4EFZ2FBQY&dchild=1&keywords=samsung+ram+32gb+ddr4&qid=1596330429&sprefix=samsung+ram+32%2Caps%2C158&sr=8-8)  | 自己找的，不确认 |
+| ``Samsung 16GB DDR4 PC4-21300``  |  16Gb (需自己买两片) | 2666  |  CL19  | [Amazon](https://www.amazon.com/Samsung-PC4-21300-2666MHZ-SODIMM-laptop/dp/B07F6N8L3S/ref=sr_1_8?crid=1ZAJ4EFZ2FBQY&dchild=1&keywords=samsung+ram+32gb+ddr4&qid=1596330429&sprefix=samsung+ram+32%2Caps%2C158&sr=8-8)  | 自己找的 |
 
 **工具套件**
 
