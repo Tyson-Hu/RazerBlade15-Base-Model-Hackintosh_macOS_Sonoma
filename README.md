@@ -10,7 +10,7 @@
   - ~~`OpenCore` 版本的EFI，版本 `0.6.0`，对应系统 `macOS 10.15.6`。我会更新该EFI，但是频率不高，因为我现在很少使用该版本系统。~~
   - ~~EFI with `OpenCore` , `v0.6.0`, for `macOS 10.15.6`. Still updating, but low freq.~~
   - ~~问题：睡眠唤醒黑屏  / Issue: Wakeup with BlackScreen(after sleep)~~
-- **EFI beta**  (使用时记得改名为 `EFI`)[目前在 `beta4` 中仍有启动问题]
+- **EFI beta**  (使用时记得改名为 `EFI`)
   - `OpenCore` 版本的EFI，版本 `0.6.0`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
   - EFI with `OpenCore` , `v0.6.0`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
   - 问题：更新最新版 `VoodooInput` 后无法实现触摸板多点触控 / Issue : Lost MultiTouch after updated `VoodooInput`
@@ -60,7 +60,8 @@
 
 ## 目录
 - 更新
-  - [ macOS Big Sur Beta4 （8/4 更新,~~Pending~~, Skip, until next stable version release.）](#84-更新-pending-will-update-on-86)
+  - [ macOS Big Sur Public Beta (8/13更新)](#813-更新)
+  - [ macOS Big Sur Beta4 （8/4 更新）](#84-更新-pending-will-update-on-86)
   - [ macOS Big Sur Beta3 （7/22 更新）](#722-更新)
   - [ Clover v5120 （7/16 更新）](#716-更新-clover-v5120)
   - [ macOS 10.15.6 （7/15 更新）](#715-更新-非-big-sur--catalina)
@@ -89,7 +90,7 @@
 附上截图：   
 ![11 beta3](image/publicbeta1.png)
 
-## 8/4 更新 (~~Pending~~, Skip, until next stable version release.)
+## 8/4 更新 
 苹果官方推出了 macOS Big Sur Beta4，更新过程与之前一致。由于我在 `beta4` 中有许多软件都出现了问题，因此我决定回到 `beta3` 版本继续使用，所以这里并没有放出截图。公测版(Public Beta)与 `beta4` 内容一致，只是更改了版本号。
 
 ## 7/22 更新 
