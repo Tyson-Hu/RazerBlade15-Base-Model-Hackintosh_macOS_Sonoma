@@ -15,12 +15,12 @@
 - **EFI beta**  (使用时记得改名为 `EFI`)
   - `OpenCore` 版本的EFI，版本 `0.6.1`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
   - EFI with `OpenCore` , `v0.6.1`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
-  - 问题：~~更新最新版 `VoodooInput` 后无法实现触摸板多点触控 / Issue : Lost MultiTouch after updated `VoodooInput`~~
+  - 问题：不清楚，毕竟是beta版 / Issue: Unkown
 
 - **EFI** 
   - `OpenCore` 版本的EFI，版本 `0.6.1`，对应系统 `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
   - EFI with `OpenCore` , `v0.6.1`, for `macOS 11` & `macOS 10.15.6`. `Stable Version` for EFI, Only updated while it's stable to use. Thus not too high freq.
-  - 问题：无问题 / Issue: `None`
+  - **问题：睡眠唤醒后时间仍定格在睡眠前（需手动更新时间） / Issue: Time Freeze while laptop sleep, That means you have to MANUALLY update the time after sleep.**
 
 - **Tools**
   - 里面包含该教程需要的基本工具（软件）。
@@ -73,7 +73,7 @@
   - [ macOS 10.15.6 （7/15 更新）](#715-更新-非-big-sur--catalina)
   - [ 【黑果小兵】macOS Big Sur Beta 2 Installer for OpenCore and PE双EFI分区原版镜像 （7/11 更新）](#711-更新)
   - [macOS Big Sur Beta2 （7/7 更新）](#77-更新)
-- [一些问题](#一些问题-都已解决)
+- [一些问题](#一些问题)
 - [硬件介绍](#1硬件介绍)
 - [最终效果](#2最终效果)
 - [解锁BIOS](#3解锁bios)
@@ -200,7 +200,7 @@
 - 安装后无电池图标🔋或者电量一直为0%（触摸板可用但是设置里识别不出来的，**别问我为啥这跟触摸板也有关系，我也不知道，反正我是这样做就好了😯**），请将kext里的`SMCBatteryManager`更换为`ACPIBatteryManager`
 - 无需在OC里注入显卡信息，如果显示出现问题可尝试删除`Device`里的显卡注入信息 **（仅限 UHD630，其他型号无视本信息）**
 
-## 一些问题 *（都已解决）*
+## 一些问题
 我也是刚接触黑苹果不久，到我写这篇文章才一个多月？ 还有很多问题是我无法解决的，当然我后面也会努力爬贴查找解决方案，毕竟 `macOS 11` 我不就是这么过来的嘛。如果有哪位大佬知道如何解决可以联系我，感激不尽！
 
 - ~~与10.15的问题一样，睡眠后无法唤醒，开盖就只有黑屏，其他都正常运作~~  (已解决，现在可以直接关盖睡眠💤 )
@@ -215,6 +215,7 @@
 - ~~蓝牙不可用~~ （已通过更换网卡解决）
 - ~~USB网卡不可用~~ (`chris1111`现已更新USB网卡对macOS11的支持，**使用时需关闭 `SIP`!!!**)
 - ~~状态栏卡顿~~   (具体解决方案请移步 [[6-4]状态栏卡顿](#[6-4]状态栏的卡顿) ）
+- **新增：睡眠时，时间会定格在睡眠前的时候，唤醒后需手动同步时间。**
 
     
 ## [1]硬件介绍
