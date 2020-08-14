@@ -20,7 +20,12 @@
 - **EFI** 
   - `OpenCore` 版本的EFI，版本 `0.6.1`，对应系统 `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
   - EFI with `OpenCore` , `v0.6.1`, for `macOS 11` & `macOS 10.15.6`. `Stable Version` for EFI, Only updated while it's stable to use. Thus not too high freq.
-  - **问题：睡眠唤醒后时间仍定格在睡眠前（需手动更新时间） / Issue: Time Freeze while laptop sleep, That means you have to MANUALLY update the time after sleep.**
+  - **问题：**
+    - **睡眠唤醒后时间仍定格在睡眠前（需手动更新时间）** 
+    - **无法自动切换音频输出，开机默认耳机输出，变更输出需要手动切换。**
+  - **Issue:**
+    - **Time Freeze while laptop sleep, That means you have to MANUALLY update the time after sleep.**
+    - **Can't switch audio output automatically. You have to MANUALLY switch it**
 
 - **Tools**
   - 里面包含该教程需要的基本工具（软件）。
@@ -216,6 +221,7 @@
 - ~~USB网卡不可用~~ (`chris1111`现已更新USB网卡对macOS11的支持，**使用时需关闭 `SIP`!!!**)
 - ~~状态栏卡顿~~   (具体解决方案请移步 [[6-4]状态栏卡顿](#[6-4]状态栏的卡顿) ）
 - **新增：睡眠时，时间会定格在睡眠前的时候，唤醒后需手动同步时间。**
+- **目前无解：无限实现自动切换音频输出，需手动进行切换**
 
     
 ## [1]硬件介绍
