@@ -848,6 +848,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - 8/14
   - 添加 `SecureBoot`，默认设置为 `j132` 对应 `MacBookPro15,2 (July 2018)`
   - 更新 `USBPorts.kext`，修复开机画幅大小的问题。
+  - 更新 `OpenCore Configurator 2.10.0.0` 
 - 8/13
   - 修复 `DW1560` 在 `Beta4` 和 `Public Beta` 的问题
   - **更新8/13号自编译 `VirtualSMC` (VirtualSMC 1.1.6)**
