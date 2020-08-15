@@ -769,6 +769,17 @@ sudo nvram -c
 
 接着输入用户密码后回车，不必理会提示信息，重启即可
 
+### [6-12]修改显存大小 **(心理优化)**
+首先声明这里的显存只是一个数字，并无任何实际作用！你要想装逼可以直接改个RTX3080(只不过也是Intel的显卡就是了xd)。   
+
+打开 `config.plist`,进入 `DeviceProperties`:  
+首先添加你显卡所需要的参数，比如 `AAPL,ig-platform-id`,  
+然后这是添加显存参数 `framebuffer-unifiedmem`,值根据你想要显示的显存修改。  
+![VRAM](./image/4080-config.png)
+
+保存重启即可。  
+![VRAM](./image/4080.png)  
+
 ## [7]附加：U盘直装
 *搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/)*
 
