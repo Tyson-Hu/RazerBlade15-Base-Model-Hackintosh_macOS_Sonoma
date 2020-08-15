@@ -774,8 +774,15 @@ sudo nvram -c
 
 打开 `config.plist`,进入 `DeviceProperties`:  
 首先添加你显卡所需要的参数，比如 `AAPL,ig-platform-id`,  
-然后这是添加显存参数 `framebuffer-unifiedmem`,值根据你想要显示的显存修改。  
+然后这是添加显存参数 `framebuffer-unifiedmem`,值根据你想要显示的显存修改。    
+
+显存值例子：  
+000000FF ➡️ 4080MB  
+00000080 ➡️ 2048MB  
+
 ![VRAM](./image/4080-config.png)
+
+备注：`UHD630` 经测试最高只能修改到4080MB，再往上会变成0MB。
 
 保存重启即可。  
 ![VRAM](./image/4080.png)  
