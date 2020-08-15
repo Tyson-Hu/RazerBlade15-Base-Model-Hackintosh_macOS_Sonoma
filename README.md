@@ -842,6 +842,12 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
   
 ## [9]变更目录
+- 8/15
+  - 象征性添加3.8GB / 4080MB显存 （使用 `config_4080.plist`）
+  - 添加显存修改教程
+- 8/14
+  - 添加 `SecureBoot`，默认设置为 `j132` 对应 `MacBookPro15,2 (July 2018)`
+  - 更新 `USBPorts.kext`，修复开机画幅大小的问题。
 - 8/13
   - 修复 `DW1560` 在 `Beta4` 和 `Public Beta` 的问题
   - **更新8/13号自编译 `VirtualSMC` (VirtualSMC 1.1.6)**
@@ -859,7 +865,6 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
   - **更新8/13号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.9）**
     - boot-arg and property `brcmfx-aspm` supports special value `255` in order to skip logic disabling APSM for 0x14e4:0x43a3 (DW1820A).
     - Update Changelog.md
-    
 - 8/12
   - 更新正式版 `EFI` 
   - 更新 `OpenCore Configurator 2.9.1.0` 
