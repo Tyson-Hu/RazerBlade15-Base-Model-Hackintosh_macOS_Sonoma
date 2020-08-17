@@ -787,6 +787,24 @@ sudo nvram -c
 保存重启即可。  
 ![VRAM](./image/4080.png)  
 
+### [6-13]解决 `macOS` 与 `Windows` 时间不同步
+造成两系统时间不同步的原因为两者对时间计算的方式不同，  
+`Windows` 将 `BIOS` 时间作为系统时间，  
+而 `macOS` 将 `BIOS` 时间作为 `UTC` 时间，再根据你所在的时区进行计算得出系统时间。   
+
+使用 `Hackintool` 解决问题：  
+打开 `Hackintool`,顶栏选择 `工具` / `Tool`，点击底部第五个图标以生成 `Windows 注册表`。  
+![time](./image/time-1.png) 
+
+`Hackintool` 会将生成的这两个文件放到 `桌面`，将这两个文件转入你的 `Windows`。  
+![time](./image/time-2.png) 
+
+进入 `Windows` 后，打开文件 `WinUTCOn.reg`将其注入进系统重启即可。  
+备注：  
+WinUTCOn.reg ➡️ 开启UTC时间计算  
+WinUTCOff.reg ➡️ 关闭UTC时间计算  
+当你不需要该时间结算方法后，双击运行 `WinUTCOff.reg` 即可。  
+
 ## [7]附加：U盘直装
 *搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/)*
 
