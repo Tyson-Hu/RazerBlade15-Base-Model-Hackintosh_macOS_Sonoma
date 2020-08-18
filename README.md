@@ -653,7 +653,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/mlch911/one-key-hidpi/ma
 接着按照你自己的机型设置对应的设备和分辨率，设置完成后重启即可生效。  
 
 ### [6-6]关闭 `SIP` & Authenticated-root
-由于在 macOS Big Sur 中，苹果更新里安全机制，新增了 `authenticated root` 这也使得开机从只读快照启动而非直接系统文件启动，因此老方法 `E7030000` 已失效，但是根据 dortania 向导的提示，现在需使用 `FF0F0000` 关闭 `SIP`。
+由于在 macOS Big Sur 中，苹果更新了安全机制，新增了 `authenticated root` 这也使得开机从只读快照启动而非直接系统文件启动，因此老方法 `E7030000` 已失效，但是根据 dortania 向导的提示，现在需使用 `FF0F0000` 关闭 `SIP`。
 
 ![sip](./image/sip-1.png)
 
