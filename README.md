@@ -96,6 +96,11 @@
 - [参考](#8参考)
 - [变更目录](#9变更目录)
 
+## 8/19 更新
+这次官方推迟了一天发布 beta5，版本号 `20a5354i`，正常 `OTA` 更新即可。增量包大小 `7.15GB`，全量包大小 `12.13GB`。   
+
+![11 beta5](image/beta5.jpg)
+
 ## 8/13 更新
 对 `AirportBrcmFixup` 进行了修补， 现在 `DW1560 / Brcm94352z` 在 `Beta4` 和 `Public Beta` 均可正常运行，不会再卡开机boot。    
 
@@ -106,7 +111,7 @@
 `20A5343i` ➡️ `Beta4`
 
 附上截图：   
-![11 beta3](image/publicbeta1.png)
+![11 publicbeta](image/publicbeta1.png)
 
 ## 8/4 更新 
 苹果官方推出了 macOS Big Sur Beta4，更新过程与之前一致。由于我在 `beta4` 中有许多软件都出现了问题，因此我决定回到 `beta3` 版本继续使用，所以这里并没有放出截图。公测版(Public Beta)与 `beta4` 内容一致，只是更改了版本号。**EFI 现已修复，可以进行 `ota` 升级至 `beta4`**
