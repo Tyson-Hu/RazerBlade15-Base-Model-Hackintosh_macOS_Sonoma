@@ -101,6 +101,8 @@
 
 ![11 beta5](image/beta5.jpg)
 
+![11 beta5](image/beta5-1.jpeg)
+
 ## 8/13 更新
 对 `AirportBrcmFixup` 进行了修补， 现在 `DW1560 / Brcm94352z` 在 `Beta4` 和 `Public Beta` 均可正常运行，不会再卡开机boot。    
 
