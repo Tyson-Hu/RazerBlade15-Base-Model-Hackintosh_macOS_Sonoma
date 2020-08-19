@@ -1063,7 +1063,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v alcid=23 brcmfx-driver=2 -brcmfxbeta -hbfxbeta igfxcflbklt=1 -wegnoegpu</string>
+				<string>-v alcid=23 brcmfx-driver=2 -brcmfxbeta -hbfxbeta igfxcflbklt=1 -wegnoegpu igfxrpsc=1</string>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
