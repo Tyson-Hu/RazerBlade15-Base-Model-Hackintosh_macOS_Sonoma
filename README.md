@@ -78,7 +78,7 @@
 
 ## 目录
 - 更新
-  - [ macOS Big Sur Beta5 （8/19 更新）](#819-更新)
+  - [ macOS Big Sur Beta5 & Public Beta2 （8/19 更新）](#819-更新)
   - [ macOS Big Sur Public Beta (8/13更新)](#813-更新)
   - [ macOS Big Sur Beta4 （8/4 更新）](#84-更新)
   - [ macOS Big Sur Beta3 （7/22 更新）](#722-更新)
@@ -98,7 +98,7 @@
 - [变更目录](#9变更目录)
 
 ## 8/19 更新
-这次官方推迟了一天发布 beta5，版本号 `20a5354i`，正常 `OTA` 更新即可。增量包大小 `7.15GB`，全量包大小 `12.13GB`。目前版本已无什么大的BUG，更多的为UI BUG，可以日常使用。 
+这次官方推迟了一天发布 `beta5`，版本号 `20a5354i`，正常 `OTA` 更新即可。增量包大小 `7.15GB`，全量包大小 `12.13GB`。目前版本已无什么大的BUG，更多的为UI BUG，可以日常使用。 `Public Beta2` 这次与 `beta5` 版本号一致，用哪个看你自己了。 
 
 ![11 beta5](image/beta5.jpg)
 
