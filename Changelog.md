@@ -3,8 +3,11 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ### Support Version: macOS 10.15.1 ~ macOS 11 beta5  
 #### v1.1.0
 - Add SecureBoot, default set to `j132` ➡️ `MacBookPro15,2 (July 2018)`
+- Delete driver `AudioDxe`
+- Add protocol `AppleImg4Verification` & `AppleSecureBoot`
 - Add boot-arg: `igfxrpsc=1`
-- Issue: Can't boot to `Recovery`
+- DmgLoading Changed: `Any` to `Signed`
+- ~~Issue: Can't boot to `Recovery`~~ (fixed)
 #### v1.0.6.1
 - Defalut disabled `VerbStub`, if your headset microphone doesn't switch to audio input AUTOMATICALLY while you plug in headphone, enabled it
 - Delete boot-arg: `-brcmfxbeta` , `-hbfxbeta`
@@ -23,6 +26,7 @@ Fix the Window Size Error after boot into system(Lock Screen)
 - Fix issue on `DW1560` (Now support beta4)
 #### v1.0.2
 - Update `OpenCore 0.6.1`
+- Add DmgLoading: `Any`
 - Faster Boot (about 10s)
 - SMBIOS Changed: `MacBook Pro 16,4` to `MacBook Pro 15,3` (Fix the problem on booting stuck at `Thunderbolt3` PCIe)
 #### v1.0.1
