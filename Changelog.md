@@ -1,7 +1,8 @@
 RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
-### Support Version: macOS 10.15.1 ~ macOS 11 beta5  
+### Support Version: macOS 10.15.1 ~ macOS 11 beta5 / public beta2  
 #### v1.1.0
+- Fix issue on scanpolicy stuck on recovery (while it's not `0`)
 - Add SecureBoot, default set to `j132` ➡️ `MacBookPro15,2 (July 2018)`
 - Delete driver `AudioDxe`
 - Add protocol `AppleImg4Verification` & `AppleSecureBoot`
