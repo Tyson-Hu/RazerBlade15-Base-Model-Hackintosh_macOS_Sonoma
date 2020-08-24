@@ -16,11 +16,11 @@
   - `OpenCore` 版本的EFI，版本 `0.6.1`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
   - EFI with `OpenCore` , `v0.6.1`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
   - **问题：**
-    - **使用 `SecureBoot` 无法进入`恢复模式`**  
+    - **~~使用 `SecureBoot` 无法进入`恢复模式`~~**  
     - **包含`EFI`里所有的BUG**
     - **可能会有其他未知BUG**
   - **Issue:**
-    - **Can't enter `Recovery` with `SecureBoot`.**
+    - **~~Can't enter `Recovery` with `SecureBoot`.~~**
     - **Contain all BUG in `EFI`**
     - **Might have other unknow BUG**
 
