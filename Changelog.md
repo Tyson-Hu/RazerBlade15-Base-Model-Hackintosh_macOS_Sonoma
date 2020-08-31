@@ -11,6 +11,8 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - DmgLoading Changed: `Any` to `Signed`
 - Fix VMware compatibility with Apple Secure Boot
 - ~~Issue: Can't boot to `Recovery`~~ (fixed)
+#### v1.0.7
+- Some correction on USBPorts
 #### v1.0.6.1
 - Defalut disabled `VerbStub`, if your headset microphone doesn't switch to audio input AUTOMATICALLY while you plug in headphone, enabled it
 - Delete boot-arg: `-brcmfxbeta` , `-hbfxbeta`
