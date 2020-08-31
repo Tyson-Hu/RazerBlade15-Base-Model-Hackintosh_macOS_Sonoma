@@ -33,10 +33,10 @@
   - `OpenCore` 版本的EFI，版本 `0.6.1`，对应系统 `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
   - EFI with `OpenCore` , `v0.6.1`, for `macOS 11` & `macOS 10.15.6`. `Stable Version` for EFI, Only updated while it's stable to use. Thus not too high freq.
   - **问题：**
-    - **睡眠唤醒后时间仍定格在睡眠前（需手动更新时间）** 
+    - ~~**睡眠唤醒后时间仍定格在睡眠前（需手动更新时间）**~~ 
     - **无法自动切换音频输出，开机默认耳机输出，变更输出需要手动切换。**
   - **Issue:**
-    - **Time Freeze while laptop sleep, That means you have to MANUALLY update the time after sleep.**
+    - ~~**Time Freeze while laptop sleep, That means you have to MANUALLY update the time after sleep.**~~
     - **Can't switch audio output automatically. You have to MANUALLY switch it**
 
 - **Tools**
