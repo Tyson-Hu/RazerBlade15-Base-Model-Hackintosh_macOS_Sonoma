@@ -9,6 +9,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Add protocol `AppleImg4Verification` & `AppleSecureBoot`
 - Add boot-arg: `igfxrpsc=1`
 - DmgLoading Changed: `Any` to `Signed`
+- Fix VMware compatibility with Apple Secure Boot
 - ~~Issue: Can't boot to `Recovery`~~ (fixed)
 #### v1.0.6.1
 - Defalut disabled `VerbStub`, if your headset microphone doesn't switch to audio input AUTOMATICALLY while you plug in headphone, enabled it
