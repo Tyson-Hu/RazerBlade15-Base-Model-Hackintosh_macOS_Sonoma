@@ -87,6 +87,7 @@
 
 ## 目录
 - 更新
+  - - [ macOS Big Sur Beta6 （9/3 更新）](#93-更新)
   - [ macOS Big Sur Beta5 & Public Beta2 （8/19 更新）](#819-更新)
   - [ macOS Big Sur Public Beta (8/13更新)](#813-更新)
   - [ macOS Big Sur Beta4 （8/4 更新）](#84-更新)
