@@ -10,6 +10,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Add boot-arg: `igfxrpsc=1`
 - DmgLoading Changed: `Any` to `Signed`
 - Fix VMware compatibility with Apple Secure Boot
+- OcAppleKernelLib: Fix prelinked kext patches in KC mode
 - ~~Issue: Can't boot to `Recovery`~~ (fixed)
 #### v1.0.7
 - Some correction on USBPorts
