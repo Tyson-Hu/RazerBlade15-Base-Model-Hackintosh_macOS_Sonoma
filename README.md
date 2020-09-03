@@ -4,7 +4,7 @@
 **EFI支持OTA或者通过下载好的更新程序app更新，因此建议先尝试这两种办法，其次再尝试U盘安装，再者查看我后面写的关于虚拟机安装教程！**  
 **EFI support OTA & app update, recommend use these two method first, then try my virtual machine tutorial.**   
 
-由于我即将开学，这几天还在搬家+布置网络，因此村里刚通网，对此我非常抱歉。在后续的时间我将降低我的更新频率，学业为重希望大家理解，不过我也向大伙们保证不会停更的（日更我肯定是肝不动了，毕竟👴每周都要做Lab Report，因此我尽量保持周更。）
+由于我需要同时兼顾我的大学课程和博客，在后续的时间我将降低我的更新频率，学业为重希望大家理解，不过我也向大伙们保证不会停更的（日更我肯定是肝不动了，毕竟👴每周都要做Lab Report，因此我尽量保持周更。）
 
 ## 文件说明 / File Description  
 - **CLOVER**
