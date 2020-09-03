@@ -1,6 +1,6 @@
 RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
-### Support Version: macOS 10.15.1 ~ macOS 11 beta5 / public beta2  
+### Support Version: macOS 10.15.1 ~ macOS 11 beta6 / public beta2  
 #### v1.1.0
 - Remove dependencies corecapture and IONetworkingFamily
 - Fix issue on scanpolicy stuck on recovery (while it's not `0`)
