@@ -114,6 +114,11 @@
 
 注意⚠️： 使用gibmacos下载时请选择 `customer`，`developer` 无此版本。   
 
+已知问题：   
+`beta3` 修复的bug在 `beta6` 它又回来啦！  
+ 
+![11 beta6 issue](image/beta6-issue.jpg)
+
 ## 8/19 更新
 这次官方推迟了一天发布 `beta5`，版本号 `20a5354i`，正常 `OTA` 更新即可。增量包大小 `7.15GB`，全量包大小 `12.13GB`。目前版本已无什么大的BUG，更多的为UI BUG，可以日常使用。 `Public Beta2` 内容与 `beta5` 一致(版本号也均为 `20A5354i`)，用哪个看你自己了。 
 
