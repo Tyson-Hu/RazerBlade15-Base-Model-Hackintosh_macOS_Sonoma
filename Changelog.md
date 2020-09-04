@@ -8,6 +8,10 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Delete driver `AudioDxe`
 - Add protocol `AppleImg4Verification` & `AppleSecureBoot`
 - Add boot-arg: `igfxrpsc=1`
+- Add EnablePassword: False
+- Add PasswordHash: <>
+- Add PasswordSalt: <>
+- Add ApECID: 3478613715
 - DmgLoading Changed: `Any` to `Signed`
 - Fix VMware compatibility with Apple Secure Boot
 - OcAppleKernelLib: Fix prelinked kext patches in KC mode
