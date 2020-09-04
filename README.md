@@ -114,10 +114,20 @@
 
 注意⚠️： 使用gibmacos下载时请选择 `customer`，`developer` 无此版本。   
 
+如果你在 `OpenCore`开启了 `SecureBoot` 并设置了 `apECID`（不知道怎么设置？同机型直接套用我的EFI即可，非同机型的也可以参考我的config），开机后你会发现 `beta6` 将不会从快照启动。 前提是你拥有完整的安全性，至于如何拥有完整的安全性，你需要下载完整安装包（12GB那个.app文件），并进入recovery进行覆盖安装，后续我会抽出时间来制作教程。。    
+
+![11 beta6 snapshot](image/beta6-snapshot.png)
+
 已知问题：   
 `beta3` 修复的bug在 `beta6` 它又回来啦！  
  
 ![11 beta6 issue](image/beta6-issue.jpg)
+
+可能劝退：第三方kext在重启后将失去作用，官方给出的方法是再次安装（简直丧心病狂。。。）   
+
+![11 beta6 issue](image/beta6-issue2.png)
+
+smb出现问题，介意的请待在 `beta5`  
 
 ## 8/19 更新
 这次官方推迟了一天发布 `beta5`，版本号 `20a5354i`，正常 `OTA` 更新即可。增量包大小 `7.15GB`，全量包大小 `12.13GB`。目前版本已无什么大的BUG，更多的为UI BUG，可以日常使用。 `Public Beta2` 内容与 `beta5` 一致(版本号也均为 `20A5354i`)，用哪个看你自己了。 
