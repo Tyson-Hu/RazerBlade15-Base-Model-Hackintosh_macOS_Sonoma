@@ -5,6 +5,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Remove dependencies corecapture and IONetworkingFamily
 - Fix issue on scanpolicy stuck on recovery (while it's not `0`)
 - Add SecureBoot, default set to `j132` ➡️ `MacBookPro15,2 (July 2018)`
+- Supoort medium secutiry level
 - Delete driver `AudioDxe`
 - Add protocol `AppleImg4Verification` & `AppleSecureBoot`
 - Add boot-arg: `igfxrpsc=1`
