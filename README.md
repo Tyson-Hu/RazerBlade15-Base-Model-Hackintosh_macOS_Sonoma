@@ -18,6 +18,14 @@
 <img align="left" src="https://lh3.googleusercontent.com/proxy/BHyk7jYrWnGFKJfPK3lAR1SN3W8oz7VNzo1j2YZUo0rm63V3QbFGIA-B3Ymxh4V-UHL0KbgeCWcwFXuk3MaSO0RV4e4" alt="名言" width="220">
 
 ⚠️：本目录仅为个人记录所准备，如果你也想尝试升级macOS11可以以此教程作为参考，本人不会为你操作过程中所出现的任何错误负责！请自己酌量而行。  
+**EFI支持OTA或者通过下载好的更新程序app更新，因此建议先尝试这两种办法，其次再尝试U盘安装，再者查看我后面写的关于虚拟机安装教程！**    
+
+![OpenCore Version](https://img.shields.io/badge/<OpenCore>-<0.6.1>-<orange>)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur?include_prereleases)
+
+稳定版和测试版EFI均采用OpenCore 0.6.1。具体区别可以查看我的[Changelog](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Changelog.md)    
+
 由于我需要同时兼顾我的大学课程和博客，在后续的时间我将降低我的更新频率，学业为重希望大家理解，不过我也向大伙们保证不会停更的（日更我肯定是肝不动了，毕竟👴每周都要做Lab Report，因此我尽量保持周更。）
 
 ## 文件说明 / File Description  
