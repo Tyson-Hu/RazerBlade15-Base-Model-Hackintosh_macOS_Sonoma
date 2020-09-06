@@ -20,7 +20,7 @@
 ⚠️：本目录仅为个人记录所准备，如果你也想尝试升级macOS11可以以此教程作为参考，本人不会为你操作过程中所出现的任何错误负责！请自己酌量而行。  
 **EFI支持OTA或者通过下载好的更新程序app更新，因此建议先尝试这两种办法，其次再尝试U盘安装，再者查看我后面写的关于虚拟机安装教程！**    
 
-![OpenCore Version](https://img.shields.io/badge/<OpenCore>-<0.6.1>-<orange>)
+![OpenCore Version](https://img.shields.io/badge/OpenCore-0.6.1-orange)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur?include_prereleases)
 
