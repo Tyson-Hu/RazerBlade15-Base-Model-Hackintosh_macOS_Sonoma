@@ -1,6 +1,9 @@
 <img align="right" src="https://osxinfo.net/eklentiler/1573912207-2f5cdbaa351b673-png.17417/" alt="OpenCore 0.6.1" width="225">
 
 # Razer Blade 15 Base Hackintosh
+![GitHub issues](https://img.shields.io/github/issues/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
+![GitHub](https://img.shields.io/github/license/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
+![GitHub last commit](https://img.shields.io/github/last-commit/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
 
 警告⚠️：本目录仅为个人记录所准备，如果你也想尝试升级macOS11可以以此教程作为参考，本人不会为你操作过程中所出现的任何错误负责！请自己酌量而行。   
 
