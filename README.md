@@ -145,7 +145,7 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 
 ![11 beta6](image/beta6.png)
 
-注意⚠️： 使用gibmacos下载时请选择 `customer`，`developer` 无此版本。   
+注意⚠️： 使用gibmacos下载时请选择 `customer`，`developer` ~~无此版本。~~ 也🉑️。   
 
 如果你在 `OpenCore`开启了 `SecureBoot` 并设置了 `apECID`（不知道怎么设置？同机型直接套用我的EFI即可，非同机型的也可以参考我的config），开机后你会发现 `beta6` 将不会从快照启动。 前提是你拥有完整的安全性，至于如何拥有完整的安全性，你需要下载完整安装包（12GB那个.app文件），并进入recovery进行覆盖安装，后续我会抽出时间来制作教程。。    
 
