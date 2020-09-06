@@ -11,20 +11,17 @@
 - [Dortania](https://dortania.github.io) - 黑苹果安装向导（OpenCore）
 - [Acidanthera](https://github.com/acidanthera) - OpenCore以及核心kext全家桶
 - [RehabMan](https://github.com/RehabMan) - ACPI的关键修补
+- [doanhmaple](https://github.com/doanhmaple) - ACPI电池修补🔋 & 雷电三修补⚡️
+- [EmeryWan](https://github.com/EmeryWan) - BIOS修改 & 系统设置
 
-**EFI支持OTA或者通过下载好的更新程序app更新，因此建议先尝试这两种办法，其次再尝试U盘安装，再者查看我后面写的关于虚拟机安装教程！**  
-**EFI support OTA & app update, recommend use these two method first, then try my virtual machine tutorial.**   
+支持macOS：10.15.1 ～ 11.0 beta6    
+暂无bug，期待你们的反馈<3.   
 
 <img align="left" src="https://lh3.googleusercontent.com/proxy/BHyk7jYrWnGFKJfPK3lAR1SN3W8oz7VNzo1j2YZUo0rm63V3QbFGIA-B3Ymxh4V-UHL0KbgeCWcwFXuk3MaSO0RV4e4" alt="名言" width="220">
 
 ⚠️：本人不会为你操作过程中所出现的任何错误负责！   
 
-EFI支持以下这些安装：     
-- OTA
-- 更新程序 / Update.app
-- U盘安装 / USB drive
-- 虚拟机 / VM
-
+EFI支持以下这些安装：1.OTA, 2.完整安装包, 3.U盘安装 4.虚拟机     
 **建议从上往下尝试**         
 **最后再尝试我后面写的关于虚拟机安装教程！**       
 
