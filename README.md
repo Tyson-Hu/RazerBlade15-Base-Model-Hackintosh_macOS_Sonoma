@@ -14,8 +14,8 @@
 - [doanhmaple](https://github.com/doanhmaple) - ACPI电池修补🔋 & 雷电三修补⚡️
 - [EmeryWan](https://github.com/EmeryWan) - BIOS修改 & 系统设置
 
-支持macOS：10.15.1 ～ 11.0 beta6 ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Changelog.md)     
-暂无bug，期待你们的反馈<3.   
+**支持macOS：10.15.1 ～ 11.0 beta6 ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Changelog.md)**     
+**暂无bug，期待你们的反馈<3**    
 
 <img align="left" src="https://lh3.googleusercontent.com/proxy/BHyk7jYrWnGFKJfPK3lAR1SN3W8oz7VNzo1j2YZUo0rm63V3QbFGIA-B3Ymxh4V-UHL0KbgeCWcwFXuk3MaSO0RV4e4" alt="名言" width="220">
 
@@ -24,6 +24,7 @@
 ![OpenCore Version](https://img.shields.io/badge/OpenCore-0.6.1-orange)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur?include_prereleases)
+![GitHub All Releases](https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/total)
 
 EFI支持以下这些安装：1.OTA, 2.完整安装包, 3.U盘安装 4.虚拟机     
 **建议从上往下尝试**         
