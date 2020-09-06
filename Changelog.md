@@ -15,8 +15,11 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Add ApECID: 3478613715
 - DmgLoading Changed: `Any` to `Signed`
 - Fix VMware compatibility with Apple Secure Boot
-- OcAppleKernelLib: Fix prelinked kext patches in KC mode
-- ~~Issue: Can't boot to `Recovery`~~ (fixed)
+- Fix prelinked kext patches in KC mode
+- Added `DisableLinkeditJettison` quirk (defalut enabled)
+- Fix issues in 11.0 kext injection and patching
+- Add `Force` for 10.8 or lower syetem's kext support(defalut empty, cz I don't use that)
+- Add `Scheme` for 10.8 or lower syetem's kext support(defalut empty, cz I don't use that)
 #### v1.0.7
 - Some correction on USBPorts
 #### v1.0.6.1
