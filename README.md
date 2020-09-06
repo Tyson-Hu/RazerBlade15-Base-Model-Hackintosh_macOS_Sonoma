@@ -7,7 +7,7 @@
 
 <img align="right" src="https://www.tonymacx86.com/data/attachments/438/438790-8ae35cbb5010a132a8dc82015df0eb32.jpg" alt="Critter" width="245">
 
-> 黑苹果就是要折腾，但禁止熬夜！  by黑果小兵    
+<img align="left" src="https://lh3.googleusercontent.com/proxy/BHyk7jYrWnGFKJfPK3lAR1SN3W8oz7VNzo1j2YZUo0rm63V3QbFGIA-B3Ymxh4V-UHL0KbgeCWcwFXuk3MaSO0RV4e4" alt="名言" width="220">
 
 警告⚠️：本目录仅为个人记录所准备，如果你也想尝试升级macOS11可以以此教程作为参考，本人不会为你操作过程中所出现的任何错误负责！请自己酌量而行。   
 
