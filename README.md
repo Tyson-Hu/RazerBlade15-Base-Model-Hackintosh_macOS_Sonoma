@@ -62,7 +62,7 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
     - **睡眠唤醒后时间仍定格在睡眠前（需手动更新时间）** 
     - **无法自动切换音频输出，开机默认耳机输出，变更输出需要手动切换。(无法解决)**
   - **Issue:**
-    - ~~**Time Freeze while laptop sleep, That means you have to MANUALLY update the time after sleep.**~~
+    - **Time Freeze while laptop sleep, That means you have to MANUALLY update the time after sleep.**
     - **Can't switch audio output automatically. You have to MANUALLY switch it(Can't solve)**
 
 - **Tools**
