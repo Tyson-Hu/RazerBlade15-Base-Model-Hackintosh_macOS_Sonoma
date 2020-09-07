@@ -21,7 +21,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Add `Force` for 10.8 or lower syetem's kext support(defalut empty, cz I don't use that)
 - Add `Scheme` for 10.8 or lower syetem's kext support(defalut empty, cz I don't use that)
 #### v1.0.8
-EFI Bump Version:
+EFI Bump Version:     
 AirportBrcmFixup 2.0.8 ➡️ 2.0.9     
 AppleALC 1.5.1 ➡️ 1.5.2     
 HibernationFixup 1.3.4 ➡️ 1.3.5     
