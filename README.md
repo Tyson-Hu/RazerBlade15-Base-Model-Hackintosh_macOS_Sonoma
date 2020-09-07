@@ -1,4 +1,4 @@
-<img align="right" src="https://osxinfo.net/eklentiler/1573912207-2f5cdbaa351b673-png.17417/" alt="OpenCore 0.6.1" width="225">
+<img align="right" src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" alt="OpenCore 0.6.1" width="225">
 
 # Razer Blade 15 Base Hackintosh
 ![GitHub issues](https://img.shields.io/github/issues/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
