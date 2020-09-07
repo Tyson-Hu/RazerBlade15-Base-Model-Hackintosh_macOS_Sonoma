@@ -22,16 +22,16 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Add `Scheme` for 10.8 or lower syetem's kext support(defalut empty, cz I don't use that)
 #### v1.0.8
 EFI Bump Version:
-AirportBrcmFixup 2.0.8 ➡️ 2.0.9
-AppleALC 1.5.1 ➡️ 1.5.2
-HibernationFixup 1.3.4 ➡️ 1.3.5
-Lilu 1.4.6 ➡️ 1.4.7
-VirtualSMC 1.1.5 ➡️ 1.1.6
-SMCBatteryManager 1.0 ➡️ 1.1.6
-SMCLightSensor 1.0 ➡️ 1.1.6
-SMCProcessor 1.1.5 ➡️ 1.1.6
-SMCSuperIO 1.1.5 ➡️ 1.1.6
-WhateverGreen 1.4.1 ➡️ 1.4.2
+AirportBrcmFixup 2.0.8 ➡️ 2.0.9     
+AppleALC 1.5.1 ➡️ 1.5.2     
+HibernationFixup 1.3.4 ➡️ 1.3.5     
+Lilu 1.4.6 ➡️ 1.4.7      
+VirtualSMC 1.1.5 ➡️ 1.1.6     
+SMCBatteryManager 1.0 ➡️ 1.1.6     
+SMCLightSensor 1.0 ➡️ 1.1.6     
+SMCProcessor 1.1.5 ➡️ 1.1.6     
+SMCSuperIO 1.1.5 ➡️ 1.1.6     
+WhateverGreen 1.4.1 ➡️ 1.4.2     
 #### v1.0.7
 - Some correction on USBPorts
 #### v1.0.6.1
