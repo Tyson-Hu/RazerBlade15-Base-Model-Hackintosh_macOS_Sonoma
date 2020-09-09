@@ -30,7 +30,7 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 **建议从左往右尝试**         
 **最后再尝试我后面写的关于虚拟机安装教程！**   
 
-稳定版采用 `OpenCore 0.6.1` 而测试版EFI均采用 `OpenCore 0.6.2`。具体区别可以查看变更目录   
+稳定版采用 `OpenCore 0.6.1`，测试版EFI采用 `OpenCore 0.6.2`。
 
 <img align="right" src="https://static.dribbble.com/users/3460/screenshots/14117702/media/7c3c5728cec212f97ece1b0c5bf3f08c.png" alt="Peel1 by Ryan Putnam" width="245">
 
