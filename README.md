@@ -2,9 +2,8 @@
 
 # Razer Blade 15 Base Hackintosh
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/issues"> <img src="https://img.shields.io/github/issues/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
-![GitHub issues](https://img.shields.io/github/issues/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
-![GitHub](https://img.shields.io/github/license/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
-![GitHub last commit](https://img.shields.io/github/last-commit/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
+<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
+<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/commits/master"> <img src="https://img.shields.io/github/last-commit/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
 
 <img align="right" src="https://www.tonymacx86.com/data/attachments/438/438790-8ae35cbb5010a132a8dc82015df0eb32.jpg" alt="Critter" width="245">
 
