@@ -21,7 +21,7 @@
 
 ⚠️：本人不会为你操作过程中所出现的任何错误负责！   
  
-![OpenCore Version](https://img.shields.io/badge/OpenCore-0.6.2-orange)
+![OpenCore Version](https://img.shields.io/badge/OpenCore-0.6.2-ff69b4)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur?include_prereleases)
 ![GitHub All Releases](https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/total)
