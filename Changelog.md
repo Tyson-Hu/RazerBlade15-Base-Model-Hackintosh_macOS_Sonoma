@@ -4,6 +4,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 #### v1.2.0
 - Updated builtin firmware versions(Boot Rom Version: `1554.40.9.0.0` to `1554.40.13.0.0`)
 - Added `ProcessorType` option to `Generic` (Default set to `0`, if you want to custom, go ahead.)
+- Fixed `UnblockFsConnect` option not working with APFS JumpStart
 - Added IA32 binary variant to the release bundles
 - For older version macOS (Not & not gonna test, if you want challenge youself, do it!):
   - Fixed improper handling of cacheless kexts without an Info.plist
