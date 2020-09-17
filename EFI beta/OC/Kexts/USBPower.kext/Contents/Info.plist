@@ -27,7 +27,7 @@
 			<key>IOClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
-			<string>AppleBusPowerController</string>
+			<string>AppleUSBHostResources</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBSleepPortCurrentLimit</key>
