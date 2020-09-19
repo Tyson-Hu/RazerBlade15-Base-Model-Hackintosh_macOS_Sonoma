@@ -2,7 +2,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11 beta7 / public beta3  
 #### v1.2.0
-- Updated builtin firmware versions(Boot Rom Version: `1554.40.9.0.0` to `1554.40.13.0.0`)
+- Updated builtin firmware versions(Boot Rom Version: `1554.40.9.0.0` to `1554.40.18.0.0`)
 - Added `ProcessorType` option to `Generic` (Default set to `0`, if you want to custom, go ahead.)
 - Fixed `UnblockFsConnect` option not working with APFS JumpStart
 - Added IA32 binary variant to the release bundles
@@ -12,6 +12,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
   - Added mkext 32-bit kext injection (10.4-10.6)
   - Added cacheless 32-bit kext injection (10.4-10.7)
   - Added 32-bit kernel/kext patching/blocking support
+  - Fixed issues loading 10.7 EfiBoot
 #### v1.1.0
 - Remove dependencies corecapture and IONetworkingFamily
 - Fix issue on scanpolicy stuck on recovery (while it's not `0`)
