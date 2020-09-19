@@ -13,6 +13,8 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
   - Added cacheless 32-bit kext injection (10.4-10.7)
   - Added 32-bit kernel/kext patching/blocking support
   - Fixed issues loading 10.7 EfiBoot
+#### v1.1.1
+- `USBPower` Fix: Replace `AppleBusPowerController` with `AppleUSBHostResources`
 #### v1.1.0
 - Remove dependencies corecapture and IONetworkingFamily
 - Fix issue on scanpolicy stuck on recovery (while it's not `0`)
