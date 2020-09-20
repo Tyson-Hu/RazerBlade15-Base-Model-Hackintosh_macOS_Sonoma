@@ -6,6 +6,9 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Added `ProcessorType` option to `Generic` (Default set to `0`, if you want to custom, go ahead.)
 - Fixed `UnblockFsConnect` option not working with APFS JumpStart
 - Added IA32 binary variant to the release bundles
+- Add `config` with `Secure Boot` & `ECID`
+  - full support with `sucure boot`, boot without `snapshot`, (**but you can't directly OTA you system**, cz you `snapshot` **lost!**)
+- **set default `config` without `ECID`** 
 - For older version macOS (Not & not gonna test, if you want challenge youself, do it!): 
   - Fixed improper handling of cacheless kexts without an Info.plist
   - Fixed improper calculation of kext startup address for blocking
@@ -13,6 +16,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
   - Added cacheless 32-bit kext injection (10.4-10.7)
   - Added 32-bit kernel/kext patching/blocking support
   - Fixed issues loading 10.7 EfiBoot
+  - Transliterate unicode into ascii
 #### v1.1.1
 - `USBPower` Fix: Replace `AppleBusPowerController` with `AppleUSBHostResources`
 #### v1.1.0
