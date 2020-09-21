@@ -9,12 +9,8 @@
 #define kern_rtc_h
 
 #include <Headers/kern_util.hpp>
-#include <Library/LegacyIOService.h>
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winconsistent-missing-override"
+#include <IOKit/IOService.h>
 #include <IOKit/acpi/IOACPIPlatformDevice.h>
-#pragma clang diagnostic pop
 
 class RTCStorage {
 	/**
