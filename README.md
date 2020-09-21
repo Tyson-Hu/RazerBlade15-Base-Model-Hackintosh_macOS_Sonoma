@@ -14,7 +14,7 @@
 - [doanhmaple](https://github.com/doanhmaple) - ACPI电池修补🔋 & 雷电三修补⚡️
 - [EmeryWan](https://github.com/EmeryWan) - BIOS修改 & 系统设置
 
-**支持macOS：10.15.1 ～ 11.0 beta6 ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Changelog.md)**     
+**支持macOS：10.15.1 ～ 11.0 beta7 ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Changelog.md)**     
 **暂无bug，期待你们的反馈<3**    
 
 <img align="left" src="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/image/daliansky.png" alt="名言" width="220">
