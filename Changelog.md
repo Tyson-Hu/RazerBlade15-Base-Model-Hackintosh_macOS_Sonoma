@@ -2,7 +2,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11 beta7 / public beta3  
 #### v1.2.0
-- Kexts get support on Xcode 12
+- Kexts get support on `Xcode 12`
 - Updated builtin firmware versions(Boot Rom Version: `1554.40.9.0.0` to `1554.40.18.0.0`)
 - Added `ProcessorType` option to `Generic` (Default set to `0`, if you want to custom, go ahead.)
 - Fixed `UnblockFsConnect` option not working with APFS JumpStart
