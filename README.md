@@ -135,16 +135,28 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 - [变更目录](#9变更目录)
 
 
+## 9/22 更新
+这次就挺突然的，一周内连发两个版本？？？没错，苹果今日放出了 `macOS Big Sur Beta8`， 版本号`20A5374i`，正常 `OTA` 更新即可。增量包只有 `2GB`。算是一个小补。          
+
+![11 beta8](image/beta8-1.png)
+
+![11 beta8](image/beta8-2.png)
+
+![11 beta8](image/beta8-3.png)
+
+![11 beta8](image/beta8-4.png)
+
+
 ## 9/17 更新
 又是一次漫长的等待。。。苹果终于释出了 `macOS Big Sur Beta7`，版本号`20A5374g`，正常 `OTA` 更新即可。增量包不到 `4GB`，全量包大小 `12GB` 左右。这次已g结尾的版本号让人想起gm版，不过这只是我瞎说的哈哈哈哈。
 
-![11 beta6](image/beta7-1.png)
+![11 beta7](image/beta7-1.png)
 
-![11 beta6](image/beta7-2.png)
+![11 beta7](image/beta7-2.png)
 
-![11 beta6](image/beta7-3.png)
+![11 beta7](image/beta7-3.png)
 
-![11 beta6](image/beta7-4.png)
+![11 beta7](image/beta7-4.png)
 
 
 ## 9/3 更新  
