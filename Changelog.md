@@ -11,6 +11,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
   - full support with `sucure boot`, boot without `snapshot`, (**but you can't directly OTA you system**, cz you `snapshot` **lost!**)
 - **set default `config` without `ECID`** 
 - For older version macOS (Not & not gonna test, if you want challenge youself, do it!): 
+  - Supports 64-bit macOS `10.6` and newer (`10.9` and newer is recommended)
   - Fixed improper handling of cacheless kexts without an Info.plist
   - Fixed improper calculation of kext startup address for blocking
   - Added mkext 32-bit kext injection (10.4-10.6)
