@@ -5,7 +5,7 @@
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/commits/master"> <img src="https://img.shields.io/github/last-commit/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
 
-<img align="right" src="https://www.tonymacx86.com/data/attachments/438/438790-8ae35cbb5010a132a8dc82015df0eb32.jpg" alt="Critter" width="245">
+<a href="https://www.apple.com/macos/big-sur-preview/"><img align="right" src="https://www.tonymacx86.com/data/attachments/438/438790-8ae35cbb5010a132a8dc82015df0eb32.jpg" alt="Critter" width="245"></a>
 
 特别鸣谢：   
 - [Dortania](https://dortania.github.io) - 黑苹果安装向导（OpenCore）
