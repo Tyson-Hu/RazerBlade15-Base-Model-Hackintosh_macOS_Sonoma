@@ -2,7 +2,6 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11 beta8 / public beta3  
 #### v1.2.0
-- `conifg.plist`: Add `SystemMemoryStatus` option to `Generic`
 - Workaround displaying `Preboot` due to macOS 11 bug (Display as `Macintosh HD`)
 - Add `pci14e4,4331`, `pci14e4,4353` and `pci14e4,4357` into `AirPortBrcmNIC_Injector.kext`
 - Do not alloc memory descriptors on systems without `vtd`
@@ -11,6 +10,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Kexts get support on `Xcode 12`
 - Updated builtin firmware versions(Boot Rom Version: `1554.40.9.0.0` to `1554.40.18.0.0`)
 - Added `ProcessorType` option to `Generic` (Default set to `0`, if you want to custom, go ahead.)
+- Add `SystemMemoryStatus` option to `Generic` (Default set to `Auto`, if you don't have memory tab in "about my mac", try this!)
 - Fixed `UnblockFsConnect` option not working with APFS JumpStart
 - Added IA32 binary variant to the release bundles
 - Add `config` with `Secure Boot` & `ECID`
