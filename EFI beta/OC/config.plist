@@ -1157,6 +1157,8 @@
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>MLB</key>
 			<string>C02926902CDJH4RAD</string>
 			<key>ProcessorType</key>

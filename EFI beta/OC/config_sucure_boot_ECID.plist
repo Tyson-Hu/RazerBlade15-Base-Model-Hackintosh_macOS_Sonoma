@@ -1155,6 +1155,8 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
