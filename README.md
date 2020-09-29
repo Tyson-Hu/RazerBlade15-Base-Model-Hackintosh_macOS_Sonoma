@@ -137,6 +137,17 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 - [变更目录](#9变更目录)
 
 
+## 9/29 更新
+苹果今日放出了 `macOS Big Sur Beta9`， 版本号`20A5384c`，正常 `OTA` 更新即可。不出意外的话，下一次更新就是GM版本了。
+
+![11 beta9](image/beta9-1.png)
+
+![11 beta9](image/beta9-2.png)
+
+![11 beta9](image/beta9-3.png)
+
+![11 beta9](image/beta9-4.png)
+
 ## 9/22 更新
 这次就挺突然的，一周内连发两个版本？？？没错，苹果今日放出了 `macOS Big Sur Beta8`， 版本号`20A5374i`，正常 `OTA` 更新即可。增量包只有 `2GB`。算是一个小补。          
 
