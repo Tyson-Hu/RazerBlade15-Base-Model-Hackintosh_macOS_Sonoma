@@ -114,7 +114,8 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 
 ## 目录
 - 更新
-   - [ macOS Big Sur Beta8 （9/22 更新）](#922-更新)
+  - [ macOS Big Sur Beta9 （9/29 更新）](#929-更新)
+  - [ macOS Big Sur Beta8 （9/22 更新）](#922-更新)
   - [ macOS Big Sur Beta7 （9/17 更新）](#917-更新)
   - [ macOS Big Sur Beta6 （9/3 更新）](#93-更新)
   - [ macOS Big Sur Beta5 & Public Beta2 （8/19 更新）](#819-更新)
