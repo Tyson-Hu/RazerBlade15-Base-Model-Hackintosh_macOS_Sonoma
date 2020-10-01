@@ -2,6 +2,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11 beta9 / public beta3  
 #### v1.2.0
+- Fixed rare kernel panic in SMCSuperIO
 - Workaround displaying `Preboot` due to macOS 11 bug (Display as `Macintosh HD`)
 - Add `pci14e4,4331`, `pci14e4,4353` and `pci14e4,4357` into `AirPortBrcmNIC_Injector.kext`
 - Do not alloc memory descriptors on systems without `vtd`
