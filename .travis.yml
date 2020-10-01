@@ -35,7 +35,7 @@ jobs:
     name: "Analyze DSLs"
 
     script:
-    - cd "/EFI beta/OC/ACPI" || exit 1
+    - cd "EFI\ beta/OC/ACPI " || exit 1
     - curl -# -L -O https://raw.githubusercontent.com/Acidanthera/MaciASL/master/Dist/iasl-stable || exit 1
     - chmod +x iasl* && find . -type f -name "*.dsl" -print0 | xargs -0 -I{} ./iasl* -vs -va {} || exit 1
 
