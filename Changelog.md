@@ -2,6 +2,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11 beta9 / public beta3  
 #### v1.2.0
+- New GUI Picker Theme! Thanks: [blackosx](https://github.com/blackosx) 
 - Fixed rare kernel panic in SMCSuperIO
 - Workaround displaying `Preboot` due to macOS 11 bug (Display as `Macintosh HD`)
 - Add `pci14e4,4331`, `pci14e4,4353` and `pci14e4,4357` into `AirPortBrcmNIC_Injector.kext`
@@ -21,6 +22,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
   - Supports 64-bit macOS `10.6` and newer (`10.9` and newer is recommended)
   - Fixed improper handling of cacheless kexts without an Info.plist
   - Fixed improper calculation of kext startup address for blocking
+  - Added 32-bit prelinking support
   - Added mkext 32-bit kext injection (10.4-10.6)
   - Added cacheless 32-bit kext injection (10.4-10.7)
   - Added 32-bit kernel/kext patching/blocking support
