@@ -2,6 +2,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11 beta9 / public beta3  
 #### v1.2.0
+- Added `ExtendBTFeatureFlags` to properly set `FeatureFlags` for Bluetooth (which substitutes `BT4LEContinuityFixup.kext`) 
 - New GUI Picker Theme! Thanks: [blackosx](https://github.com/blackosx) 
 - Fixed rare kernel panic in SMCSuperIO
 - Workaround displaying `Preboot` due to macOS 11 bug (Display as `Macintosh HD`)
