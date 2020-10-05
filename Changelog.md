@@ -50,6 +50,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
   - SMCSuperIO 1.1.6 ➡️ 1.1.7
   - WhateverGreen 1.4.2 ➡️ 1.4.3
   - VoodooInput 1.0.7 ➡️ 1.0.8
+  - VoodooI2C 2.4.4 ➡️ 2.5.1
 - For older version macOS (Not & not gonna test, if you want challenge youself, do it!): 
   - Supports 64-bit macOS `10.6` and newer (`10.9` and newer is recommended)
   - Fixed improper handling of cacheless kexts without an Info.plist
