@@ -42,7 +42,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
   - CPUFriend 1.2.1 ➡️ 1.2.2
   - HibernationFixup 1.3.5 ➡️ 1.3.6
   - Lilu 1.4.7 ➡️ 1.4.8
-  - VirtualSMC 1.1.7 ➡️ 1.1.8
+  - VirtualSMC 1.1.6 ➡️ 1.1.7
   - NVMeFix 1.0.3 ➡️ 1.0.4
   - SMCBatteryManager 1.1.6 ➡️ 1.1.7
   - SMCLightSensor 1.1.6 ➡️ 1.1.7
