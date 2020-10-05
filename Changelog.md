@@ -1,6 +1,21 @@
 RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11 beta9 / public beta3  
+#### v1.3.0
+- EFI Bump Version:     
+  - AirportBrcmFixup 2.1.0 ➡️ 2.1.1
+  - AppleALC 1.5.3 ➡️ 1.5.4
+  - CPUFriend 1.2.2 ➡️ 1.2.3
+  - HibernationFixup 1.3.6 ➡️ 1.3.7
+  - Lilu 1.4.8 ➡️ 1.4.9
+  - VirtualSMC 1.1.7 ➡️ 1.1.8
+  - NVMeFix 1.0.4 ➡️ 1.0.5
+  - SMCBatteryManager 1.1.7 ➡️ 1.1.8
+  - SMCLightSensor 1.1.7 ➡️ 1.1.8
+  - SMCProcessor 1.1.7 ➡️ 1.1.8
+  - SMCSuperIO 1.1.7 ➡️ 1.1.8
+  - WhateverGreen 1.4.3 ➡️ 1.4.4
+  - VoodooInput 1.0.8 ➡️ 1.0.9
 #### v1.2.0
 - Added `LegacyCommpage` quirk to improve pre-SSSE3 userspace compatibility
 - Fixed legacy SATA HDDs displaying as external drives in the picker
@@ -21,6 +36,20 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Add `config` with `Secure Boot` & `ECID`
   - full support with `sucure boot`, boot without `snapshot`, (**but you can't directly OTA you system**, cz you `snapshot` **lost!**)
 - **set default `config` without `ECID`** 
+- EFI Bump Version:     
+  - AirportBrcmFixup 2.0.9 ➡️ 2.1.0
+  - AppleALC 1.5.2 ➡️ 1.5.3
+  - CPUFriend 1.2.1 ➡️ 1.2.2
+  - HibernationFixup 1.3.5 ➡️ 1.3.6
+  - Lilu 1.4.7 ➡️ 1.4.8
+  - VirtualSMC 1.1.7 ➡️ 1.1.8
+  - NVMeFix 1.0.3 ➡️ 1.0.4
+  - SMCBatteryManager 1.1.6 ➡️ 1.1.7
+  - SMCLightSensor 1.1.6 ➡️ 1.1.7
+  - SMCProcessor 1.1.6 ➡️ 1.1.7
+  - SMCSuperIO 1.1.6 ➡️ 1.1.7
+  - WhateverGreen 1.4.2 ➡️ 1.4.3
+  - VoodooInput 1.0.7 ➡️ 1.0.8
 - For older version macOS (Not & not gonna test, if you want challenge youself, do it!): 
   - Supports 64-bit macOS `10.6` and newer (`10.9` and newer is recommended)
   - Fixed improper handling of cacheless kexts without an Info.plist
