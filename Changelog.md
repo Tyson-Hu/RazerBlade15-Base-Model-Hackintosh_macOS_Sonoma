@@ -16,6 +16,8 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
   - SMCSuperIO 1.1.7 ➡️ 1.1.8
   - WhateverGreen 1.4.3 ➡️ 1.4.4
   - VoodooInput 1.0.8 ➡️ 1.0.9
+#### v1.2.1
+- Delete `NoTouchID.kext`, no need for this anymore
 #### v1.2.0
 - Added `LegacyCommpage` quirk to improve pre-SSSE3 userspace compatibility
 - Fixed legacy SATA HDDs displaying as external drives in the picker
