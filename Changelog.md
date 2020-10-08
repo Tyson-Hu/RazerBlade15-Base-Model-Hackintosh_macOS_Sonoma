@@ -2,6 +2,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11 beta9 / public beta3  
 #### v1.3.0
+- Added support for xml comments in plist files
 - EFI Bump Version:     
   - AirportBrcmFixup 2.1.0 ➡️ 2.1.1
   - AppleALC 1.5.3 ➡️ 1.5.4
