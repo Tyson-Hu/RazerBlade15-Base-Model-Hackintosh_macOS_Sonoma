@@ -46,8 +46,8 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
   - 问题：无问题  / Issue: None
 
 - **EFI beta**  (使用时记得改名为 `EFI`)
-  - `OpenCore` 版本的EFI，版本 `0.6.1`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
-  - EFI with `OpenCore` , `v0.6.1`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
+  - `OpenCore` 版本的EFI，版本 `0.6.3`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
+  - EFI with `OpenCore` , `v0.6.3`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
   - **问题：**
     - **包含`EFI`里所有的BUG**
     - **可能会有其他未知BUG**
@@ -56,8 +56,8 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
     - **Might have other unknow BUG**
 
 - **EFI** 
-  - `OpenCore` 版本的EFI，版本 `0.6.1`，对应系统 `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
-  - EFI with `OpenCore` , `v0.6.1`, for `macOS 11` & `macOS 10.15.6`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
+  - `OpenCore` 版本的EFI，版本 `0.6.2`，对应系统 `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
+  - EFI with `OpenCore` , `v0.6.2`, for `macOS 11` & `macOS 10.15.6`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
   - **问题：**
     - **睡眠唤醒后时间仍定格在睡眠前（需手动更新时间）** 
     - **无法自动切换音频输出，开机默认耳机输出，变更输出需要手动切换。(无法解决)**
