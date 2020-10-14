@@ -1,6 +1,6 @@
 RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
-### Support Version: macOS 10.15.1 ~ macOS 11 beta9 / public beta3  
+### Support Version: macOS 10.15.1 ~ macOS 11 beta10
 #### v1.3.0
 - Added support for xml comments in plist files
 - Fixed `BOOTx64.efi` and `BOOTIA32.efi` convention
