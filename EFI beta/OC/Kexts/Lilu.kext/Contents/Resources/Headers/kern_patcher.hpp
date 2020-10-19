@@ -222,6 +222,73 @@ public:
 
 		return (T)nullptr;
 	}
+    
+    /**
+     *  Solve request to resolve multiple symbols in one shot and simplify error handling
+     *
+     *  @seealso solveMultiple().
+     */
+    struct SolveRequest {
+        /**
+         *  The symbol to solve
+         */
+        const char *symbol {nullptr};
+        
+        /**
+         *  The symbol address on success, otherwise NULL.
+         */
+        mach_vm_address_t *address {nullptr};
+        
+        /**
+         *  Construct a solve request conveniently
+         */
+        template <typename T>
+        SolveRequest(const char *s, T &addr) :
+			symbol(s), address(reinterpret_cast<mach_vm_address_t*>(&addr)) { }
+    };
+	
+	/**
+	 *  Solve multiple functions with basic error handling
+	 *
+	 *  @param id        loaded kinfo id
+	 *  @param requests  an array of requests to solve
+	 *  @param num       requests array size
+	 *  @param start     start address range
+	 *  @param size      address range size
+	 *  @param crash     kernel panic on invalid non-zero address
+	 *  @param force     continue on first error
+	 *
+	 *  @return false if at least one symbol cannot be solved.
+	 */
+	inline bool solveMultiple(size_t id, SolveRequest *requests, size_t num, mach_vm_address_t start, size_t size, bool crash=false, bool force=false) {
+		for (size_t index = 0; index < num; index++) {
+			auto result = solveSymbol(id, requests[index].symbol, start, size, crash);
+			if (result) {
+				*requests[index].address = result;
+			} else {
+				clearError();
+				if (!force) return false;
+			}
+		}
+		return true;
+	}
+	
+	/**
+	 *  Solve multiple functions with basic error handling
+	 *
+	 *  @param id        loaded kinfo id
+	 *  @param requests  an array of requests to solve
+	 *  @param start     start address range
+	 *  @param size      address range size
+	 *  @param crash     kernel panic on invalid non-zero address
+	 *  @param force     continue on first error
+	 *
+	 *  @return false if at least one symbol cannot be solved.
+	 */
+	template <size_t N>
+	inline bool solveMultiple(size_t id, SolveRequest (&requests)[N], mach_vm_address_t start, size_t size, bool crash=false, bool force=false) {
+		return solveMultiple(id, requests, N, start, size, crash, force);
+	}
 
 	/**
 	 *  Hook kext loading and unloading to access kexts at early stage
@@ -407,6 +474,16 @@ public:
 		template <typename T>
 		RouteRequest(const char *s, T t, mach_vm_address_t &o) :
 			symbol(s), to(reinterpret_cast<mach_vm_address_t>(t)), org(&o) { }
+		
+		/**
+		 *  Construct RouteRequest for wrapping a function
+		 *  @param s  symbol to lookup
+		 *  @param t  destination address
+		 *  @param o  trampoline storage to the original symbol
+		 */
+		template <typename T, typename O>
+		RouteRequest(const char *s, T t, O &o) :
+			RouteRequest(s, t, reinterpret_cast<mach_vm_address_t&>(o)) { }
 
 		/**
 		 *  Construct RouteRequest for routing a function
