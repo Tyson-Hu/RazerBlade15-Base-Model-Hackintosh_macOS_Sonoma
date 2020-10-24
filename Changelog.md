@@ -2,6 +2,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11 beta10
 #### v1.3.0
+- Reduce audio lags in SMCDellSensors
 - Added the PCI GMCH Graphics Control register definition. (by 0xFireWolf)
 - Added a new API to solve multiple symbols in one shot conveniently. (by 0xFireWolf)
 - Added a new `RouteRequest` constructor to work with function pointers without additional type castings. (by 0xFireWolf)
