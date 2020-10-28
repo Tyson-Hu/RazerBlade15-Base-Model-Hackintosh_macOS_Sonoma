@@ -14,7 +14,7 @@
 - [doanhmaple](https://github.com/doanhmaple) - ACPI电池修补🔋 & 雷电三修补⚡️
 - [EmeryWan](https://github.com/EmeryWan) - BIOS修改 & 系统设置
 
-**支持macOS：10.15.1 ～ 11.0 beta10 ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Changelog.md)**     
+**支持macOS：10.15.1 ～ 11.0.1 beta ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Changelog.md)**     
 **暂无bug，期待你们的反馈<3**    
 
 <img align="left" src="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/image/daliansky.png" alt="名言" width="220">
@@ -113,6 +113,7 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 
 ## 目录
 - 更新
+  - [ macOS Big Sur 11.0.1 beta （10/28 更新）](#1028更新)
   - [ macOS Big Sur Beta10 （10/14 更新）](#1014-更新)
   - [ macOS Big Sur Beta9 （9/29 更新）](#929-更新)
   - [ macOS Big Sur Beta8 （9/22 更新）](#922-更新)
@@ -136,6 +137,15 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 - [附加：U盘直装](#7附加u盘直装)
 - [参考](#8参考)
 - [变更目录](#9变更目录)
+
+## 10/28 更新
+果然不出意外我又被打脸了，不过在释出正式版之前就放出下一个测试版也是苹果的日常操作了，所以其实都在我的意料之中（手动滑稽）
+
+![11.0.1 beta](image/11.0.1-beta-1.png)
+
+![11.0.1 beta](image/11.0.1-beta-2.png)
+
+![11.0.1 beta](image/11.0.1-beta-3.png)
 
 ## 10/14 更新
 苹果今日放出了 `macOS Big Sur Beta10`， 版本号`20A5395g`，正常 `OTA` 更新即可。~~不出意外的话，下一次更新就是GM版本了~~（不敢bb了）
