@@ -140,7 +140,7 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 
 ## 10/28 更新
 果然不出意外我又被打脸了，不过在释出正式版之前就放出下一个测试版也是苹果的日常操作了，所以其实都在我的意料之中（手动滑稽）     
-如果你检测不到更新，进入终端输入一下代码，然后关闭设置重新打开检测应该就可以检测到了。     
+如果你检测不到更新，进入终端输入以下代码，然后关闭设置重新打开就可以检测到了。     
 
 ```
 sudo /System/Library/PrivateFrameworks/Seeding.framework/Versions/A/Resources/seedutil unenroll         
