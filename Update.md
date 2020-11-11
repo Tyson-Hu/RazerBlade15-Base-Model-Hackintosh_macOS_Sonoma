@@ -1,4 +1,22 @@
 # 更新时间线 / Update Time Line
+## 目录 / Catalog
+- [ macOS Big Sur 11.0.1 RC2 （11/10 更新）](#1110-更新)
+- [ macOS Big Sur 11.0.1 RC1 （11/5 更新）](#115-更新)
+- [ macOS Big Sur 11.0.1 beta （10/28 更新）](#1028-更新)
+- [ macOS Big Sur Beta10 （10/14 更新）](#1014-更新)
+- [ macOS Big Sur Beta9 （9/29 更新）](#929-更新)
+- [ macOS Big Sur Beta8 （9/22 更新）](#922-更新)
+- [ macOS Big Sur Beta7 （9/17 更新）](#917-更新)
+- [ macOS Big Sur Beta6 （9/3 更新）](#93-更新)
+- [ macOS Big Sur Beta5 & Public Beta2 （8/19 更新）](#819-更新)
+- [ macOS Big Sur Public Beta (8/13更新)](#813-更新)
+- [ macOS Big Sur Beta4 （8/4 更新）](#84-更新)
+- [ macOS Big Sur Beta3 （7/22 更新）](#722-更新)
+- [ Clover v5120 （7/16 更新）](#716-更新-clover-v5120)
+- [ macOS 10.15.6 （7/15 更新）](#715-更新-非-big-sur--catalina)
+- [ 【黑果小兵】macOS Big Sur Beta 2 Installer for OpenCore and PE双EFI分区原版镜像 （7/11 更新）](#711-更新)
+- [macOS Big Sur Beta2 （7/7 更新）](#77-更新)
+
 ## 11/10 更新
 今日放出了 RC2，版本号`20B28`，可以看成是GM版，如果介意的话建议重新安装系统。 OTA后可能会出现激活的界面，（如果你OTA完卡在登陆转圈圈了，那应该就是这个没错了！等就完事了）
 
