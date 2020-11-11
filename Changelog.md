@@ -2,6 +2,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11.0.1 RC2
 #### v1.4.0
+- Ignore verbs without `alc-verbs` HDEF property or `alcverbs=1` boot-arg
 - Enabled loading in safe mode (mainly for AGDP fixes)
 - Added boot-arg: `nvram-log=1` (enables AppleEFINVRAM logs)
 - Added `BlacklistAppleUpdate` to fix 11.0 broken update optout
