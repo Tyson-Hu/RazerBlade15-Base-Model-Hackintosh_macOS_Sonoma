@@ -1,7 +1,24 @@
 RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11.0.1 RC2
+#### v1.4.0
+- Added boot-arg: `nvram-log=1` (enables AppleEFINVRAM logs)
+- Added `BlacklistAppleUpdate` to fix 11.0 broken update optout
+- Dropped HII services from OpenDuet improving size and performance
+- Fixed patching of injected kexts in mkext
+- Added support for launching from relative paths
+- Added direct path passing for tools via `RealPath`
+- Allowed launching tools and entries in text mode via `TextMode`
+- Updated builtin firmware versions for SMBIOS and the rest
+- Fixed ACPI patches not applying if tables are in locked memory
 #### v1.3.0
+- Added missing Secure Boot NVRAM variables required by 11.0
+- Added support for `x86legacy` secure boot model
+- Fixed Ps2MouseDxe not properly loading under OpenDuetPkg
+- Added workaround for read-only errors on some X299 boards
+- Added `ForceSecureBootScheme` quirk for virtual machines [Kernel->Quirks->ForceSecureBootScheme]
+- Add `ForceResolution` option for enabling non-default resolutions [UEFI->Output->ForceResolution]
+- Fixed plist-only kext injection in Big Sur
 - Reduce audio lags in SMCDellSensors
 - Added the PCI GMCH Graphics Control register definition. (by 0xFireWolf)
 - Added a new API to solve multiple symbols in one shot conveniently. (by 0xFireWolf)
