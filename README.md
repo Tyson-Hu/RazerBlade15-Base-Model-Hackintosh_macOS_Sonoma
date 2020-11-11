@@ -112,6 +112,7 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
 ## 目录
+- [更新](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Update.md)
 - [一些问题](#一些问题)
 - [硬件介绍](#1硬件介绍)
 - [最终效果](#2最终效果)
