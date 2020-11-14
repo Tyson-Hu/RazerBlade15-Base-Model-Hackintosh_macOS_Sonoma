@@ -13,6 +13,17 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Allowed launching tools and entries in text mode via `TextMode`
 - Updated builtin firmware versions for SMBIOS and the rest
 - Fixed ACPI patches not applying if tables are in locked memory
+- EFI Bump Version:     
+  - AirportBrcmFixup 2.1.1 ➡️ 2.1.2
+  - AppleALC 1.5.4 ➡️ 1.5.5
+  - HibernationFixup 1.3.7 ➡️ 1.3.8
+  - Lilu 1.4.9 ➡️ 1.5.0
+  - VirtualSMC 1.1.8 ➡️ 1.1.9
+  - SMCBatteryManager 1.1.8 ➡️ 1.1.9
+  - SMCLightSensor 1.1.8 ➡️ 1.1.9
+  - SMCProcessor 1.1.8 ➡️ 1.1.9
+  - SMCSuperIO 1.1.8 ➡️ 1.1.9
+  - WhateverGreen 1.4.4 ➡️ 1.4.5
 #### v1.3.0
 - Added missing Secure Boot NVRAM variables required by 11.0
 - Added support for `x86legacy` secure boot model
