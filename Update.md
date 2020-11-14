@@ -1,5 +1,6 @@
 # 更新时间线 / Update Time Line
 ## 目录 / Catalog
+- [ macOS Big Sur 11.0.1 （11/12 更新）](#1112-更新)
 - [ macOS Big Sur 11.0.1 RC2 （11/10 更新）](#1110-更新)
 - [ macOS Big Sur 11.0.1 RC1 （11/5 更新）](#115-更新)
 - [ macOS Big Sur 11.0.1 beta （10/28 更新）](#1028-更新)
@@ -16,6 +17,11 @@
 - [ macOS 10.15.6 （7/15 更新）](#715-更新-非-big-sur--catalina)
 - [ 【黑果小兵】macOS Big Sur Beta 2 Installer for OpenCore and PE双EFI分区原版镜像 （7/11 更新）](#711-更新)
 - [macOS Big Sur Beta2 （7/7 更新）](#77-更新)
+
+## 11/10 更新
+正式版，版本号`20B29`，没有什么想说的，冲就完事了。。。          
+
+![11.0.1](/image/11.0.1.png)
 
 ## 11/10 更新
 今日放出了 RC2，版本号`20B28`，可以看成是GM版，如果介意的话建议重新安装系统。 OTA后可能会出现激活的界面，（如果你OTA完卡在登陆转圈圈了，那应该就是这个没错了！等就完事了）
