@@ -18,7 +18,7 @@
 - [ 【黑果小兵】macOS Big Sur Beta 2 Installer for OpenCore and PE双EFI分区原版镜像 （7/11 更新）](#711-更新)
 - [macOS Big Sur Beta2 （7/7 更新）](#77-更新)
 
-## 11/10 更新
+## 11/12 更新
 正式版，版本号`20B29`，没有什么想说的，冲就完事了。。。          
 
 ![11.0.1](/image/11.0.1.png)
