@@ -14,14 +14,14 @@
 - [doanhmaple](https://github.com/doanhmaple) - ACPI电池修补🔋 & 雷电三修补⚡️
 - [EmeryWan](https://github.com/EmeryWan) - BIOS修改 & 系统设置
 
-**支持macOS：10.15.1 ～ 11.0.1 ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Changelog.md)**     
+**支持macOS：10.15.1 ～ 11.2 beta ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Changelog.md)**     
 **暂无bug，期待你们的反馈<3**    
 
 <img align="left" src="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/image/daliansky.png" alt="名言" width="220">
 
 ⚠️：本人不会为你操作过程中所出现的任何错误负责！   
 
-<a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.6.4-ff69b4"/> </a>
+<a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.6.5-ff69b4"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/releases/tag/v1.3.0"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/releases"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur?include_prereleases"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/archive/master.zip"> <img src="https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/total"/> </a>
@@ -30,7 +30,7 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 **建议从左往右尝试，最后再尝试我后面写的关于虚拟机安装教程！**             
 **OTA升级请使用`config_OTA.plist`!!!否则提示需完整安装包或者🈚️快照导致无法升级！!(如果出现启动直接重启的状况同样尝试使用该文件)**               
 
-稳定版采用 `OpenCore 0.6.3`，测试版EFI采用 `OpenCore 0.6.4`。
+稳定版采用 `OpenCore 0.6.4`，测试版EFI采用 `OpenCore 0.6.5`。
 
 <img align="right" src="https://static.dribbble.com/users/3460/screenshots/14117702/media/7c3c5728cec212f97ece1b0c5bf3f08c.png" alt="Peel1 by Ryan Putnam" width="245">
 
@@ -46,8 +46,8 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
   - 问题：无问题  / Issue: None
 
 - **EFI beta**  (使用时记得改名为 `EFI`)
-  - `OpenCore` 版本的EFI，版本 `0.6.4`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
-  - EFI with `OpenCore` , `v0.6.4`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
+  - `OpenCore` 版本的EFI，版本 `0.6.5`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
+  - EFI with `OpenCore` , `v0.6.5`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
   - **问题：**
     - **包含`EFI`里所有的BUG**
     - **可能会有其他未知BUG**
@@ -56,8 +56,8 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
     - **Might have other unknow BUG**
 
 - **EFI** 
-  - `OpenCore` 版本的EFI，版本 `0.6.3`，对应系统 `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
-  - EFI with `OpenCore` , `v0.6.3`, for `macOS 11` & `macOS 10.15.6`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
+  - `OpenCore` 版本的EFI，版本 `0.6.4`，对应系统 `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
+  - EFI with `OpenCore` , `v0.6.4`, for `macOS 11` & `macOS 10.15.6`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
   - **问题：**
     - **睡眠唤醒后时间仍定格在睡眠前（需手动更新时间），确认为RTC问题，短期无时间去解决，有空的小伙伴希望可以帮帮我5555** 
     - **无法自动切换音频输出，开机默认耳机输出，变更输出需要手动切换。(无法解决)**
