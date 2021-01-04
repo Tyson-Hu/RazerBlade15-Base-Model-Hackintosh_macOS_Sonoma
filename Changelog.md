@@ -24,6 +24,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
   - AppleALC 1.5.5 ➡️ 1.5.6
   - HibernationFixup 1.3.8 ➡️ 1.3.9
   - WhateverGreen 1.4.5 ➡️ 1.4.6
+  - VoodooI2C 2.5.1 ➡️ 2.6.2
 #### v1.4.0
 - AirportBrcmFixup: set of available drivers depends on the system version(`brcmfx-alldrv`)
 - Added `AllowRelocationBlock` quirk for older macOS and safe mode
