@@ -15,6 +15,17 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Allowed launching tools and entries in text mode via `TextMode`
 - Updated builtin firmware versions for SMBIOS and the rest
 - Fixed ACPI patches not applying if tables are in locked memory
+- Fixed `DisableSingleUser` quirk when Apple Secure Boot is enabled
+- Added `BootstrapShort` to workaround buggy Insyde firmwares
+- Changed `Bootstrap(Short)` to choose dynamic entry (requires NVRAM reset)
+- Avoided `Boot` prefix in `RequestBootVarRouting` to workaround AMI issues
+- Added bootloader patch support in `Booter` `Patch` section
+- Fixed startup hang on firmwares allowong reentrance for timer functions
+- Made pointer control optional for OpenCanopy via `PickerAttributes`
+- Added support for `StartupMute` variable in `PlayChime`
+- Added support for per-volume icons for APFS on Preboot
+- Removed HII dependency from OpenUsbKbDxe driver
+- Fixed undefined behavior in OpenDuet causing random crashes and hangs
 - EFI Bump Version:     
   - AirportBrcmFixup 2.1.1 ➡️ 2.1.2
   - AppleALC 1.5.4 ➡️ 1.5.5
