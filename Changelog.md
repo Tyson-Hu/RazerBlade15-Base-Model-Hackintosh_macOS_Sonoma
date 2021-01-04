@@ -1,6 +1,6 @@
 RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
-### Support Version: macOS 10.15.1 ~ macOS 11.0.1
+### Support Version: macOS 10.15.1 ~ macOS 11.2 beta
 #### v1.4.0
 - AirportBrcmFixup: set of available drivers depends on the system version(`brcmfx-alldrv`)
 - Added `AllowRelocationBlock` quirk for older macOS and safe mode
