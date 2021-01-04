@@ -1,5 +1,6 @@
 # 更新时间线 / Update Time Line
 ## 目录 / Catalog
+- [ macOS Big Sur 11.2 beta （1/4 更新）](#14-更新)
 - [ macOS Big Sur 11.0.1 （11/12 更新）](#1112-更新)
 - [ macOS Big Sur 11.0.1 RC2 （11/10 更新）](#1110-更新)
 - [ macOS Big Sur 11.0.1 RC1 （11/5 更新）](#115-更新)
