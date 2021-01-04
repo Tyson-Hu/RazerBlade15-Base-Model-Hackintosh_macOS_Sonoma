@@ -1,6 +1,8 @@
 RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11.2 beta
+#### v1.6.0
+- Under Construction...
 #### v1.5.0
 - Fixed installing OpenDuet on protected volumes
 - Updated underlying EDK II package to edk2-stable202011
