@@ -21,8 +21,8 @@
 
 ⚠️：本人不会为你操作过程中所出现的任何错误负责！   
 
-<a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.6.5-ff69b4"/> </a>
-<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/releases/tag/v1.4.0"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
+<a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.6.6-ff69b4"/> </a>
+<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/releases/tag/v1.5.0"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/releases"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur?include_prereleases"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/archive/master.zip"> <img src="https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/total"/> </a>
 
@@ -30,7 +30,7 @@ EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机
 **建议从左往右尝试，最后再尝试我后面写的关于虚拟机安装教程！**             
 **OTA升级请使用`config_OTA.plist`!!!否则提示需完整安装包或者🈚️快照导致无法升级！!(如果出现启动直接重启的状况同样尝试使用该文件)**               
 
-稳定版采用 `OpenCore 0.6.5`，测试版EFI采用 `OpenCore 0.6.6(给我一些时间）`。
+稳定版采用 `OpenCore 0.6.5`，测试版EFI采用 `OpenCore 0.6.6`。
 
 <img align="right" src="https://static.dribbble.com/users/3460/screenshots/14117702/media/7c3c5728cec212f97ece1b0c5bf3f08c.png" alt="Peel1 by Ryan Putnam" width="245">
 
