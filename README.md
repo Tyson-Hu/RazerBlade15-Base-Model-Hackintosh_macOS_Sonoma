@@ -26,7 +26,8 @@
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/releases"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur?include_prereleases"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/archive/master.zip"> <img src="https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/total"/> </a>
 
-EFI支持以下这些安装：1.OTA 2.完整安装包 3.U盘安装 4.虚拟机     
+EFI支持以下这些安装：      
+1.OTA 2.完整安装包 3.U盘安装 4.虚拟机     
 **建议从左往右尝试，最后再尝试我后面写的关于虚拟机安装教程！**                          
 
 稳定版采用 `OpenCore 0.6.5`，测试版EFI采用 `OpenCore 0.6.6`。
