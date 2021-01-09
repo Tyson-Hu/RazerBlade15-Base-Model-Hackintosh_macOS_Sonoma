@@ -2,7 +2,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11.2 beta
 #### v1.6.0
-- Under Construction...
+- Fix Type-c connection on USB2.0 port (try connect your iPhone with type-c wire)
 #### v1.5.0
 - boot-arg change: `igfxcflbklt=1` to `-igfxblr`
 - Fixed installing OpenDuet on protected volumes
