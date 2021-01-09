@@ -41,8 +41,8 @@ EFI支持以下这些安装：
 
 ## 文件说明 / File Description  
 - **CLOVER**
-  - `CLOVER`引导`EFI`，版本`5103`，对应系统 `macOS 10.15.4`。由于我已经转入 `OC` 引导，因此不会再进行更新，放在这里只是为了给那些需要使用 `5120` 的人作为参考
-  - EFI with `CLOVER`，`v5103`, for `macOS 10.15.4`. I won't update it anymore,because of I move to `OC`. Just a reference for guys who want to use `CLOVER v5120`.
+  - `CLOVER`引导`EFI`，版本`5103`，对应系统 `macOS 10.15.4`。由于我已经转入 `OC` 引导，因此不会再进行更新，放在这里只是为了给那些需要使用 `5120` 及以上的人作为参考
+  - EFI with `CLOVER`，`v5103`, for `macOS 10.15.4`. I won't update it anymore,because of I move to `OC`. Just a reference for guys who want to use `CLOVER v5120` or upper verion.
   - 问题：无问题  / Issue: None
 
 - **EFI beta**  (使用时记得改名为 `EFI`)
