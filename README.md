@@ -47,7 +47,7 @@ EFI支持以下这些安装：
 
 - **EFI beta**  (使用时记得改名为 `EFI`)
   - `OpenCore` 版本的EFI，版本 `0.6.6`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
-  - EFI with `OpenCore` , `v0.6.6`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[From `OpenCore-Factory`]**)which could cause some **ISSUE** that don't expect.
+  - EFI with `OpenCore` , `v0.6.6`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[Self Compile]**)which could cause some **ISSUE** that don't expect.
   - **问题：**
     - **包含`EFI`里所有的BUG**
     - **可能会有其他未知BUG**
@@ -109,7 +109,8 @@ EFI支持以下这些安装：
 - **其他机型的EFI（不会配的或者想要现成的看这里！）**
   - [Hackintosh黑苹果长期维护机型EFI及安装教程整理](https://github.com/daliansky/Hackintosh)
 - [OpenCore 检查工具 / OpenCore Sanity Checker](https://opencore.slowgeek.com/)
-  - 用于检测你config是否有配置错误，里面提供的信息仅供参考，并非 100% 正确！  
+  - 用于检测你config是否有配置错误，里面提供的信息仅供参考，并非 100% 正确！
+  
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
 ## 目录
