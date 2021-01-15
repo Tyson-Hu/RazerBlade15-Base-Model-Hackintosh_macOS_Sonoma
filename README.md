@@ -108,7 +108,8 @@ EFI支持以下这些安装：
   - [【持续更新】OpenCore引导-v各种卡及OC引导常见问题解决方案速查表合集](http://imacos.top/2020/03/28/0154/) 
 - **其他机型的EFI（不会配的或者想要现成的看这里！）**
   - [Hackintosh黑苹果长期维护机型EFI及安装教程整理](https://github.com/daliansky/Hackintosh)
-  
+- [OpenCore 检查工具 / OpenCore Sanity Checker](https://opencore.slowgeek.com/)
+  - 用于检测你config是否有配置错误，里面提供的信息仅供参考，并非 100% 正确！  
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
 ## 目录
