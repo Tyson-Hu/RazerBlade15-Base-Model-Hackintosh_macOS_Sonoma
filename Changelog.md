@@ -1,6 +1,27 @@
 RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
-### Support Version: macOS 10.15.1 ~ macOS 11.2 beta
+### Support Version: macOS 10.15.1 ~ macOS 11.3
+#### v1.7.0
+- **Update OpenCore to `0.6.8`**
+- Fix Keyboard & USB problem on macOS 11.3
+- Added `ForceBooterSignature` quirk for Mac EFI firmware
+- Added `Base` and `BaseSkip` lookup for ACPI patches
+- Added more precise control on `AppleEvent` protocol properties and features
+- Added Memory Type decoding for SMBIOS in `Automatic` mode
+- Improved touch state abstraction
+- Added APST workaround for `Kingston A2000`
+- Auto hibernation: added possibility to disable power event kStimulusDarkWakeActivityTickle in kernel, so this event cannot be a trigger for switching from dark wake to full wake.
+  - Can be turned on via bit `DisableStimulusDarkWakeActivityTickle=128` in boot-arg `hbfx-ahbm`.
+- EFI Bump Version:     
+  - AppleALC 1.5.6 ➡️ 1.5.9
+  - Lilu 1.5.0 ➡️ 1.5.2
+  - NVMeFix 1.0.5 ➡️ 1.0.6
+  - RealtekRTL8111 2.3.0d10 ➡️ 2.4.0
+  - HibernationFixup 1.3.9 ➡️ 1.4.0
+  - VirtualSMC 1.1.9 ➡️ 1.2.2
+  - WhateverGreen 1.4.6 ➡️ 1.4.9
+  - VoodooI2C 2.6.2 ➡️ 2.6.5
+  - VoodooInput 1.1.0 ➡️ 1.1.2
 #### v1.6.0
 - Fix Type-c connection on USB2.0 port (try connect your iPhone with type-c wire)
 #### v1.5.0
