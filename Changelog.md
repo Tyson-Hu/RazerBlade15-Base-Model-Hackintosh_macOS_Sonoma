@@ -1,9 +1,10 @@
 RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
-### Support Version: macOS 10.15.1 ~ macOS 11.3
+### Support Version: macOS 10.15.1 ~ macOS 11.4 beta
 #### v1.7.0
 - **Update OpenCore to `0.6.8`**
 - Fix Keyboard & USB problem on macOS 11.3
+- Fix bootloop of Hibernation in some cases
 - Added `ForceBooterSignature` quirk for Mac EFI firmware
 - Added `Base` and `BaseSkip` lookup for ACPI patches
 - Added more precise control on `AppleEvent` protocol properties and features
