@@ -1,6 +1,15 @@
 RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 11.4 beta
+#### v1.8.0
+- Relate to OpenCore 0.6.9
+- Added `ForgeUefiSupport` quirk to workaround legacy EFI 1.x firmwares compatibility
+- Added `ReloadOptionRoms` quirk to force-load Option ROMs on PCI devices
+- Added `OC_ATTR_USE_MINIMAL_UI` to allow running pickers with no Shutdown and Restart buttons
+- Added display of OpenCore version number to OpenCanopy as well as builtin picker, depending on existing ExposeSensitiveData bit
+- Added support for case-insensitive argument handling in the UEFI tools
+- Added vector acceleration of SHA-512 and SHA-384 hashing algorithms, thx @MikhailKrichanov
+- Fixed wraparound when using arrow keys in OpenCanopy
 #### v1.7.0
 - **Update OpenCore to `0.6.8`**
 - Fix Keyboard & USB problem on macOS 11.3
