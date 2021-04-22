@@ -21,7 +21,7 @@
 
 ⚠️：本人不会为你操作过程中所出现的任何错误负责！   
 
-<a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.6.8-ff69b4"/> </a>
+<a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.6.9-ff69b4"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/releases/tag/v1.5.0"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/releases"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur?include_prereleases"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/archive/master.zip"> <img src="https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/total"/> </a>
@@ -30,7 +30,7 @@ EFI支持以下这些安装：
 1.OTA 2.完整安装包 3.U盘安装 4.虚拟机     
 **建议从左往右尝试，最后再尝试我后面写的关于虚拟机安装教程！**                          
 
-稳定版采用 `OpenCore 0.6.8`，测试版EFI采用 `OpenCore 0.6.6`。
+稳定版采用 `OpenCore 0.6.8`，测试版EFI采用 `OpenCore 0.6.9`。
 
 <img align="right" src="https://static.dribbble.com/users/3460/screenshots/14117702/media/7c3c5728cec212f97ece1b0c5bf3f08c.png" alt="Peel1 by Ryan Putnam" width="245">
 
@@ -46,8 +46,8 @@ EFI支持以下这些安装：
   - 问题：无问题  / Issue: None
 
 - **EFI beta**  (使用时记得改名为 `EFI`)
-  - `OpenCore` 版本的EFI，版本 `0.6.6`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
-  - EFI with `OpenCore` , `v0.6.6`, for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[Self Compile]**)which could cause some **ISSUE** that don't expect.
+  - `OpenCore` 版本的EFI，版本 `0.6.9`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
+  - EFI with `OpenCore` , `v0.6.9`,for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[Self Compile]**)which could cause some **ISSUE** that don't expect.
   - **问题：**
     - **包含`EFI`里所有的BUG**
     - **可能会有其他未知BUG**
