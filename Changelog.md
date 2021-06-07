@@ -30,6 +30,12 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Added `csr-data` Apple NVRAM var to docs
 - Fixed file alignment causing codesign issues with CLANGPDB images
 - Replaced `AdviseWindows` with `AdviseFeatures` to support APFS
+- Kext Bump Version:     
+  - AppleALC 1.5.9 ➡️ 1.6.1
+  - Lilu 1.5.2 ➡️ 1.5.3
+  - NVMeFix 1.0.6 ➡️ 1.0.8
+  - VirtualSMC 1.2.2 ➡️ 1.2.4
+  - WhateverGreen 1.4.9 ➡️ 1.5.0
 #### v1.8.0
 - Relate to OpenCore 0.6.9
 - Added `ForgeUefiSupport` quirk to workaround legacy EFI 1.x firmwares compatibility
