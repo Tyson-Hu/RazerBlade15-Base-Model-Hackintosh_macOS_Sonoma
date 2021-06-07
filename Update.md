@@ -1,5 +1,6 @@
 # 更新时间线 / Update Time Line
 ## 目录 / Catalog
+- [ macOS Big Sur 12.0 beta （6/7 更新）](#67-更新)
 - [ macOS Big Sur 11.2 beta （1/4 更新）](#14-更新)
 - [ macOS Big Sur 11.0.1 （11/12 更新）](#1112-更新)
 - [ macOS Big Sur 11.0.1 RC2 （11/10 更新）](#1110-更新)
@@ -18,6 +19,10 @@
 - [ macOS 10.15.6 （7/15 更新）](#715-更新-非-big-sur--catalina)
 - [ 【黑果小兵】macOS Big Sur Beta 2 Installer for OpenCore and PE双EFI分区原版镜像 （7/11 更新）](#711-更新)
 - [macOS Big Sur Beta2 （7/7 更新）](#77-更新)
+
+## 6/7 更新
+适配 macOS 12，目前还不确定为何显卡没有显示出来，但显卡是正常工作的。。。
+![12.0](/image/12.0.png)
 
 ## 11/12 更新
 正式版，版本号`20B29`，没有什么想说的，冲就完事了。。。          
