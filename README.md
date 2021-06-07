@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" alt="OpenCore 0.6.1" width="225">
+<img align="right" src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" alt="OpenCore 0.7.0" width="225">
 
 # Razer Blade 15 Base Hackintosh
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/issues"> <img src="https://img.shields.io/github/issues/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
