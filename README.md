@@ -203,7 +203,7 @@ EFI支持以下这些安装：
 | ``iFixIt Pro Tech Toolkit`` | [iFixIt](https://www.ifixit.com/Store/Tools/Pro-Tech-Toolkit/IF145-307?o=4) |
 
 ## [2]最终效果
-![info](./image/info.png)
+![info](./image/12.0.png)
 
 ## [3]解锁BIOS
 ### [3-1]Base版 `BIOS` 解锁
