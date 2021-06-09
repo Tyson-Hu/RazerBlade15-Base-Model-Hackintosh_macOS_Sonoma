@@ -723,7 +723,7 @@ WinUTCOff.reg ➡️ 关闭UTC时间计算
 当你不需要该时间结算方法后，双击运行 `WinUTCOff.reg` 即可。  
 
 ## [7]附加：U盘直装
-*搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/)*
+*搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/ckplbzv9p0005bq3wa3becgpa/#more)*
 
 ### 准备：
 
@@ -774,7 +774,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - http://bbs.pcbeta.com/viewthread-1862835-1-1.html
 - http://bbs.pcbeta.com/viewthread-1862148-1-1.html
 - https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/
-- https://wanan.run/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
+- https://wanan.run/ckplbzv9p0005bq3wa3becgpa/#more
   
 ## [9]变更目录
 - 11/12
