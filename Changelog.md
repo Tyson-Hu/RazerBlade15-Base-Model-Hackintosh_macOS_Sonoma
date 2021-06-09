@@ -2,6 +2,7 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 12.0 beta
 #### v2.0.0
+- Relate to OpenCore 0.7.0
 - Allow loading on macOS 12 without `-lilubetaall` (With adapted for macOS 12 plug-ins)
 - Added constants for macOS 12 support
 - Fixed NVRAM reset on firmware with write-protected `BootOptionSupport`
