@@ -2,6 +2,8 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 12.0 beta
 #### v2.0.0
+- Allow loading on macOS 12 without `-lilubetaall` (With adapted for macOS 12 plug-ins)
+- Added constants for macOS 12 support
 - Fixed NVRAM reset on firmware with write-protected `BootOptionSupport`
 - Improved direct GOP renderer performance for certain cases
 - Added support for display rotation in direct GOP renderer
@@ -31,11 +33,14 @@ RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
 - Fixed file alignment causing codesign issues with CLANGPDB images
 - Replaced `AdviseWindows` with `AdviseFeatures` to support APFS
 - Kext Bump Version:     
-  - AppleALC 1.5.9 ➡️ 1.6.1
-  - Lilu 1.5.2 ➡️ 1.5.3
+  - AirportBrcmFixup 2.1.2 ➡️ 2.1.3
+  - AppleALC 1.5.9 ➡️ 1.6.2
+  - CPUFriend 1.2.3 ➡️ 1.2.4
+  - HibernationFixup 1.4.0 ➡️ 1.4.1
+  - Lilu 1.5.2 ➡️ 1.5.4
   - NVMeFix 1.0.6 ➡️ 1.0.8
-  - VirtualSMC 1.2.2 ➡️ 1.2.4
-  - WhateverGreen 1.4.9 ➡️ 1.5.0
+  - VirtualSMC 1.2.2 ➡️ 1.2.5
+  - WhateverGreen 1.4.9 ➡️ 1.5.1
 #### v1.8.0
 - Relate to OpenCore 0.6.9
 - Added `ForgeUefiSupport` quirk to workaround legacy EFI 1.x firmwares compatibility

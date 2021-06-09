@@ -1216,7 +1216,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-lilubetaall -wegbeta alcid=23 brcmfx-driver=2 -igfxblr -wegnoegpu igfxrpsc=1</string>
+				<string>alcid=23 brcmfx-driver=2 -igfxblr -wegnoegpu igfxrpsc=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
