@@ -1,10 +1,10 @@
-RazerBlade 15 Base Model(2018) Big Sur EFI Changelog
+RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 12.0 beta
 #### v2.1.0 (Planning)
 - Relate to OpenCore 0.7.1
 - Add theme for picker
-- Add `BrcmPatchRAM` for bluetooth inject (waiting for PR [#12](https://github.com/acidanthera/BrcmPatchRAM/pull/12) 
+- Add `BrcmPatchRAM` for bluetooth inject (waiting for PR [#12](https://github.com/acidanthera/BrcmPatchRAM/pull/12))
 #### v2.0.0
 - Relate to OpenCore 0.7.0
 - Allow loading on macOS 12 without `-lilubetaall` (With adapted for macOS 12 plug-ins)
