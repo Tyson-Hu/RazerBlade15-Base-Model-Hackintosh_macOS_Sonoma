@@ -1,7 +1,7 @@
 RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 12.0 beta
-#### v2.1.0 (Building)
+#### v2.1.0 
 - Relate to OpenCore 0.7.2
 - Added support for macOS 10.4 and newer (Test yourself if you want use that version of macOS)
 - Added `SyncTableIds` quirk to sync modified table OEM identifiers **(Default set to `false`)**
