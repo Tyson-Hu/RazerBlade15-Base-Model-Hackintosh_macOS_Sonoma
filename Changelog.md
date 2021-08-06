@@ -3,13 +3,23 @@ RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ### Support Version: macOS 10.15.1 ~ macOS 12.0 beta
 #### v2.1.0 (Building)
 - Relate to OpenCore 0.7.2
+- Added support for macOS 10.4 and newer (Test yourself if you want use that version of macOS)
 - Added `SyncTableIds` quirk to sync modified table OEM identifiers **(Default set to `false`)**
 - Added support for `custom kernels` on ESP partition **(Default set to `false`)**
 - Added support for `display rotation` in direct GOP renderer **(Default set to `false`)**
 - Added `GraphicsInputMirroring` to fix lost keystrokes in some non-Apple graphical UEFI apps **(Default set to `true`)**
+- Added `device-id` spoofing support for AMD graphics
+- Added macOS 10.4 support for `VirtualSMC` and `SMCBatteryManager` (Test yourself if you want use that version of macOS)
+- Use method `routeMultipleLong` instead of `routeMultiple` in order to avoid conflict with future versions of `CpuTscSync`
 - Value type changed for `GopPassThrough`: Boolean -> String
 - Add theme for picker
-- Add `BrcmPatchRAM` for bluetooth inject (waiting for PR [#12](https://github.com/acidanthera/BrcmPatchRAM/pull/12))
+- Add `BrcmPatchRAM` / BlueToolFixup for macOS 12 compatibility
+- Kext Bump Version:     
+  - AppleALC 1.6.2 ➡️ 1.6.3
+  - HibernationFixup 1.4.1 ➡️ 1.4.2
+  - Lilu 1.5.4 ➡️ 1.5.5
+  - VirtualSMC 1.2.5 ➡️ 1.2.6
+  - WhateverGreen 1.5.1 ➡️ 1.5.2
 #### v2.0.0
 - Relate to OpenCore 0.7.0
 - Allow loading on macOS 12 without `-lilubetaall` (With adapted for macOS 12 plug-ins)
