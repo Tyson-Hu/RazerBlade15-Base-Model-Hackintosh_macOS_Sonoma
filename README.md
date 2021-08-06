@@ -30,7 +30,7 @@ EFI支持以下这些安装：
 1.OTA 2.完整安装包 3.U盘安装 4.虚拟机     
 **建议从左往右尝试，最后再尝试我后面写的关于虚拟机安装教程！**                          
 
-稳定版采用 `OpenCore 0.7.0`，~~测试版EFI采用 `OpenCore 0.6.9`~~。
+稳定版采用 `OpenCore 0.7.2`，~~测试版EFI采用 `OpenCore 0.6.9`~~。
 
 <img align="right" src="https://static.dribbble.com/users/3460/screenshots/14117702/media/7c3c5728cec212f97ece1b0c5bf3f08c.png" alt="Peel1 by Ryan Putnam" width="245">
 
@@ -56,8 +56,8 @@ EFI支持以下这些安装：
     - **Might have other unknow BUG**
 
 - **EFI** 
-  - `OpenCore` 版本的EFI，版本 `0.7.0`，对应系统 `macOS 12` & `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
-  - EFI with `OpenCore` , `v0.7.0`, for `macOS 12` & `macOS 11` & `macOS 10.15.6`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
+  - `OpenCore` 版本的EFI，版本 `0.7.2`，对应系统 `macOS 12` & `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
+  - EFI with `OpenCore` , `v0.7.2`, for `macOS 12` & `macOS 11` & `macOS 10.15.6`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
   - **问题：**
     - **睡眠唤醒后时间仍定格在睡眠前（需手动更新时间），确认为RTC问题，短期无时间去解决，有空的小伙伴希望可以帮帮我5555** 
     - **无法自动切换音频输出，开机默认耳机输出，变更输出需要手动切换。(无法解决)**
