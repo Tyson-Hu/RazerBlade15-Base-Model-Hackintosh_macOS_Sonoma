@@ -5,7 +5,7 @@
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/commits/master"> <img src="https://img.shields.io/github/last-commit/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
 
-<a href="https://www.apple.com/macos/big-sur-preview/"><img align="right" src="https://www.tonymacx86.com/data/attachments/438/438790-8ae35cbb5010a132a8dc82015df0eb32.jpg" alt="Critter" width="245"></a>
+<a href="https://www.apple.com/macos/big-sur-preview/"><img align="right" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/245f4571-14d4-4069-90a7-259b2971229f/del3rk1-177dea3e-01d6-4c32-bcfd-8927b7bc8364.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI0NWY0NTcxLTE0ZDQtNDA2OS05MGE3LTI1OWIyOTcxMjI5ZlwvZGVsM3JrMS0xNzdkZWEzZS0wMWQ2LTRjMzItYmNmZC04OTI3YjdiYzgzNjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RDHFl6JxHrJPAZGg1gIyuGEOJCn9WMTLlNYVlu8Ql5E" alt="Critter" width="245"></a>
 
 特别鸣谢：   
 - [Dortania](https://dortania.github.io) - 黑苹果安装向导（OpenCore）
