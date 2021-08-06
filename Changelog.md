@@ -1,8 +1,13 @@
 RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 12.0 beta
-#### v2.1.0 (Planning)
-- Relate to OpenCore 0.7.1
+#### v2.1.0 (Building)
+- Relate to OpenCore 0.7.2
+- Added `SyncTableIds` quirk to sync modified table OEM identifiers **(Default set to `false`)**
+- Added support for `custom kernels` on ESP partition **(Default set to `false`)**
+- Added support for `display rotation` in direct GOP renderer **(Default set to `false`)**
+- Added `GraphicsInputMirroring` to fix lost keystrokes in some non-Apple graphical UEFI apps **(Default set to `true`)**
+- Value type changed for `GopPassThrough`: Boolean -> String
 - Add theme for picker
 - Add `BrcmPatchRAM` for bluetooth inject (waiting for PR [#12](https://github.com/acidanthera/BrcmPatchRAM/pull/12))
 #### v2.0.0
