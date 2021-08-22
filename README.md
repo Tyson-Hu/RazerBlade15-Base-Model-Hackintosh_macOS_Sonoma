@@ -30,7 +30,7 @@ EFI支持以下这些安装：
 1.OTA 2.完整安装包 3.U盘安装 4.虚拟机     
 **建议从左往右尝试，最后再尝试我后面写的关于虚拟机安装教程！**                          
 
-稳定版采用 `OpenCore 0.7.2`，~~测试版EFI采用 `OpenCore 0.6.9`~~。
+稳定版采用 `OpenCore 0.7.2`，测试版EFI采用 `OpenCore 0.7.3`。
 
 <img align="right" src="https://static.dribbble.com/users/3460/screenshots/14117702/media/7c3c5728cec212f97ece1b0c5bf3f08c.png" alt="Peel1 by Ryan Putnam" width="245">
 
@@ -46,8 +46,8 @@ EFI支持以下这些安装：
   - 问题：无问题  / Issue: None
 
 - **EFI beta**  (使用时记得改名为 `EFI`)
-  - `OpenCore` 版本的EFI，版本 `0.6.9`，对应系统 `macOS 11`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
-  - EFI with `OpenCore` , `v0.6.9`,for `macOS 11`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[Self Compile]**)which could cause some **ISSUE** that don't expect.
+  - `OpenCore` 版本的EFI，版本 `0.7.3`，对应系统 `macOS 12`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
+  - EFI with `OpenCore` , `v0.7.3`,for `macOS 12`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[Self Compile]**)which could cause some **ISSUE** that don't expect.
   - **问题：**
     - **包含`EFI`里所有的BUG**
     - **可能会有其他未知BUG**
