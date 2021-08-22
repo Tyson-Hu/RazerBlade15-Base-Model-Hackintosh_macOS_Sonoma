@@ -1,6 +1,14 @@
 RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 12.0 beta
+#### v2.1.2
+- Relate to OpenCore 0.7.3
+- Fixed OpenCanopy performance loss due to redrawing introduced in 0.6.9
+- Added pattern-based automatic variable initialisation for better security
+- Kext Change:
+  - LiluFriend(**Removed**), not really need this now.
+- Kext Bump Version:
+  - RealtekRTL8111 2.4.0 ➡️ 2.4.2
 #### v2.1.0 
 - Relate to OpenCore 0.7.2
 - Added support for macOS 10.4 and newer (Test yourself if you want use that version of macOS)
