@@ -39,6 +39,22 @@ EFI支持以下这些安装：
 
 如果你安装的时候遇到一些困难或者有什么不懂的地方，可以尝试找个QQ群进行交流？我在这个群里➡️ "[OpenCore技术交流群](https://shang.qq.com/wpa/qunwpa?idkey=665ed002721454d2e811535020261a04b0aae2fa3b6a2ffde5778a852f892178)"，大神众多非OC适配者慎入.
 
+## 目录
+- [文件说明 / File Description](#文件说明--file-description)
+- [写在最前 / Preface](#写在最前)
+- [基础配置 & 知识 / Helpful resourses](#基础配置--知识)
+- [更新 / Updates](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Update.md)
+- [一些问题 / Issues](#一些问题)
+- [硬件介绍 / Device Spec](#1硬件介绍)
+- [最终效果 / ](#2最终效果)
+- [解锁BIOS / BIOS Unlock](#3解锁bios)
+- [安装前的准备 / Before install](#4安装前的准备)
+- [系统安装 / System instation](#5系统安装)
+- [一些优化 / Optimization](#6一些优化)
+- [附加：U盘直装 / Flash Drive instation](#7附加u盘直装)
+- [参考 / Reference](#8参考)
+
+
 ## 文件说明 / File Description  
 - **CLOVER**
   - `CLOVER`引导`EFI`，版本`5103`，对应系统 `macOS 10.15.4`。由于我已经转入 `OC` 引导，因此不会再进行更新，放在这里只是为了给那些需要使用 `5120` 及以上的人作为参考
@@ -113,18 +129,6 @@ EFI支持以下这些安装：
   
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
-## 目录
-- [更新](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Update.md)
-- [一些问题](#一些问题)
-- [硬件介绍](#1硬件介绍)
-- [最终效果](#2最终效果)
-- [解锁BIOS](#3解锁bios)
-- [安装前的准备](#4安装前的准备)
-- [系统安装](#5系统安装)
-- [一些优化](#6一些优化)
-- [附加：U盘直装](#7附加u盘直装)
-- [参考](#8参考)
-- [变更目录](#9变更目录)
 
 ## 一些问题
 我也是刚接触黑苹果不久，到我写这篇文章才一个多月？ 还有很多问题是我无法解决的，当然我后面也会努力爬贴查找解决方案，毕竟 `macOS 11` 我不就是这么过来的嘛。如果有哪位大佬知道如何解决可以联系我，感激不尽！
@@ -150,23 +154,25 @@ EFI支持以下这些安装：
 | :----------: | :-----------------: | :------------------------------------------: |
 |     CPU      |      Intel Core i7-8750H processor, 6 Cores / 12 Threads, 2.2GHz / 4.1GHz, 9MB Cache       |                     无问题（系统将采用UHD630作为显卡）                   |
 |     IGPU     |        Intel UHD 630       |   无问题   |
-|     GPU      |  Nvdia 1060 Max-Q   | 除 10.13 High Sierra 安装 WebDriver 外，10.13以上版本皆不可用（建议直接屏蔽掉） |
+|     GPU      |  Nvdia GTX1060 Max-Q   | 除 10.13 High Sierra 安装 WebDriver 外，10.13以上版本皆不可用（建议直接屏蔽掉） |
 |      内存    |   16GB dual-channel DDR4-2667MHz, up to 64GB    |       无问题      |
 |     硬盘     | 更换为 Sabrent Rocket NVMe 1TB          |                     无问题                     |
-|     网卡     |       9560NGW （现已更换为DW1560 / BCM94352Z）             |           无问题（Windows驱动需要自己下载）            |
+|     网卡     |       9560NGW （现已更换为DW1560 / BCM94352Z）             |           无问题（~~Windows驱动需要自己下载~~, 驱动已上传）            |
 |    显示器    |        15.6" Full HD 60Hz, 1920 x 1080 IPS      |                无问题（可以在60Hz和48Hz之间切换）                     |
 |    摄像头    |       HD webcam (1MP / 720P)              |                     无问题                     |
 |    扬声器    |       Realtek ALC256              |                     无问题                     |
 |    耳机    |           爱插啥就是啥                          |                     无问题                     |
 |    麦克风    |                 鬼晓得啥型号                |                     无问题                     |
 |    触控板    |            全玻璃                |             无问题                             |
-|  HDMI 接口   |                     |    直通显卡，除安装 High Sierra 外不可用     |
-| Mini DP 接口 |                     |    直通显卡，除安装 High Sierra 外不可用     |
+|  HDMI 接口<sup>*</sup>   |                     |    直通显卡，除安装 High Sierra(或更低) 外不可用     |
+| Mini DP 接口<sup>*</sup> |                     |    直通显卡，除安装 High Sierra(或更低) 外不可用     |
 |    雷电3     |                     |   被识别成 USB3.1 ？？？（eGPU目前不确定，应该无法使用）  |
 |    大小      |       17.8mm x 235mm x 355mm  |    这tm还能变？？？ | 
 |    重量       |         2.21 Kg        |    还想变的更轻？别做梦了老铁     | 
 |    电池      |    80Wh （好像是，我忘了，反正不耐用...)   |无问题（还能有问题 ？？？）    |
 |    电源适配器  |       180W          | 没PD快充，当然你可以自己试试诱骗器    | 
+
+<sup>*</sup>目前对于10.13(High Sierra) 以上的设备想要外接屏幕需要使用带有 `DisplayLink` 或与其相似技术支持的转接器(一般为HDMI/DP 转 USB-typeA), 或者使用支持 `Airplay` 的屏幕. (我会在近期测试这类转接器, 如果可行的话我会挂出链接以供参考)      
 
 ### [1-1]硬件更换 / 硬件升级
 **网卡 & 蓝牙** 
@@ -774,319 +780,7 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 - http://bbs.pcbeta.com/viewthread-1862835-1-1.html
 - http://bbs.pcbeta.com/viewthread-1862148-1-1.html
 - https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/
-- https://wanan.run/ckplbzv9p0005bq3wa3becgpa/#more
-  
-## [9]变更目录
-- 11/12
-  - 更新 11.0.1正式版
-- 11/11
-  - 独立更新日志
-- 11/10
-  - 更新 11.0.1 RC2
-- 11/5
-  - 更新 11.0.1 RC1
-- 10/28
-  - 更新 11.0.1 beta
-- 10/14
-  - 更新 beta10
-- 9/29
-  - 更新 beta9
-- 9/22
-  - 更新 beta8
-- 9/17
-  - 更新 beta7
-- 9/3
-  - 更新 beta6
-- 9/1
-  - 开学降低更新频率
-- 8/19
-  - 更新 beta5
-  - 删除启动参数 `-brcmfxbeta` ，`-hbfxbeta`
-  - 默认禁用 `VerbStub`，需要使用请手动开启。
-- 8/17
-  - 添加 Windows & macOS 时间同步教程
-- 8/15
-  - 象征性添加3.8GB / 4080MB显存 （使用 `config_4080.plist`）
-  - 添加显存修改教程
-- 8/14
-  - 添加 `SecureBoot`，默认设置为 `j132` 对应 `MacBookPro15,2 (July 2018)`
-  - 更新 `USBPorts.kext`，修复开机画幅大小的问题。
-  - 更新 `OpenCore Configurator 2.10.0.0` 
-- 8/13
-  - 修复 `DW1560` 在 `Beta4` 和 `Public Beta` 的问题
-  - **更新8/13号自编译 `VirtualSMC` (VirtualSMC 1.1.6)**
-    - Fix audio lags in Safari caused by reading SMM in SMCDellSensors plugin([#36](https://github.com/acidanthera/VirtualSMC/pull/36))  
-    - Sync changelog
-    - Add experimental support for supplement information ([#34](https://github.com/acidanthera/VirtualSMC/pull/34))
-    - Drop extra semicolon
-  - **更新8/13号自编译 `Lilu`  （Lilu 1.4.7）**
-    - Sync changelog
-    - Do not remove osfmk folder from SDK's libraries (will be used by SMCDellSensors and probably SMCProcessor)
-  - **更新8/13号自编译 `AppleALC`  （AppleALC 1.5.2）**
-    - Added missing layout7.xml ([#586](https://github.com/acidanthera/AppleALC/pull/586))
-    - Update Changelog.md
-    - Update README_CN.md
-  - **更新8/13号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.9）**
-    - boot-arg and property `brcmfx-aspm` supports special value `255` in order to skip logic disabling APSM for 0x14e4:0x43a3 (DW1820A).
-    - Update Changelog.md
-- 8/12
-  - 更新正式版 `EFI` 
-  - 更新 `OpenCore Configurator 2.9.1.0` 
-  - 更改机型为 `MacBook Pro 15,2`
-  - 添加图像化引导
-- 8/7
-  - 更新HIDPi教程
-- 8/4
-  - 更新USB定制教程
-  - 更新 macOS Big Sur Beta 4
-- 8/3
-  - 更新EFI驱动到最新稳定版本
-  - 更新官方Kext全家桶（搬运自@acidanthera）
-  - 更新OpenCore 0.6.0 （搬运自@acidanthera）
-  - 更新macOS系统优化：USB驱动定制教程
-  - **更新8/3号自编译 `VirtualSMC` (VirtualSMC 1.1.4)** 
-    - Improve SMC generation debugging
-    - Force x86_64
-    - Resolve booting issue on macOS 11 due to provider race condition
-    - Get things compile in Xcode 12 (is not guaranteed to work)
-    - Fixed crashes when trying to read CLKT key
-    - Update README.md
-  - **更新8/3号自编译 `Lilu`  （Lilu 1.4.6）**
-    - Fixed another race condition in kext patcher loading code in 11.0
-    - Resolve init issues on 11.0 with multiple PCI root devices
-    - Force x86_64
-    - Process already loaded kexts early in 11.0
-    - Make function routing atomic in several places
-    - Get things compile in Xcode 12 (is not guaranteed to work)
-    - Initialise kernel patches in parallel to PCI
-    - Add RTC register indices
-    - Abort on PCI register read failure
-    - Implement Lilu loading at console init in 11.0
-    - Fix typo in debug logging
-    - Update README.md
-  - **更新8/3号自编译 `WhateverGreen`  （WhateverGreen 1.4.1）**
-    - Force x86_64
-    - fix typo and spaces ([#59](https://github.com/acidanthera/WhateverGreen/pull/59))
-    - Get things compile in Xcode 12 (is not guaranteed to work)
-    - Update FAQ.IntelHD.cn.md ([#58](https://github.com/acidanthera/WhateverGreen/pull/58))
-    - Update README.md
-    - Update FAQ.IntelHD.en.md
-  - **新增8/3号自编译 `NVMeFix`   (NVMeFix 1.0.3)**
-    - Added constants for 11.0 support.
-    - Get things compile in Xcode 12 (is not guaranteed to work)
-    - Leave a note regarding 11.0
-    - Force x86_64
-  - **新增8/3号自编译 `CPUFriend`   (CPUFriend 1.2.1)**
-    - Added constants for 11.0 support
-    - Get things compile in Xcode 12 (is not guaranteed to work)
-    - Force x86_64
-  - **更新8/3号自编译 `AppleALC`  （AppleALC 1.5.1）**
-    - Force x86_64
-    - Get things compile in Xcode 12 (is not guaranteed to work)
-    - Update README.md
-  - **更新8/3号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
-    - Force x86_64
-    - Get things compile in Xcode 12 (is not guaranteed to work)
-    - Fix ordering of build stages ([#8](https://github.com/acidanthera/AirportBrcmFixup/pull/8))
-    - Update README.md
-  - **更新8/3号自编译 `HibernationFixup`   (HibernationFixup 1.3.4)**
-    - Force x86_64
-    - Get things compile in Xcode 12 (is not guaranteed to work)
-    - Added constants for 11.0 support
-  - **更新8/2号编译版本 `OpenCore` (OpenCore 0.6.0)**
-    - Update SSDT-EC-USBX.dsl
-    - OcCpuLib: Fix display name for i9 CPUs like 7920X
-
-- 8/2
-  - **睡眠修复，现在可以直接合盖睡眠或手动点击睡眠💤 ！！！**
-  - **更新8/1号编译版本 `OpenCore` (OpenCore 0.6.0)**（**I disable nvmefix, if you are using nvme drive you should enable it!!! / 我在efi中未启用nvmefix的kext，如果你使用nvme硬盘使用系统，请手动启用！！！**)
-    - Patches: Add AtaAtapiPassThru IDE timeout patch
-    - OcAppleSecureBootLib: Fix invalid assertion
-    - OcAppleIm4Lib: Fix memcpy undefined reference
-    - Include: Add BlockIoVendor header
-    - EfiLdr: Revert removal of memmap shifts
-    - Include: Update AppleCsrConfig with 11.0 definitions
-    - BootSector: Drop unused and non-functional GENPAGE mode
-    - EfiLdr: Fixed 32-bit booting on machines with over 4 GBs of RAM
-    - Docs: Document the DeviceProperty limitations for some drivers
-    - Update SSDT-EC-USBX.dsl (#92)
-    - OcXmlLib: Free original buffer on failure
-    - OcXmlLib: Correct/clarify XmlDocumentExport
-    - OcXmlLib: Fix previous commit
-    - OcXmlLib: Add plist doctype export option
-    - DataBase: Fixed BIOSReleaseDates
-    - PlatformInfo Automatic for all models
-    - Build: Fix warnings
-    - OcFileLib: Implement AllocateCopyFileData
-    - OcXmlLib: Implement XmlNodeChangeContent
-    - Utilities: Drop OpenDuetPkg binary and rebuild it with OC
-    - OcDevicePathLib: Added a workaround for PCI0 with 0x1 _UID
-    - OpenCoreMisc: Perform serial init separately via SerialInit option
-    - Docs: Fix the hint regarding RebuildAppleMemoryMap
-    - OcAfterBootCompatLib: Fix 32-bit dead loop
-    - Docs: Provide errata entry on OSXSAVE issue
-    - OcAppleKernelLib: Fixed OSXSAVE reporting when emulating CPUID on newer CPUs
-    - Docs: Improve the documentation
-    - OcConsoleLib: Update UGA comments
-    - OcFileLib: Consolidate to use GetFileInfo
-    - DataBase: Update builtin firmware versions for 11.0
-    - Update SampleLegacy.plist
-
-- 8/1
-  - 更新 `USB-Adapter` 驱动 by `chris1111`
-- 7/30
-  - 更新BIOS教程 (Base版 Only)
-- 7/26
-  - 修复CLT问题
-- 7/25
-  - 修复SIP问题
-  - 修复Authenticated-root问题
-  - 修复系统写入权限&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/[Beta3]貌似已失效，后续会进行测试/
-- 7/22
-  - 更新 macOS Big Sur beta3
-- 7/20 
-  - **更新7/20号自编译 `WhateverGreen`  （WhateverGreen 1.4.1）**
-    - Update FAQ.IntelHD.en.md
-  - **更新7/20号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
-    - Support brcmfx-aspm for all chipsets
-    - Support boot-arg & property `brcmfx-aspm` to override value used for pci-aspm-default, support ioreg property brcmfx-wowl
-  - **更新7/20号编译版本 `OpenCore` (OpenCore 0.6.0)**
-    - Includes: Fix MKext header comments
-    - OcCompressionLib: Expose Adler32 function
-    - OcDevicePathLib: Fix potential deadloop
-    - Patches: Add AtaAtapiPassThru patches for G33
-    - Includes: Add missing Mach prefixes
-    - Includes: Fix additional typos
-    - OcFileLib: Fix typo
-    - Patches: Add SataControllerDxe patch for G33 in RAID mode
-    - OcAppleKernelLib: Fix memory corruption with many kexts in 11.0
-- 7/18 
-  - **新增自编译驱动 `VoodooInput` (VoodooInput 1.0.6)**
-  - **更新7/18号编译版本 `OpenCore` (OpenCore 0.6.0)**
-    - Docs: Fix debugging patches
-    - Docs: generated pdf
-    - OcMemoryLib: Fix typo
-    - Utilities/KextInject: Determine Info/EXE reserve sizes
-- 7/16 
-  - **更新7/16号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
-    - Fix critical issue introduced in previous 2 commits (getting of brcmfx-driver index)
-    - Check and fix incorrect value brcmfx-driver (if specified value is unsupported in current osx system)
-  - **更新7/16号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
-    - Include SMCDellSensors in package ([#33](https://github.com/acidanthera/VirtualSMC/pull/33))
-    - Sync changelog
-    - Compatibility fixes in SMCBatteryManager for 10.16 ([#32](https://github.com/acidanthera/VirtualSMC/pull/32))
-    - Update Changelog.md
-    - **Added a new plugin SMCDellSensors (adapted SMI Monitor from HWSensors):**
-      - monitor and control temperature and fans in Dell computers by using SMM technology ([#31](https://github.com/acidanthera/VirtualSMC/pull/31))
-        - Port SMIMonitor for VirtualSMC
-        - Use mp_rendezvous instead of mp_rendezvous_no_intrs and disable/enable interrupts in assembler code
-        - Add keys for fan control, configurable multiplier and names
-        - Fix issue with non-sorted keys, add target speed support.
-        - Update Changelog.md
-        - Fix project & file name in sources, add copyrights and links to the original sources
-        - Fix issues in fan control, remove unsupported on real Macs key F0As.
-        - Use _Atomic instead of stateLock
-        - Do not disable interrupts while reading SMM, rename variables according to review remarks.
-        - Increase SMM reading interval
-        - Increase maximum amount of temp sensors 8
-        - Revert max amount of temp sensors to 6 (we do not have so many smc keys to keep them all), rename variable for FS! again (with comments)
-        - Fix attributes for F0Mn & F0Mx, add logging if someone wants to update these keys
-        - Disable update timer during sleep/shutdown phase, otherwise reading of SMM prevents sleeping with closed lid.
-        - Use DBGLOG for logging
-        - Fix module version and remove unused variable.
-        - **Co-authored-by: lvs1974 
-          <lvs1974@users.noreply.github.com>**
-  - **更新7/16号编译版本 `OpenCore` (OpenCore 0.6.0)**
-    - OcBootManagementLib: Load icons for custom boot entries ([#91](https://github.com/acidanthera/OpenCorePkg/pull/91))
-    - Update Changelog.md
-    - DataBase: Update builtin firmware versions
-    - Update AutoGenerated.c
-    - DataBase: Update SmcRevision
-    - OcFileLib: Provide workaround for buggy drivers
-    - DataBase: Fixed typos
-    - Includes: AppleKeyMapAggregator revision is UINT64
-    - OcMemoryLib: Fix typo
-
-- 7/15
-  - 更新 `macOS 10.15.6` 正式版 & `Safari 14.0` 测试版 **（非 `Big Sur` 更新）**
-  
-- 7/14 
-  - **更新7/14号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
-    - Fixed running smcread on 11.0 without IOKit framework
-  - **更新7/14号编译版本 `OpenCore` (OpenCore 0.6.0)**
-    - Docs: Fixed typo
-    - DataBase: Updeted MBP164
-
-- 7/13
-  - **更新7/13号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
-    - Update README.md  **(只是更新说明文档，无驱动变化)**
-  - **更新7/13号自编译 `WhateverGreen`  （WhateverGreen 1.4.1）**
-    - Update README.md  **(只是更新说明文档，无驱动变化)**
-  - **更新7/13号自编译 `AppleALC`  （AppleALC 1.5.1）**
-    - Update README.md  **(只是更新说明文档，无驱动变化)**
-  - **更新7/13号自编译版本 `Lilu` (Lilu 1.4.6)**
-    - Update README.md  **(只是更新说明文档，无驱动变化)**
-  - **更新7/13号编译版本 `OpenCore` (OpenCore 0.6.0)**
-    - Delete OpenCore_with_text_Right.png
-    - Docs: Fixed previous
-    - Docs: Added links to customised icons.
-    - Docs: Update SampleLegacy
-    - Docs: Fixed Samples
-- 7/12
-  - **新增7/12号编译版本 `OpenCore` (OpenCore 0.6.0) [转载自`OpenCore-Factory`]**
-    - Docs: Drop Generic key as it is unused from Legacy
-    - Docs: Rename SampleFull to SampleLegacy and fix typos
-  - **更新7/12号自编译 `VirtualSMC` (VirtualSMC ?.?.?)** 
-    - Fix sign issues in legacy smc tool
-- 7/11
-  - 更新一些我自己用的壁纸....（算是给自己的壁纸做备份？？？)
-  - **更新7/11号自编译 `AirportBrcmFixup`（AirportBrcmFixup 2.0.8）**
-    - Merge remote-tracking branch `refs/remotes/origin/master`
-    - Fix wrong base class IOService for FakeBrcm, now it works in older osx
-    - Update README.md
-    - Commit required files for previous commit
-    - Remove injectors for AirPortBrcm4360 and AirPortBrcmNIC from main Info.plist and move them into separate plugins AirPortBrcm4360_Injector and AirPortBrcmNIC_Injector (kexts with plist only)
-- 7/10
-  - Release打包 📦  改为分包模式：
-    - `x/x-DEBUG.zip`
-    - `x/x-RELEASE.zip`  (一般使用`RELEASE`版即可)
-  - 修复Wi-Fi不定时自动断开的毛病
-  - 更新release分支，一般会在8 ~ 24小时左右更新驱动
-    - **⚠️ 注意：我发布的自编译驱动未经原作者同意，因此有问题请不要在原作者的issue里发表！⚠️**
-  - **更新7/10号自编译 `Lilu`  （Lilu 1.4.6）**
-    - Silence stupid clang analyzer
-  - **更新7/10号自编译 WhateverGreen  （WhateverGreen 1.4.1）**
-    - Revert workaround for ATIController::start on 11.0
-- 7/9
-  - **更新7/9号自编译 `OpenCore` （OC 0.6.0）** (已添加进Tools里)
-    - DxeIpl: Fix ACPI reset register detection
-  - **更新7/8号自编译 `Lilu`  （Lilu 1.4.6）**
-    - Added device publishing API to monitor device startup
-  - **更新7/9号自编译 `WhateverGreen`  （WhateverGreen 1.4.1）**
-    - Add first generation Intel HD Graphics support
-  - **更新7/8号自编译 `AppleALC`  （AppleALC 1.5.1）**
-    - Use new device publishing API for 11.0 syncing 
-  - **更新7/5号自编译 `AirportBrcmFixup`  （AirportBrcmFixup 2.0.8）**
-    - Fix warning 'Value stored to 'subSystemDeviceID' during its initializ…
-- 7/7
-  - **更新 macOS Big Sur beta2**
-  - **更换 `VisualSMC` 为 `FakeSMC`**
-- 7/5
-  - 更换 `Broadcom BCM94352Z` / `DW1560` 网卡 
-    - 蓝牙得到解决
-    - Wi-Fi得到解决
-    - 状态栏卡顿得到解决
-  - **修复状态栏卡顿**
-- 7/4
-  - **修复开机画屏**
-  - **修复电池显示**
-  - **修复触摸板**
-- 6/30
-  - **更新 macOS Big Sur beta1**  
-  - **更新 OC 0.6.0**  
-  
-~~后续内容还在施工中👷，请耐心等待⌛️~~   
-~~作者不会鸽的放心吧，咕咕咕咕～～～~~
+- https://wanan.run/ckplbzv9p0005bq3wa3becgpa/#more 
 
 > 文章大致已经完成  ✅ ，后续将为各种小修小补...
 
