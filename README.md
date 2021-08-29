@@ -39,7 +39,7 @@ EFI支持以下这些安装：
 
 如果你安装的时候遇到一些困难或者有什么不懂的地方，可以尝试找个QQ群进行交流？我在这个群里➡️ "[OpenCore技术交流群](https://shang.qq.com/wpa/qunwpa?idkey=665ed002721454d2e811535020261a04b0aae2fa3b6a2ffde5778a852f892178)"，大神众多非OC适配者慎入.
 
-## 目录
+## 目录 / Contents
 - [文件说明 / File Description](#文件说明--file-description)
 - [写在最前 / Preface](#写在最前)
 - [基础配置 & 知识 / Helpful resourses](#基础配置--知识)
