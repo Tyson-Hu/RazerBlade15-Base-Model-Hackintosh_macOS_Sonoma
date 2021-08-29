@@ -19,7 +19,7 @@
 
 <img align="left" src="https://raw.githubusercontent.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/master/image/daliansky.png" alt="名言" width="220">
 
-⚠️：本人不会为你操作过程中所出现的任何错误负责！   
+**⚠️：本人不会为你操作过程中所出现的任何错误负责！**   
 
 <a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.7.3-ff69b4"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/releases/tag/v2.1.0"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur"/> </a>
@@ -40,13 +40,13 @@ EFI支持以下这些安装：
 如果你安装的时候遇到一些困难或者有什么不懂的地方，可以尝试找个QQ群进行交流？我在这个群里➡️ "[OpenCore技术交流群](https://shang.qq.com/wpa/qunwpa?idkey=665ed002721454d2e811535020261a04b0aae2fa3b6a2ffde5778a852f892178)"，大神众多非OC适配者慎入.
 
 ## 目录 / Contents
-- [文件说明 / File Description](#文件说明--file-description)
+- [文件说明 / File Description<sup>*</sup>](#文件说明--file-description)
 - [写在最前 / Preface](#写在最前)
-- [基础配置 & 知识 / Helpful resourses](#基础配置--知识)
+- [基础配置 & 知识 / Helpful resourses<sup>*</sup>](#基础配置--知识)
 - [更新 / Updates](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Update.md)
 - [一些问题 / Issues](#一些问题)
 - [硬件介绍 / Device Spec](#1硬件介绍)
-- [最终效果 / ](#2最终效果)
+- [最终效果 / About Mac](#2最终效果)
 - [解锁BIOS / BIOS Unlock](#3解锁bios)
 - [安装前的准备 / Before install](#4安装前的准备)
 - [系统安装 / System instation](#5系统安装)
@@ -54,6 +54,7 @@ EFI支持以下这些安装：
 - [附加：U盘直装 / Flash Drive instation](#7附加u盘直装)
 - [参考 / Reference](#8参考)
 
+<sup>*</sup> Means it / parts of it has English.
 
 ## 文件说明 / File Description  
 - **CLOVER**
