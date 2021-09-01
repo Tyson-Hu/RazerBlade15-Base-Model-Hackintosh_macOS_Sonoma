@@ -76,10 +76,8 @@ EFI支持以下这些安装：
   - `OpenCore` 版本的EFI，版本 `0.7.2`，对应系统 `macOS 12` & `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
   - EFI with `OpenCore` , `v0.7.2`, for `macOS 12` & `macOS 11` & `macOS 10.15.6`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
   - **问题：**
-    - **睡眠唤醒后时间仍定格在睡眠前（需手动更新时间），确认为RTC问题，短期无时间去解决，有空的小伙伴希望可以帮帮我5555** 
     - **无法自动切换音频输出，开机默认耳机输出，变更输出需要手动切换。(无法解决)**
   - **Issue:**
-    - **Time Freeze while laptop sleep, That means you have to MANUALLY update the time after sleep. Issue confirmed: RTC, but I don't have time to fix it before the winter break. If you want help me to fix this, that helps a lot <3**
     - **Can't switch audio output automatically. You have to MANUALLY switch it(Can't solve)**
 
 - **Tools**
@@ -146,7 +144,6 @@ EFI支持以下这些安装：
 - ~~蓝牙不可用~~ （已通过更换网卡解决）
 - ~~USB网卡不可用~~ (`chris1111`现已更新USB网卡对macOS11的支持，**使用时需关闭 `SIP`!!!**)
 - ~~状态栏卡顿~~   (具体解决方案请移步 [[6-4]状态栏卡顿](#[6-4]状态栏的卡顿) ）
-- **新增：睡眠时，时间会定格在睡眠前的时候，唤醒后需手动同步时间。**
 - **目前无解：无限实现自动切换音频输出，需手动进行切换**
 
     
