@@ -123,8 +123,8 @@ EFI支持以下这些安装：
   - [【持续更新】OpenCore引导-v各种卡及OC引导常见问题解决方案速查表合集](http://imacos.top/2020/03/28/0154/) 
 - **其他机型的EFI（不会配的或者想要现成的看这里！）**
   - [Hackintosh黑苹果长期维护机型EFI及安装教程整理](https://github.com/daliansky/Hackintosh)
-- [OpenCore 检查工具 / OpenCore Sanity Checker](https://opencore.slowgeek.com/)
-  - 用于检测你config是否有配置错误，里面提供的信息仅供参考，并非 100% 正确！
+- ~~[OpenCore 检查工具 / OpenCore Sanity Checker](https://opencore.slowgeek.com/)~~ (作者几百年不更新了，只支持0.6.6及以下的版本)
+  - ~~用于检测你config是否有配置错误，里面提供的信息仅供参考，并非 100% 正确！~~
   
 *以上所有的文章均为 搬运 / 转载 如果觉得有用，可以打赏原作者 **（我不是原作者！！！）***
 
@@ -144,7 +144,7 @@ EFI支持以下这些安装：
 - ~~蓝牙不可用~~ （已通过更换网卡解决）
 - ~~USB网卡不可用~~ (`chris1111`现已更新USB网卡对macOS11的支持，**使用时需关闭 `SIP`!!!**)
 - ~~状态栏卡顿~~   (具体解决方案请移步 [[6-4]状态栏卡顿](#[6-4]状态栏的卡顿) ）
-- **目前无解：无限实现自动切换音频输出，需手动进行切换**
+- **目前无解：无法实现自动切换音频输出，需手动进行切换**
 
     
 ## [1]硬件介绍
@@ -769,17 +769,18 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 
 
 ## [8]参考
-- https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh
-- https://github.com/blade15basehackintosh/razerbladehackintosh
-- https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh
-- https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh
-- https://blog.daliansky.net/
-- http://bbs.pcbeta.com/viewthread-1862049-1-1.html
-- http://bbs.pcbeta.com/viewthread-1862835-1-1.html
-- http://bbs.pcbeta.com/viewthread-1862148-1-1.html
-- https://wanan.run/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/
-- https://wanan.run/ckplbzv9p0005bq3wa3becgpa/#more 
+- *Razer Blade 15 2018 Base Hackintosh, EmeryWan,* https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh
+- *razerbladehackintosh, DocSystem,* https://github.com/blade15basehackintosh/razerbladehackintosh
+- *Razer-Blade-15-Advanced-2018-Hackintosh, doanhxd,* https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh
+- *Razer_Blade_Advanced_early_2019_Hackintosh, stonevil,* https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh
+- *黑果小兵的部落阁, Daliansky* https://blog.daliansky.net/
+- *[教程] 「教程」简单扯扯用 VMWare 在实体机上装 Big Sur, Bat.bat* http://bbs.pcbeta.com/viewthread-1862049-1-1.html
+- *[分享] 删除快照，重获权限，解除非bcm网卡状态栏卡顿, licheng* http://bbs.pcbeta.com/viewthread-1862835-1-1.html
+- *[其它] [HiDPI] Big Sur 1080p成功开启HiDPI, 郑世祺* http://bbs.pcbeta.com/viewthread-1862148-1-1.html
+- *OpenCore U盘全新直装BigSur, Bochi Li* https://cuz.moe/ckr7mw4oq000j2z3wdlal6klq/
+- *黑苹果安装Big Sur过程中遇到的问题总结, Bochi Li* https://cuz.moe/ckr7mw4p300192z3w8qfu8p1e/
 
+最后真的非常感谢他们的文章，这些文章对我帮助良多，如果没有他们的贡献，我也无法完成这个项目！！！    
 > 文章大致已经完成  ✅ ，后续将为各种小修小补...
 
 ## 未来计划 / Plans ：
