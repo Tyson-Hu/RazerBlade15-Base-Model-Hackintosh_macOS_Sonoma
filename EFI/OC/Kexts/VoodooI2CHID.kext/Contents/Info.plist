@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19F101</string>
+	<string>19H1217</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -27,17 +27,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11E801a</string>
+	<string>12D4e</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>11.1</string>
 	<key>DTSDKBuild</key>
-	<string>19G68</string>
+	<string>20C63</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15</string>
+	<string>macosx11.1</string>
 	<key>DTXcode</key>
-	<string>1170</string>
+	<string>1240</string>
 	<key>DTXcodeBuild</key>
-	<string>11E801a</string>
+	<string>12D4e</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Intel ACPI Sensor Hub Enabler</key>
@@ -248,6 +250,28 @@
 				<key>Transport</key>
 				<string>I2C</string>
 			</dict>
+			<key>IOProviderClass</key>
+			<string>IOHIDInterface</string>
+		</dict>
+		<key>VoodooI2CHIDDevice Keyboard HID Event Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.alexandred.VoodooI2CHID</string>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>6</integer>
+					<key>DeviceUsagePage</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>IOClass</key>
+			<string>VoodooI2CKeyboardHIDEventDriver</string>
+			<key>IOMatchCategory</key>
+			<string>VoodooI2CKeyboardHIDEventDriver</string>
+			<key>IOProbeScore</key>
+			<integer>200</integer>
 			<key>IOProviderClass</key>
 			<string>IOHIDInterface</string>
 		</dict>

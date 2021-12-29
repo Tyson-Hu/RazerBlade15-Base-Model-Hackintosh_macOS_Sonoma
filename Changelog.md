@@ -1,10 +1,12 @@
 RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 12.0 beta
-#### v2.1.2 (beta)
+#### v2.2.0 (Building)
+- Relate to OpenCore 0.7.6
+#### v2.1.2
 - Relate to OpenCore 0.7.3
 - TouchPad Fix (Kext Sequence updates & `VoodooICHD` fix)
-- Probably Linux Boot Support (recently tring install `Deepin` to test [Check PR [#282](https://github.com/acidanthera/OpenCorePkg/pull/282)])
+- Linux Boot Support (Add by yourself) 
 - Fixed OpenCanopy performance loss due to redrawing introduced in 0.6.9
 - Added pattern-based automatic variable initialisation for better security
 - Kext Change:
