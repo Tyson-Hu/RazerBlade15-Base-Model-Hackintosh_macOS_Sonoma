@@ -1,7 +1,7 @@
 RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 12.0 beta
-#### v2.2.0 (Building)
+#### v2.2.0
 - Relate to OpenCore 0.7.6
 - Fixed stack canary support when compiling with GCC
 - Added automatic scaling factor detection
