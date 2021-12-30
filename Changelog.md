@@ -3,6 +3,53 @@ RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ### Support Version: macOS 10.15.1 ~ macOS 12.0 beta
 #### v2.2.0 (Building)
 - Relate to OpenCore 0.7.6
+- Fixed stack canary support when compiling with GCC
+- Added automatic scaling factor detection
+- Explicitly restricted `ResizeAppleGpuBars` to 0 and -1
+- Fixed OpenCanopy long labels fade-out over graphics background
+- Fixed `ProvideConsoleGop` not disabling blit-only modes (e.g. on Z690)
+- Fixed handling PCI device paths with logical units in ScanPolicy
+- Added `ReconnectGraphicsOnConnect` option for enabling alternative UEFI graphics drivers
+- Added BiosVideo.efi driver to use with `ReconnectGraphicsOnConnect`
+- Changed `FadtEnableReset` to avoid unreliable keyboard controller reset
+- Added `EnableVmx` quirk to allow virtualization in other OS on some Macs
+- Upgraded `ProtectUefiServices` to prevent GRUB shim overwriting service pointers when chainloading with Secure Boot enabled
+- Removed deprecated SSDT-PNLFCFL
+- Fixed handling of zero-sized Memory Attributes Table
+- Fixed Linux kernel sort order
+- Added Linux detection optional log detail
+- Added ability to fully override autodetect Linux boot options
+- Added large BaseSystem support in `AdviseFeatures`
+- Updated builtin firmware versions for SMBIOS and the rest
+- Added tool to extract vendor secure boot certificate from GRUB shim file
+- Updated underlying EDK II package to edk2-stable202108
+- Updated Apple Secure Boot variables for `x86legacy`
+- Implemented Boot Entry Protocol, allowing plug-in boot entry drivers
+- Added StringBuffer and FlexArray libraries
+- Updated Drivers to support arguments (requires config.plist update, see samples)
+- Added `OpenLinuxBoot` driver: OC-native Linux autodetect and boot without chaining via GRUB
+- Fixed overlong boot entry names breaking text flow in builtin menu
+- Added `ForceOcWriteFlash` UEFI quirk to enable writing OC system variables
+- Added `BridgeOSHardwareModel` NVRAM variable to fix T2 SB AP models on macOS 12
+- Changed `Default` Apple Secure Boot model to match SMBIOS for macOS 12
+- Fixed `opencore-version` not being added to NVRAM variables
+- Fixed OSBundleLibraries/OSBundleLibaries64 handling
+- Added `GraphicsInputMirroring` to fix lost keystrokes in some non-Apple graphical UEFI apps
+- Added support for stack canaries (security cookies / stack guards)
+- Fixed unintialised memory access in AudioDxe causing audio playback failure
+- Increased default APFS `MinDate` and `MinVersion` to macOS Big Sur for better security
+- Updated builtin firmware versions for SMBIOS and the rest
+- Fixed CLANGPDB OpenCore builds by shortening OC magic
+- Kext Bump Version:     
+  - BlueToolFixup 2.6.0 ➡️ 2.6.1
+  - BrcmBluetoothInjector 2.6.0 ➡️ 2.6.1
+  - BrcmFirmwareData 2.6.0 ➡️ 2.6.1
+  - BrcmPatchRAM3 2.6.0 ➡️ 2.6.1
+  - AppleALC 1.5.9 ➡️ 1.6.2
+  - HibernationFixup 1.4.2 ➡️ 1.4.5
+  - Lilu 1.5.5 ➡️ 1.5.8
+  - VirtualSMC 1.2.6 ➡️ 1.2.8
+  - WhateverGreen 1.5.2 ➡️ 1.5.5
 #### v2.1.2
 - Relate to OpenCore 0.7.3
 - TouchPad Fix (Kext Sequence updates & `VoodooICHD` fix)
