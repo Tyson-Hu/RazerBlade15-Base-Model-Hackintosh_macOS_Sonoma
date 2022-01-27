@@ -726,6 +726,8 @@ WinUTCOn.reg ➡️ 开启UTC时间计算
 WinUTCOff.reg ➡️ 关闭UTC时间计算  
 当你不需要该时间结算方法后，双击运行 `WinUTCOff.reg` 即可。  
 
+
+
 ## [7]附加：U盘直装
 *搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/ckplbzv9p0005bq3wa3becgpa/#more)*
 
@@ -769,16 +771,17 @@ sudo /Volumes/Install\ macOS\ Beta/Install\ macOS\ Beta.app/Contents/Resources/c
 
 
 ## [8]参考
-- *Razer Blade 15 2018 Base Hackintosh, EmeryWan,* https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh
-- *razerbladehackintosh, DocSystem,* https://github.com/blade15basehackintosh/razerbladehackintosh
-- *Razer-Blade-15-Advanced-2018-Hackintosh, doanhxd,* https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh
-- *Razer_Blade_Advanced_early_2019_Hackintosh, stonevil,* https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh
-- *黑果小兵的部落阁, Daliansky* https://blog.daliansky.net/
-- *[教程] 「教程」简单扯扯用 VMWare 在实体机上装 Big Sur, Bat.bat* http://bbs.pcbeta.com/viewthread-1862049-1-1.html
-- *[分享] 删除快照，重获权限，解除非bcm网卡状态栏卡顿, licheng* http://bbs.pcbeta.com/viewthread-1862835-1-1.html
-- *[其它] [HiDPI] Big Sur 1080p成功开启HiDPI, 郑世祺* http://bbs.pcbeta.com/viewthread-1862148-1-1.html
-- *OpenCore U盘全新直装BigSur, Bochi Li* https://cuz.moe/ckr7mw4oq000j2z3wdlal6klq/
-- *黑苹果安装Big Sur过程中遇到的问题总结, Bochi Li* https://cuz.moe/ckr7mw4p300192z3w8qfu8p1e/
+- Bat.bat. (2020, June 7). [教程] 「教程」简单扯扯用 VMWare 在实体机上装 Big Sur. Retrieved January 27, 2022, from http://bbs.pcbeta.com/viewthread-1862049-1-1.html 
+- Doanhxd. (2020, June 4). Doanhxd/razer-blade-15-advanced-2018-hackintosh: Razer Blade 15 advanced 2018 Hackintosh - OpenCore 👀. GitHub. Retrieved January 27, 2022, from https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh 
+- DocSystem. (2020, January 30). DocSystem/Razerbladehackintosh: Razer Blade 15 Base Model Hackintosh Guide. GitHub. Retrieved January 27, 2022, from https://github.com/blade15basehackintosh/razerbladehackintosh 
+- Dortania. (2021, August 21). # Apple secure boot. Apple Secure Boot | OpenCore Post-Install. Retrieved January 27, 2022, from https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#what-is-apple-secure-boot 
+- EmeryWan. (2020, March 3). Emerywan/Razer-blade-15-2018-base-hackintosh: 雷蛇灵刃15(2018)黑苹果. GitHub. Retrieved January 27, 2022, from https://github.com/EmeryWan/Razer-Blade-15-2018-Base-Hackintosh 
+- Lee, T. (2021, September 22). OpenCore u盘全新直装bigsur. 辣白菜. Retrieved January 27, 2022, from https://cuz.moe/2020/07/07/OpenCoreU%E7%9B%98%E5%85%A8%E6%96%B0%E7%9B%B4%E8%A3%85BigSur/ 
+- Lee, T. (2021, September 22). 黑苹果安装Big Sur过程中遇到的问题总结. 辣白菜. Retrieved January 27, 2022, from https://cuz.moe/2020/07/01/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85Big%20Sur%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/ 
+- licheng. (2020, July 2). [分享] 删除快照，重获权限，解除非bcm网卡状态栏卡顿. Retrieved January 27, 2022, from http://bbs.pcbeta.com/viewthread-1862835-1-1.html 
+- Stonevil. (2019, June 12). Stonevil/Razer_blade_advanced_early_2019_hackintosh: Razer Blade advanced early 2019 Hackintosh. guide and Efi. GitHub. Retrieved January 27, 2022, from https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh 
+- 郑世琪. (2020, June 28). [其它] [HiDPI] Big Sur 1080p成功开启HiDPI. Retrieved January 27, 2022, from http://bbs.pcbeta.com/viewthread-1862148-1-1.html 
+- 黑果小兵黑果小兵. (2022, January 13). 黑果小兵的部落阁. Retrieved January 27, 2022, from https://blog.daliansky.net/ 
 
 最后真的非常感谢他们的文章，这些文章对我帮助良多，如果没有他们的贡献，我也无法完成这个项目！！！    
 > 文章大致已经完成  ✅ ，后续将为各种小修小补...
