@@ -726,7 +726,72 @@ WinUTCOn.reg ➡️ 开启UTC时间计算
 WinUTCOff.reg ➡️ 关闭UTC时间计算  
 当你不需要该时间结算方法后，双击运行 `WinUTCOff.reg` 即可。  
 
+### [6-13] 苹果安全启动 (Apple Secure Boot)
+**本文基于 Dortania 的 OpenCore Post-Install 文章，want a english version? [here](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#securebootmodel)*
+- 注意：`DmgLoading`, `SecureBootModel` 和 `ApECID` 要求你的 OpenCore 在 0.6.1 或更高的版本⚠️
+- 注意：macOS Big Sur (或更高版本) 要求你的 OpenCore 在 0.6.3 或更高的版本以满足开启 Apple Secure Boot⚠️
+- 注意：请先阅读下方所有的注意事项再决定要不要启用 Apple Secure Boot！！！！⚠️
 
+#### [6-13-1] DmgLoading
+该选项位于 `Misc -> Security -> DmgLoading`，用于设置对 DMG 的读取管理，对于开启 Apple Secure Boot 而言，**你必须改成 `Signed` 或 `Disabled`⚠️。**     
+
+|  选项   |  描述   |
+|:------ | :----- |
+|  Any   | 允许读取所有的 DMG，当你尝试开启 `Apple Secure Boot` 并启用该选项时，100% 无法引导进系统！！！ |
+|  Signed | 只允许苹果签名的 DMG，例如 `macOS installer`，推荐启用该选项 |
+|  Disabled | 禁止读取所有外置的 DMG，当然恢复模式里的内置 DMG 仍然可以读取，最安全的选项，除非你有能力处理它带来的问题，否则保持 `Signed` 即可 |
+
+#### [6-13-2] SecureBootModel
+SecureBootModel 用于设置 Apple Secure Boot 所对应的机型和该机型的策略，这使得我们可以使用任何 SMBIOS 来启用 Apple Secure Boot，即使原始 SMBIOS 不支持这个功能。   
+
+- 注意：机型选择必须为2017以后的机型，因为在这之前的机型连白苹果都没有 T2 芯片⚠️
+
+该选项位于 `Misc -> Security -> SecureBootModel`    
+
+| 机型（选项）| SMBIOS | 最低系统要求 |   
+|:------ | :----- | :---- |
+| Disabled  |	No model, Secure Boot will be disabled.	| N/A |  
+| Default	  | Currently set to x86legacy |	11.0.1 (20B29) | 
+| j137	| iMacPro1,1 (December 2017)	| 10.13.2 (17C2111)  |
+| j680	| MacBookPro15,1 (July 2018)	| 10.13.6 (17G2112)  |
+| j132	| MacBookPro15,2 (July 2018)	| 10.13.6 (17G2112)  |
+| j174	| Macmini8,1 (October 2018)	| 10.14 (18A2063)      |
+| j140k	| MacBookAir8,1 (October 2018)	| 10.14.1 (18B2084) |
+| j780	| MacBookPro15,3 (May 2019)	| 10.14.5 (18F132)     |
+| j213	| MacBookPro15,4 (July 2019)	| 10.14.5 (18F2058)  |
+| j140a	| MacBookAir8,2 (July 2019)	| 10.14.5 (18F2058)    |
+| j152f	| MacBookPro16,1 (November 2019)	| 10.15.1 (19B2093) |
+| j160	| MacPro7,1 (December 2019)	| 10.15.1 (19B88)     |
+| j230k	| MacBookAir9,1 (March 2020)	| 10.15.3 (19D2064)  |
+| j214k	| MacBookPro16,2 (May 2020)	| 10.15.4 (19E2269)    |
+| j223	| MacBookPro16,3 (May 2020)	| 10.15.4 (19E2265)    |
+| j215	| MacBookPro16,4 (June 2020)	| 10.15.5 (19F96)    |
+| j185	| iMac20,1 (August 2020)	| 10.15.6 (19G2005)      |
+| j185f	| iMac20,2 (August 2020)	| 10.15.6 (19G2005)      |
+| x86legacy	| Non-T2 Macs in 11.0(推荐虚拟机使用) | 11.0.1 (20B29) |
+
+对于本机型，我们选择 `j132` 即可，因为我的 SMBIOS 为 `MacBookPro15,2`    
+
+**注意：为得到苹果签名和一些签名的内核驱动将无法使用，这其中就包含 `Nvidia's Web Drivers`!!!! 这意味着如果你想在 10.13 使用独立显卡，你无法启用安全启动！！！**    
+
+**注意：在具有密封功能的操作系统上（macOS 11 或更高）对其系统容器进行更改可能会导致操作系统无法启动。（换句话说就是如果你想要开启 Apple Secure Boot，你需要重装系统，因为你无法再引导你现有的系统！！！！！）**    
+
+启用 SecureBootModel 相当于“中等安全性”，要达到完整安全性，请继续参阅下方的 ApECID    
+
+#### [6-13-3] ApECID
+ApECID 用作 Apple Enclave 的标识符，这意味着它允许我们使用个性化的 Apple Secure Boot 标识符并根据苹果的安全启动页面（与 SecureBootModel 配对）以达到“完整安全性”。    
+
+要生成您自己的 ApECID 值，您需要某种形式的加密安全随机数生成器，该生成器将输出一个 64 位整数。在这里我以最常用的 Python 3 为例：       
+```python
+python3 -c 'import secrets; print(secrets.randbits(64))'
+```
+![Terminal](image/secureboot-1.png)     
+
+将生成的值填入config即可。    
+
+当 ApECID 设置为非零的值时，全新安装将需要在安装时进行网络连接以进行验证 （确保你能连上网！！！）     
+
+配置完成后重启即可，然后你会发现你无法进系统，不用慌张，重启进恢复模式然后重装系统即可。    
 
 ## [7]附加：U盘直装
 *搬运自 Bochi‘s Blog [OpenCore U盘全新直装Big Sur](https://wanan.run/ckplbzv9p0005bq3wa3becgpa/#more)*
