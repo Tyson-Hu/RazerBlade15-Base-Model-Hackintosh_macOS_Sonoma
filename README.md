@@ -23,7 +23,7 @@
 
 <a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.8.3-ff69b4"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/releases/tag/v2.2.0"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey"/> </a>
-<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/releases/tag/v2.1.2.822-beta"> <img src="https://img.shields.io/badge/Prerelease-v2.1.2.822--beta-69ffb4"/> </a>
+<a href="https://github.com/Tyson-Hu/RazerBlade15-Base-Model-Hackintosh_macOS_Ventura/releases/tag/v3.1.720-beta"> <img src="https://img.shields.io/badge/Prerelease-v3.1.720--beta-69ffb4"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/archive/master.zip"> <img src="https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/total"/> </a>
 
 EFI支持以下这些安装：      
