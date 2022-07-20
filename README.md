@@ -14,14 +14,14 @@
 - [doanhmaple](https://github.com/doanhmaple) - ACPI电池修补🔋 & 雷电三修补⚡️
 - [EmeryWan](https://github.com/EmeryWan) - BIOS修改 & 系统设置
 
-**支持macOS：10.15.1 ～ 12.3 Beta ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/blob/master/Changelog.md)**     
+**支持macOS：10.15.1 ～ 13 Beta ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/blob/master/Changelog.md)**     
 **暂无bug，期待你们的反馈<3**    
 
 <img align="left" src="https://raw.githubusercontent.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/master/image/daliansky.png" alt="名言" width="220">
 
 **⚠️：本人不会为你操作过程中所出现的任何错误负责！**   
 
-<a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.7.6-ff69b4"/> </a>
+<a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.8.2-ff69b4"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/releases/tag/v2.2.0"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/releases/tag/v2.1.2.822-beta"> <img src="https://img.shields.io/badge/Prerelease-v2.1.2.822--beta-69ffb4"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/archive/master.zip"> <img src="https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/total"/> </a>
@@ -30,7 +30,7 @@ EFI支持以下这些安装：
 1.OTA 2.完整安装包 3.U盘安装 4.虚拟机     
 **建议从左往右尝试，最后再尝试我后面写的关于虚拟机安装教程！**                          
 
-稳定版采用 `OpenCore 0.7.6`，测试版EFI采用 `OpenCore 0.7.3`。
+稳定版采用 `OpenCore 0.8.2`，测试版EFI采用 `OpenCore 0.7.3`。
 
 <img align="right" src="https://static.dribbble.com/users/3460/screenshots/14117702/media/7c3c5728cec212f97ece1b0c5bf3f08c.png" alt="Peel1 by Ryan Putnam" width="245">
 
@@ -73,8 +73,8 @@ EFI支持以下这些安装：
     - **Might have other unknow BUG**
 
 - **EFI** 
-  - `OpenCore` 版本的EFI，版本 `0.7.6`，对应系统 `macOS 12` & `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
-  - EFI with `OpenCore` , `v0.7.6`, for `macOS 12` & `macOS 11` & `macOS 10.15.6`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
+  - `OpenCore` 版本的EFI，版本 `0.8.2`，对应系统 `macOS 12` & `macOS 11` & `macOS 10.15.6`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
+  - EFI with `OpenCore` , `v0.8.2`, for `macOS 12` & `macOS 11` & `macOS 10.15.6`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
   - **问题：**
     - **无法自动切换音频输出，开机默认耳机输出，变更输出需要手动切换。(无法解决)**
   - **Issue:**
