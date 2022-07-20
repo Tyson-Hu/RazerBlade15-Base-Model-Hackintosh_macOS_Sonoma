@@ -1,9 +1,63 @@
 RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ==================
-### Support Version: macOS 10.15.1 ~ macOS 12.3 beta
-#### v2.3.0 (Planning)
-- Relate to OpenCore 0.7.7
-- More...
+### Support Version: macOS 10.15.1 ~ macOS 13 beta
+#### v3.1 **(Use THIS if you want to upgrade macOS 13 Beta 3)**
+- Relate to OpenCore 0.8.3
+- Added ext4 file system driver
+- Fixed KC segment name, which also fixed kernel panic on macOS 13 b3
+- Added support for macOS 13 DP3 Kernel Collection
+- Added `--force-device` option to AudioDxe, allowing UEFI audio on HDA contollers which misreport themselves as non-HDA audio devices
+- Provided optional unsafe fast file logging (suitable only for firmware with a fully compliant FAT32 driver)
+- Fixed incorrect OSBundleLibraries_x86_64 handling during cacheless injection
+- Changed RsaTool not to link against system ssl on macOS
+- Fixed crash during cacheless injection when kext blocking is enabled
+#### v3.0
+- Relate to OpenCore 0.8.2
+- Fixed `AppleCpuPmCfgLock` on macOS 13
+- Fixed `DummyPowerManagement` on macOS 13
+- Updated builtin firmware versions for SMBIOS and the rest
+- Added macOS 13 support for `AvoidRuntimeDefrag` Booter quirk
+- Added injected kext bundle version printing in DEBUG builds
+- Added Linux compatibility for CreateVault scripts
+- Switched `Reset NVRAM` and `Toggle SIP` to configurable boot entry protocol drivers
+- Supported optional Apple firmware-native NVRAM reset
+- Supported NVRAM reset optionally retaining BIOS boot entries
+- Supported user specified `csr-active-config` value for Toggle SIP
+- Added optional `Enabled` and `Disabled` flavours for `Toggle SIP` (allows theme designers to provide distinct icons)
+- Added support for early log preservation
+- Switched to Python 3 in scripts (use `python /path/to/script` to force Python 2)
+- Added `ForceAquantiaEthernet` for Aquantia AQtion AQC-107s based 10GbE network cards support
+- Updated builtin firmware versions for SMBIOS and the rest
+- Added `Misc` -> `Serial` section to customise serial port properties
+- Added `CustomPciSerialDevice` quirk for XNU to correctly recognise customised external serial devices
+- Added auto-detect `macOS Installer` volume name for use when `.disk_label` file cannot be displayed
+- Added `--restore-nosnoop` flag to AudioDxe, making v0.7.7 fix for Windows sound opt-in
+- Added new method to disable trim when `SetApfsTrimTimeout` is set to zero
+- Fixed `SetApfsTrimTimeout` on macOS 12 (only works when set to zero)
+- Added script to build qemu recovery images to macrecovery
+- Fixed selecting `SecureBootModel` on hypervisors (should be `x86legacy`)
+- Added kext blocking `Strategy` for prelinked and newer
+- Added global MSR 35h fix to `ProvideCurrentCpuInfo`, allowing `-cpu host` in KVM
+- Fixed potential memory corruption with AVX acceleration enabled
+- Added `LogModules` for positive and negative log filtering by modules
+- Renamed OpenLinuxBoot driver argument from `partuuidopts:{PARTUUID}` to `autoopts:{PARTUUID}`
+- Supported booting Linux from stand-alone `/boot` partition without `/loader/entries` files (user must specify full kernel boot options)
+- Handled XML entities in driver arguments
+- Updated underlying EDK II package to edk2-stable202202
+- Updated ocvalidate to warn about insecure `DmgLoading` with secure `SecureBootModel` (already disallowed in runtime)
+- Fixed AudioDxe not disabling unused channels after recent updates
+- Allow gain to track OS volume on old macOS without `SystemAudioVolumeDB`
+- Fixed crash on no mouse support when verifying password
+- Fixed AppleInternal CSR bit being set with `ProvideCustomSlide` enabled
+- Added support for `.contentFlavour` and `.contentDetails` files for boot entry protocol entries including OpenLinuxBoot
+- Added `LINUX_BOOT_ADD_RW` flag to OpenLinuxBoot to support e.g. EndeavourOS
+- Added `flags+=` and `flags-=` arguments to OpenLinuxBoot to simplify setting driver flags if needed
+- Fixed OpenLinuxBoot entry name disambiguation when `LINUX_BOOT_USE_LATEST` flag is clear
+- Updated builtin firmware versions for SMBIOS and the rest
+- Fixed crash in OpenLinuxBoot with partly (re-)installed Linux distro
+- Improved robustness in malformed PE image file parsing
+- Updated builtin firmware versions for SMBIOS and the rest
+- Updated recovery downloading commands to include macOS 11 and 12
 #### v2.2.0
 - Relate to OpenCore 0.7.6
 - Fixed stack canary support when compiling with GCC
