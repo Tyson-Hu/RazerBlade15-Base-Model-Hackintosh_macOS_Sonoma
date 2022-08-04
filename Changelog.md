@@ -1,16 +1,28 @@
 RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 13 beta
-#### v3.1 **(Use THIS if you want to upgrade macOS 13 Beta 3)**
+#### v3.1 **(Use THIS if you want to upgrade macOS 13 Beta 3 and above!!!)**
 - Relate to OpenCore 0.8.3
-- Added ext4 file system driver
-- Fixed KC segment name, which also fixed kernel panic on macOS 13 b3
-- Added support for macOS 13 DP3 Kernel Collection
+- **Added ext4 file system driver**
+- **Fixed KC segment name, which also fixed kernel panic on macOS 13 b3**
+- **Added support for macOS 13 DP3 Kernel Collection* *
+- **Added support for NVRAM reset and set default boot entry when using emulated NVRAM**
+- **Upgraded emulated NVRAM logout script to allow unsupervised installation of recent macOS OTA updates**
+- **Added `Driver` -> `LoadEarly` for drivers which need to be loaded before NVRAM init**
 - Added `--force-device` option to AudioDxe, allowing UEFI audio on HDA contollers which misreport themselves as non-HDA audio devices
 - Provided optional unsafe fast file logging (suitable only for firmware with a fully compliant FAT32 driver)
 - Fixed incorrect OSBundleLibraries_x86_64 handling during cacheless injection
 - Changed RsaTool not to link against system ssl on macOS
 - Fixed crash during cacheless injection when kext blocking is enabled
+- Removed default codec connection delay from AudioDxe
+- Added optional `--codec-setup-delay` argument to AudioDxe
+- Changed units of `Audio` -> `SetupDelay` from microseconds to milliseconds (divide previous value by 1000 if using this setting)
+- Fixed incorrect FAT binary slice being selected under macOS 10.4.11 when performing a cacheless boot
+- Fixed rare assertion caused by label animation initialisation in OpenCanopy
+- Added `--show-csr` option for `Toggle SIP` boot menu entry
+- Added macOS 10.4 and 10.5 support to `AllowRelocationBlock` Booter quirk
+- Added CPU cache info injection for macOS 10.4 to `ProvideCurrentCpuInfo` quirk
+- Added emulated NVRAM driver for use separately from OpenDuet
 #### v3.0
 - Relate to OpenCore 0.8.2
 - Fixed `AppleCpuPmCfgLock` on macOS 13
