@@ -21,8 +21,8 @@
 
 **⚠️：本人不会为你操作过程中所出现的任何错误负责！**   
 
-<a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.8.3-ff69b4"/> </a>
-<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/releases/tag/v2.2.0"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey"/> </a>
+<a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.9.1-ff69b4"/> </a>
+<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/releases/"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey"/> </a>
 <a href="https://github.com/Tyson-Hu/RazerBlade15-Base-Model-Hackintosh_macOS_Ventura/releases/tag/v3.1.720-beta"> <img src="https://img.shields.io/badge/Prerelease-v3.1.720--beta-69ffb4"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/archive/master.zip"> <img src="https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/total"/> </a>
 
@@ -30,7 +30,7 @@ EFI支持以下这些安装：
 1.OTA 2.完整安装包 3.U盘安装 4.虚拟机     
 **建议从左往右尝试，最后再尝试我后面写的关于虚拟机安装教程！**                          
 
-稳定版采用 `OpenCore 0.8.3`，测试版EFI采用 `OpenCore 0.8.3`。
+稳定版采用 `OpenCore 0.9.1`，~~测试版EFI采用 `OpenCore 0.8.3`~~。
 
 <img align="right" src="https://static.dribbble.com/users/3460/screenshots/14117702/media/7c3c5728cec212f97ece1b0c5bf3f08c.png" alt="Peel1 by Ryan Putnam" width="245">
 
@@ -62,19 +62,9 @@ EFI支持以下这些安装：
   - EFI with `CLOVER`，`v5103`, for `macOS 10.15.4`. I won't update it anymore,because of I move to `OC`. Just a reference for guys who want to use `CLOVER v5120` or upper verion.
   - 问题：无问题  / Issue: None
 
-- **EFI beta**  (使用时记得改名为 `EFI`)
-  - `OpenCore` 版本的EFI，版本 `0.8.3`，对应系统 `macOS 13`。该版本的EFI更新频率较高（更新比较激进，基本对应最新自编译 `Kext` 和 `OpenCore`）因此很容易出现一些BUG。喜欢尝鲜的可以使用。
-  - EFI with `OpenCore` , `v0.8.3`,for `macOS 13`. Update with High Freq (**Lastest `Kext`[Self Compile] & `OpenCore`[Self Compile]**)which could cause some **ISSUE** that don't expect.
-  - **问题：**
-    - **包含`EFI`里所有的BUG**
-    - **可能会有其他未知BUG**
-  - **Issue:**
-    - **Contain all BUG in `EFI`**
-    - **Might have other unknow BUG**
-
 - **EFI** 
-  - `OpenCore` 版本的EFI，版本 `0.8.3`，适用于 `macOS 10.15.6 ~ macOS 13`。较为稳定的EFI，只有在确认稳定后才会进行更新，因此更新频率不是很高。
-  - EFI with `OpenCore` , `v0.8.3`, for `macOS 10.15.6 ~ macOS 13`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
+  - `OpenCore` 版本的EFI，版本 `0.9.1`，适用于 `macOS 13`。较为稳定的EFI，只有在确认可以日用之后才会进行更新，因此更新频率不是很高。
+  - EFI with `OpenCore` , `v0.9.1`, for `macOS 13`. `Stable Version` of EFI, Only update while it's stable to use. Thus not too high freq.
   - **问题：**
     - **无法自动切换音频输出，开机默认耳机输出，变更输出需要手动切换。(无法解决)**
   - **Issue:**
@@ -155,7 +145,7 @@ EFI支持以下这些安装：
 |     GPU      |  Nvdia GTX1060 Max-Q   | 除 10.13 High Sierra 安装 WebDriver 外，10.13以上版本皆不可用（建议直接屏蔽掉） |
 |      内存    |   16GB dual-channel DDR4-2667MHz, up to 64GB    |       无问题      |
 |     硬盘     | 更换为 Sabrent Rocket NVMe 1TB          |                     无问题                     |
-|     网卡     |       9560NGW （现已更换为DW1560 / BCM94352Z）             |           无问题（~~Windows驱动需要自己下载~~, 驱动已上传）            |
+|     网卡     |       9560NGW ~~（现已更换为DW1560 / BCM94352Z）~~ 又换回 Intel 了 😂             |           无问题（~~Windows驱动需要自己下载~~, 驱动已上传）            |
 |    显示器    |        15.6" Full HD 60Hz, 1920 x 1080 IPS      |                无问题（可以在60Hz和48Hz之间切换）                     |
 |    摄像头    |       HD webcam (1MP / 720P)              |                     无问题                     |
 |    扬声器    |       Realtek ALC256              |                     无问题                     |

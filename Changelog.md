@@ -1,6 +1,30 @@
 RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ==================
-### Support Version: macOS 10.15.1 ~ macOS 13 beta
+### Support Version: macOS 10.15.1 ~ macOS 13.3.1+
+#### v3.2 **(Intel Wi-Fi Adapter check here!!!)**
+- Relate to OpenCore 0.9.1
+- **Add support for Intel Wi-Fi Adapter!!!**
+  - **Bluetooth support also included**
+  - 2 Types of support:
+    - `Airportitlwm`: More native exprience
+      - Use default config
+      - Need to enable `Apple Secure Boot`, system re-install required!!!
+    - `itlwm`: Simple way solution
+      - Use config: `config_itlwm.plist`
+      - No `Apple Secure Boot` required
+      - Require `HeliPort`, download [here](https://github.com/OpenIntelWireless/HeliPort/releases)
+    - Compatibility check [here](https://openintelwireless.github.io/itlwm/Compat.html#dvm-iwn)
+  - If still using the origin adapter(DW1560 / BCM94352Z), use config: `config_brcm.plist`
+- Updated macrecovery commands with macOS 12 and 13
+- Updated builtin firmware versions for SMBIOS and the rest
+- Added `Misc` -> `Boot` -> `HibernateSkipsPicker` not to show picker if waking from macOS hibernation
+- Removed unwanted clear screen when launching non-text boot entry
+- Added SD card device path support for boot device selection
+- Updated AppleKeyboardLayouts.txt from macOS 13.1
+- Fixed loading macOS with legacy boot without Apple Secure Boot
+- Added `ProvideCurrentCpuInfo` support for macOS 13.3 DP
+- Fixed `ThirdPartyDrives` quirk on macOS 13.3 and above
+- Major Kext Updates
 #### v3.1 **(Use THIS if you want to upgrade macOS 13 Beta 3 and above!!!)**
 - Relate to OpenCore 0.8.3
 - **Added ext4 file system driver**
