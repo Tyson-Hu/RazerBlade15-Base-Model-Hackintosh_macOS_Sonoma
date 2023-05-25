@@ -5,7 +5,7 @@
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey"/> </a>
 <a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/commits/master"> <img src="https://img.shields.io/github/last-commit/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey"/> </a>
 
-<a href="https://www.apple.com/macos/monterey-preview/"><img align="right" src="https://www.tonymacx86.com/data/attachments/486/486986-3958b0fc5b4f9852a42fddbd93bfae09.jpg" alt="Critter" width="245"></a>
+<a href="https://www.apple.com/macos/monterey-preview/"><img align="right" src="https://raw.githubusercontent.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/master/image/Ventura-Critter.png" alt="Critter" width="245"></a>
 
 特别鸣谢：   
 - [Dortania](https://dortania.github.io) - 黑苹果安装向导（OpenCore）
