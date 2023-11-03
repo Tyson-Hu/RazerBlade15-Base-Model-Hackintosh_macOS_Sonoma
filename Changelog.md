@@ -1,6 +1,17 @@
 RazerBlade 15 Base Model(2018) Monterey EFI Changelog
 ==================
-### Support Version: macOS 10.15.1 ~ macOS 13.3.1+
+### Support Version: macOS 10.15.1 ~ macOS 14.1+
+#### v3.3 (For macOS 14 Sonoma)
+- Relate to OpenCore 0.9.5
+- Fixed `Airportitlwm` broken issue on macOS 14
+- Added UEFI quirk `ShimRetainProtocol`, allowing OpenCore chained from shim to verify Linux using shim's certificates
+- Fixed `ForceAquantiaEthernet` quirk on macOS 14 beta 2
+- Added `PciIo` protocol override used to fix Aptio IV compatiblity with Above 4G BARs
+- Fixed `AppleXcpmForceBoost` quirk on macOS 14
+- Updated builtin firmware versions for SMBIOS and the rest
+- Added `ConsoleFont` option to load custom console font for `Builtin` renderer
+- Improved `XhciPortLimit` quirk on macOS 11 to 14
+- Major Kext Updates
 #### v3.2 **(Intel Wi-Fi Adapter check here!!!)**
 - Relate to OpenCore 0.9.1
 - **Add support for Intel Wi-Fi Adapter!!!**
