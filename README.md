@@ -1,11 +1,11 @@
 <img align="right" src="https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Docs/Logos/OpenCore_with_text_Small.png" alt="OpenCore 0.7.0" width="225">
 
 # Razer Blade 15 Base Hackintosh
-<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/issues"> <img src="https://img.shields.io/github/issues/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey"/> </a>
-<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey"/> </a>
-<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/commits/master"> <img src="https://img.shields.io/github/last-commit/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey"/> </a>
+<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/issues"> <img src="https://img.shields.io/github/issues/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma"/> </a>
+<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma"/> </a>
+<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/commits/master"> <img src="https://img.shields.io/github/last-commit/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma"/> </a>
 
-<a href="https://www.apple.com/macos/monterey-preview/"><img align="right" src="https://raw.githubusercontent.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/master/image/Ventura-Critter.png" alt="Critter" width="245"></a>
+<a href="https://www.apple.com/macos/monterey-preview/"><img align="right" src="https://raw.githubusercontent.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/master/image/Ventura-Critter.png" alt="Critter" width="245"></a>
 
 特别鸣谢：   
 - [Dortania](https://dortania.github.io) - 黑苹果安装向导（OpenCore）
@@ -14,17 +14,17 @@
 - [doanhmaple](https://github.com/doanhmaple) - ACPI电池修补🔋 & 雷电三修补⚡️
 - [EmeryWan](https://github.com/EmeryWan) - BIOS修改 & 系统设置
 
-**支持macOS：10.15.1 ～ 14.2 Beta ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/blob/master/Changelog.md)**     
+**支持macOS：10.15.1 ～ 14.2 Beta ｜ [变更目录](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/blob/master/Changelog.md)**     
 **暂无bug，期待你们的反馈<3**    
 
-<img align="left" src="https://raw.githubusercontent.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/master/image/daliansky.png" alt="名言" width="220">
+<img align="left" src="https://raw.githubusercontent.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/master/image/daliansky.png" alt="名言" width="220">
 
 **⚠️：本人不会为你操作过程中所出现的任何错误负责！**   
 
 <a href="https://github.com/acidanthera/OpenCorePkg"> <img src="https://img.shields.io/badge/OpenCore-0.9.5-ff69b4"/> </a>
-<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/releases/"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey"/> </a>
-<a href="https://github.com/Tyson-Hu/RazerBlade15-Base-Model-Hackintosh_macOS_Ventura/releases/tag/v3.1.720-beta"> <img src="https://img.shields.io/badge/Prerelease-v3.1.720--beta-69ffb4"/> </a>
-<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/archive/master.zip"> <img src="https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Monterey/total"/> </a>
+<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/releases/"> <img src="https://img.shields.io/github/v/release/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma"/> </a>
+<a href="https://github.com/Tyson-Hu/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/releases/tag/v3.1.720-beta"> <img src="https://img.shields.io/badge/Prerelease-v3.1.720--beta-69ffb4"/> </a>
+<a href="https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/archive/master.zip"> <img src="https://img.shields.io/github/downloads/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/total"/> </a>
 
 EFI支持以下这些安装：      
 1.OTA 2.完整安装包 3.U盘安装 4.虚拟机     
@@ -43,7 +43,7 @@ EFI支持以下这些安装：
 - [文件说明 / File Description<sup>*</sup>](#文件说明--file-description)
 - [写在最前 / Preface](#写在最前)
 - [基础配置 & 知识 / Helpful resourses<sup>*</sup>](#基础配置--知识)
-- [更新 / Updates](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur/blob/master/Update.md)
+- [更新 / Updates](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Sonoma/blob/master/Update.md)
 - [一些问题 / Issues](#一些问题)
 - [硬件介绍 / Device Spec](#1硬件介绍)
 - [最终效果 / About Mac](#2最终效果)

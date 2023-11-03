@@ -1,4 +1,4 @@
-RazerBlade 15 Base Model(2018) Monterey EFI Changelog
+RazerBlade 15 Base Model(2018) Sonoma EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 14.1+
 #### v3.3 (For macOS 14 Sonoma)
