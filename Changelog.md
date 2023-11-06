@@ -1,8 +1,10 @@
 RazerBlade 15 Base Model(2018) Sonoma EFI Changelog
 ==================
 ### Support Version: macOS 10.15.1 ~ macOS 14.1+
-#### v3.3 (For macOS 14 Sonoma)
+#### **Must enable Apple Secure Boot or you can not install macOS 14 Sonoma!!!!
+#### v3.3 (For macOS 14 Sonoma) [Default config for `Airportitlwm-Sonoma`, change if using older system]
 - Relate to OpenCore 0.9.5
+- Fixed black screen issue after booting 1-3 mins
 - Fixed `Airportitlwm` broken issue on macOS 14
 - Added UEFI quirk `ShimRetainProtocol`, allowing OpenCore chained from shim to verify Linux using shim's certificates
 - Fixed `ForceAquantiaEthernet` quirk on macOS 14 beta 2
